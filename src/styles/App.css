@@ -1,0 +1,194 @@
+.App {
+  width: 100%;
+  display: block;
+    background: #ffffff;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: lighter;
+    font-family: Monaco;
+}
+
+.video-background {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.video-background img {
+  width: 100%;
+}
+
+.video-background video {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: -40%;
+    width: 100%;
+}
+
+.video-background h1,
+.video-background h2,
+.video-background h4 {
+    position: absolute;
+    z-index: 3;
+    color: #ffffff;
+    margin: 0;
+    font-size: 3rem;
+    font-family: cursive;
+}
+
+.video-background h2 {
+    top: 10%;
+    padding-left: 5%;
+    width: 70%;
+    text-align: center;
+
+}
+.video-background h1 {
+    top: 30%;
+    padding-left: 5%;
+    width: 70%;
+    text-align: center;
+}
+
+.video-background h1 b {
+    font-family: "Segoe Script" ;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.video-background h4 {
+    bottom: 10%;
+    right: 10%;
+    width: 30%;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.block1,
+.block2,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7 {
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.block1 label{
+    margin-right: 10px;
+}
+.block1 h4 {
+    text-align: center;
+}
+
+.block1 .quest {
+    border: 2px rgba(33, 170, 81, 0.43) solid;
+    border-radius: 22px;
+    text-align: center;
+    line-height: inherit;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.block1 .professions{
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.block1 .professions .image-block {
+    width: 100%;
+    max-height: 175px;
+    display: flex;
+    flex: 0 0 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.block1 .professions img {
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block1 .professions h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: monospace;
+    height: 3rem;
+}
+
+.block1 .professions .descriptions {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    -webkit-line-clamp: 7;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+.block2 {
+    background: url('../../public/images/spiderweb.jpg') no-repeat 100% 0;
+    background-size: cover;
+}
+
+
+
+.block3 {
+    margin-top: 30px;
+    background: url('../../public/images/spiderwebV.jpg') no-repeat 100% 0;
+    background-size: cover;
+}
+
+
+.block7 {
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+}
+
+.block7 h2 {
+    font-size: 3rem;
+    font-family: monospace;
+    height: 3rem;
+    text-align: center;
+}
+
+.block7 .uk-grid {
+    margin: 0 !important;
+}
+
+.block7 .uk-grid div {
+    padding: 0 !important;
+}
+
+
+
+@media (max-width: 992px) {
+    .block1 .professions .image-block {
+        max-height: 230px;
+    }
+}
+@media (max-width: 768px) {
+    .block1 .professions .image-block {
+        max-height: 250px;
+    }
+}
+@media (max-width: 576px) {
+    .block1 .professions .image-block {
+        max-height: 250px;
+    }
+}
+
+
+
+
+
+
+
