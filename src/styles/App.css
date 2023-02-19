@@ -36,19 +36,22 @@ h1, h2, h3, h4, h5 {
     margin: 0;
     font-size: 3rem;
     font-family: cursive;
+    -webkit-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
 }
 
 .video-background h2 {
     top: 10%;
-    padding-left: 5%;
-    width: 70%;
+    left: 15%;
     text-align: center;
-
 }
+
 .video-background h1 {
     top: 30%;
-    padding-left: 5%;
-    width: 70%;
+    left: 5%;
     text-align: center;
 }
 
@@ -64,6 +67,8 @@ h1, h2, h3, h4, h5 {
     width: 30%;
     text-align: right;
     font-size: 2rem;
+    background: none;
+    box-shadow: none;
 }
 
 .block1,
@@ -96,8 +101,6 @@ h1, h2, h3, h4, h5 {
 }
 
 .block1 .professions{
-    max-height: 400px;
-    overflow: hidden;
 }
 
 .block1 .professions .image-block {
@@ -121,7 +124,7 @@ h1, h2, h3, h4, h5 {
     font-size: 1.5rem;
     font-weight: bold;
     font-family: monospace;
-    height: 3rem;
+    text-align: center;
 }
 
 .block1 .professions .descriptions {
@@ -131,6 +134,21 @@ h1, h2, h3, h4, h5 {
     -webkit-line-clamp: 7;
     display: -webkit-box;
     -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+.block1 .pay {
+    border: 2px rgba(54, 145, 165, 0.43) solid;
+    border-radius: 22px;
+    text-align: center;
+    line-height: inherit;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.block1 .pay p{
+    display: inline-block;
+    margin: 0;
 }
 
 .block2 {
@@ -138,14 +156,11 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
 }
 
-
-
 .block3 {
     margin-top: 30px;
     background: url('../../public/images/spiderwebV.jpg') no-repeat 100% 0;
     background-size: cover;
 }
-
 
 .block7 {
     padding-left: 0;
@@ -168,8 +183,6 @@ h1, h2, h3, h4, h5 {
     padding: 0 !important;
 }
 
-
-
 @media (max-width: 992px) {
     .block1 .professions .image-block {
         max-height: 230px;
@@ -178,6 +191,11 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 768px) {
     .block1 .professions .image-block {
         max-height: 250px;
+    }
+
+    .block1 .professions h2.title {
+        text-align: center;
+        height: 1.5rem;
     }
 }
 @media (max-width: 576px) {

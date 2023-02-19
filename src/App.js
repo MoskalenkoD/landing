@@ -46,41 +46,92 @@ function App() {
                 </div>
 
                 <div className="row mt-5">
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-3">
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
                         <div className="image-block">
                             <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
                         </div>
-                        <h2 className='title mt-2'>3D-джениралист</h2>
-                        <p className='descriptions'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Consequatur dolore, magnam nam odit omnis quibusdam ratione similique soluta totam vero!
-                            Animi dignissimos eius eum, illum ipsam iusto quaerat ullam ut?</p>
+                        <h2 className='title mt-2'>3D Environment Artist</h2>
+                        <p className='descriptions'>Создание локаций для игр и фильмов. Ты будешь моделировать миры начиная
+                            с детализированных предметов и заканчивая разнообразными масштабными локациями окружающей среды
+                            с освещением в них. Это профессия особенно крутая, потому что  сейчас многие идут в персонажку,
+                            а у 3D environment artist меньше конкуренции и выше оплата.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-3">
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
                         <div className="image-block">
                             <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
                         </div>
-                        <h2 className='title mt-2'>3D-художник</h2>
-                        <p className='descriptions'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-                            aliquam, amet, at consectetur eos exercitationem facere harum impedit libero, magni maxime
-                            nihil nostrum officia optio sapiente sit tempore ut voluptates.</p>
+                        <h2 className='title mt-2'>3D Props Artist</h2>
+                        <p className='descriptions'>Создание маленьких или средних объектов. Изготовление реквизита от украшений
+                            до оружия и даже движущихся моделей. Ты будешь работать с различными материалами и текстурами,
+                            включая металл, латекс, стекловолокно, дерево и текстиль.
+                            Круто если ты любишь работать с деталями. Такой специалист необходим в играх, кино и на разработках
+                            моделей на различных производствах.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-3">
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
                         <div className="image-block">
                             <img src='./source/professions3.jpg' title='Image professions3.jpg'/>
                         </div>
-                        <h2 className='title mt-2'>3D-художник по оружию</h2>
-                        <p className='descriptions'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
-                            adipisci asperiores commodi consequatur eaque, expedita facilis fugiat in, ipsa iure maiores
-                            minima nihil perferendis repellendus reprehenderit, sed soluta velit veniam.</p>
+                        <h2 className='title mt-2'>3D Modeler</h2>
+                        <p className='descriptions'>Востребованная профессия идеальна для начала карьеры. Ты будешь моделить
+                            многое от персонажей до небольших объектов, тебе не всегда надо будет прорабатывать модели детально,
+                            часто профессия совмещается с другими 3D профессиями.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-3">
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
                         <div className="image-block">
                             <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
                         </div>
-                        <h2 className='title mt-2'>3D-аниматор</h2>
-                        <p className='descriptions'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, esse,
-                            quos. Atque culpa dolorem eaque earum in labore, nobis, perspiciatis qui quis quod rem
-                            repellat unde, vel. Aliquam, dolorum recusandae!</p>
+                        <h2 className='title mt-2'>3D Interior Artist</h2>
+                        <p className='descriptions'>Создание интерьеров домов, квартир, окружения и ассетов, представляющих
+                            различные части интерьеров зданий. Будешь создавать полный интерьер от конструкций (стен, окон,
+                            комнат) до предметов интерьера (мебель, аксессуары, декор) и других элементов декора.  Архитектурные
+                            бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
+                    </div>
+                </div>
+
+                <div className="row mt-5">
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                        <div className="image-block">
+                            <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Vehicle Artist</h2>
+                        <p className='descriptions'>Создание техники, автомобилей, танков и прочей техники. Все детализировано
+                            и красиво. Просто крутая и необходимая профессия в сфере кино и игр.</p>
+                    </div>
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                        <div className="image-block">
+                            <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Printing Specialist</h2>
+                        <p className='descriptions'>Создание 3D моделей для 3D печати. Такие специалисты нужны во всех сферах
+                            от архитектуры до медицины и сферы развлечений.  Сейчас 3D печать все больше входит в производства
+                            почти всех отраслей и такие специалисты очень нужны.</p>
+                    </div>
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                        <div className="image-block">
+                            <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Generalist</h2>
+                        <p className='descriptions'>Профессия, подходящая для специалистов с небольшим опытом.  Роль 3D
+                            Generalist варьируется от студии к студии. Однако на большинстве должностей универсалы отвечают
+                            за моделирование, оснастку, анимацию, захват движения, рисование и скульптуру. От 3D Generalist
+                            не ожидается, что он будет экспертом во всех областях, но ожидается, что он обладает базовыми
+                            знаниями в различных нишах.</p>
+                    </div>
+                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                        <div className="image-block">
+                            <img src='./source/professions3.jpg' title='Image professions3.jpg'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Conсept Artist</h2>
+                        <p className='descriptions'>Ты будешь использовать моделирование  для визуализации идей и создания
+                            изображений для цифровой среды, персонажей, существ и многих других ресурсов. Часто ты будешь
+                            собирать сцены из готовых моделей. В этой профессии важна скорость и творчество умение придумывать
+                            идеи и воплощать в жизнь.</p>
+                    </div>
+                </div>
+
+                <div className="row justify-content-md-center mt-5">
+                    <div className="col col-12 m-auto">
+                        <h2 className='pay'>Средняя заработная плата: <p>125 000р в России</p> <p>7 000$ по Миру</p></h2>
                     </div>
                 </div>
             </div>
