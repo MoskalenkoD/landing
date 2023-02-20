@@ -3,6 +3,27 @@ import './styles/bootstrap.min.css';
 import './styles/App.css';
 
 function App() {
+
+    function showProfession(e) {
+        e.preventDefault();
+        let clone = e.currentTarget.cloneNode(true);
+        clone.classList.add('modal');
+        clone.classList.add('col');
+        clone.classList.remove('col-lg-3');
+        clone.classList.remove('col-md-6');
+        clone.classList.remove('col-sm-12');
+        let shadow = document.createElement('div');
+        shadow.classList.add('shadow');
+        document.querySelector('.App').append(clone);
+        shadow = document.querySelector('.App').append(shadow);
+
+        document.querySelector('.shadow').addEventListener('click', () => {
+            let appBlock = document.querySelector('.App');
+            appBlock.querySelector('.modal').remove();
+            appBlock.querySelector('.shadow').remove();
+        });
+    }
+
     return (
         <div className="App">
             <div className="header video-background">
@@ -46,7 +67,7 @@ function App() {
                 </div>
 
                 <div className="row mt-5">
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
                         </div>
@@ -56,7 +77,7 @@ function App() {
                             с освещением в них. Это профессия особенно крутая, потому что  сейчас многие идут в персонажку,
                             а у 3D environment artist меньше конкуренции и выше оплата.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
                         </div>
@@ -67,7 +88,7 @@ function App() {
                             Круто если ты любишь работать с деталями. Такой специалист необходим в играх, кино и на разработках
                             моделей на различных производствах.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions3.jpg' title='Image professions3.jpg'/>
                         </div>
@@ -76,7 +97,7 @@ function App() {
                             многое от персонажей до небольших объектов, тебе не всегда надо будет прорабатывать модели детально,
                             часто профессия совмещается с другими 3D профессиями.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
                         </div>
@@ -89,7 +110,7 @@ function App() {
                 </div>
 
                 <div className="row mt-5">
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
                         </div>
@@ -97,7 +118,7 @@ function App() {
                         <p className='descriptions'>Создание техники, автомобилей, танков и прочей техники. Все детализировано
                             и красиво. Просто крутая и необходимая профессия в сфере кино и игр.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
                         </div>
@@ -106,7 +127,7 @@ function App() {
                             от архитектуры до медицины и сферы развлечений.  Сейчас 3D печать все больше входит в производства
                             почти всех отраслей и такие специалисты очень нужны.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
                         </div>
@@ -117,7 +138,7 @@ function App() {
                             не ожидается, что он будет экспертом во всех областях, но ожидается, что он обладает базовыми
                             знаниями в различных нишах.</p>
                     </div>
-                    <div className="col col-lg-3 col-md-6 col-sm-12 professions mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
                             <img src='./source/professions3.jpg' title='Image professions3.jpg'/>
                         </div>
