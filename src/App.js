@@ -12,6 +12,7 @@ function App() {
         clone.classList.remove('col-lg-3');
         clone.classList.remove('col-md-6');
         clone.classList.remove('col-sm-12');
+        clone.classList.remove('mt-5');
         let shadow = document.createElement('div');
         shadow.classList.add('shadow');
         document.querySelector('.App').append(clone);
