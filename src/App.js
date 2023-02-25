@@ -81,6 +81,45 @@ function App() {
                         <div className="image-block">
                             <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
                         </div>
+                        <h2 className='title mt-2'>3D Modeler</h2>
+                        <p className='descriptions'>Востребованная профессия идеальна для начала карьеры. Ты будешь моделить
+                            многое от персонажей до небольших объектов, тебе не всегда надо будет прорабатывать модели детально,
+                            часто профессия совмещается с другими 3D профессиями.</p>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
+                        <div className="image-block">
+                            <img src='./source/professions3.png' title='Image professions3.png'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Interior Artist</h2>
+                        <p className='descriptions'>Создание интерьеров домов, квартир, окружения и ассетов, представляющих
+                            различные части интерьеров зданий. Будешь создавать полный интерьер от конструкций (стен, окон,
+                            комнат) до предметов интерьера (мебель, аксессуары, декор) и других элементов декора.  Архитектурные
+                            бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
+                        <div className="image-block">
+                            <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Vehicle Artist</h2>
+                        <p className='descriptions'>Создание техники, автомобилей, танков и прочей техники. Все детализировано
+                            и красиво. Просто крутая и необходимая профессия в сфере кино и игр.</p>
+                    </div>
+                </div>
+
+                <div className="row mt-5">
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
+                        <div className="image-block">
+                            <img src='./source/professions5.jpg' title='Image professions5.jpg'/>
+                        </div>
+                        <h2 className='title mt-2'>3D Printing Specialist</h2>
+                        <p className='descriptions'>Создание 3D моделей для 3D печати. Такие специалисты нужны во всех сферах
+                            от архитектуры до медицины и сферы развлечений.  Сейчас 3D печать все больше входит в производства
+                            почти всех отраслей и такие специалисты очень нужны.</p>
+                    </div>
+                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
+                        <div className="image-block">
+                            <img src='./source/professions6.jpg' title='Image professions6.jpg'/>
+                        </div>
                         <h2 className='title mt-2'>3D Props Artist</h2>
                         <p className='descriptions'>Создание маленьких или средних объектов. Изготовление реквизита от украшений
                             до оружия и даже движущихся моделей. Ты будешь работать с различными материалами и текстурами,
@@ -90,46 +129,7 @@ function App() {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
-                            <img src='./source/professions3.jpg' title='Image professions3.jpg'/>
-                        </div>
-                        <h2 className='title mt-2'>3D Modeler</h2>
-                        <p className='descriptions'>Востребованная профессия идеальна для начала карьеры. Ты будешь моделить
-                            многое от персонажей до небольших объектов, тебе не всегда надо будет прорабатывать модели детально,
-                            часто профессия совмещается с другими 3D профессиями.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
-                            <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
-                        </div>
-                        <h2 className='title mt-2'>3D Interior Artist</h2>
-                        <p className='descriptions'>Создание интерьеров домов, квартир, окружения и ассетов, представляющих
-                            различные части интерьеров зданий. Будешь создавать полный интерьер от конструкций (стен, окон,
-                            комнат) до предметов интерьера (мебель, аксессуары, декор) и других элементов декора.  Архитектурные
-                            бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
-                    </div>
-                </div>
-
-                <div className="row mt-5">
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
-                            <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
-                        </div>
-                        <h2 className='title mt-2'>3D Vehicle Artist</h2>
-                        <p className='descriptions'>Создание техники, автомобилей, танков и прочей техники. Все детализировано
-                            и красиво. Просто крутая и необходимая профессия в сфере кино и игр.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
-                            <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
-                        </div>
-                        <h2 className='title mt-2'>3D Printing Specialist</h2>
-                        <p className='descriptions'>Создание 3D моделей для 3D печати. Такие специалисты нужны во всех сферах
-                            от архитектуры до медицины и сферы развлечений.  Сейчас 3D печать все больше входит в производства
-                            почти всех отраслей и такие специалисты очень нужны.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
-                            <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
+                            <img src='./source/professions7.jpg' title='Image professions7.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Generalist</h2>
                         <p className='descriptions'>Профессия, подходящая для специалистов с небольшим опытом.  Роль 3D
@@ -140,7 +140,7 @@ function App() {
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
                         <div className="image-block">
-                            <img src='./source/professions3.jpg' title='Image professions3.jpg'/>
+                            <img src='./source/professions8.png' title='Image professions8.png'/>
                         </div>
                         <h2 className='title mt-2'>3D Conсept Artist</h2>
                         <p className='descriptions'>Ты будешь использовать моделирование  для визуализации идей и создания

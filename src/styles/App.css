@@ -201,6 +201,12 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
+.App .modal .image-block img {
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
+
 .App .shadow {
     display: block;
     position: fixed;
