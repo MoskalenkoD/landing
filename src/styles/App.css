@@ -157,6 +157,31 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
 }
 
+.block2 .image-block {
+    width: 50%;
+    /* height: 50%; */
+    padding-top: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.block2 .image-block img {
+    position: absolute;
+    top: -20px;
+}
+
+.block2 .text {
+    padding: 35px 0;
+}
+
+.block2 p{
+    width: 50%;
+    float: right;
+    margin-left: 50%;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
 .block3 {
     margin-top: 30px;
     background: url('../../public/images/spiderwebV.jpg') no-repeat 100% 0;
