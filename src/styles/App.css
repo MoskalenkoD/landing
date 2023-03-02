@@ -84,6 +84,15 @@ h1, h2, h3, h4, h5 {
     padding-bottom: 30px;
 }
 
+.block1,
+.block3,
+.block4,
+.block5,
+.block6,
+.block7 {
+    z-index: 2;
+}
+
 .block1 label{
     margin-right: 10px;
 }
@@ -153,8 +162,20 @@ h1, h2, h3, h4, h5 {
 }
 
 .block2 {
-    background: url('../../public/images/spiderweb.jpg') no-repeat 100% 0;
-    background-size: cover;
+    position: relative;
+}
+
+.block2 .spider-bg {
+    width: 150%;
+    height: 365%;
+    display: block;
+    position: absolute;
+    background: url('../../public/images/spider.png') no-repeat 100% 0;
+    background-size: contain;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-46%, -30%) rotate(210deg);
 }
 
 .block2 .image-block {

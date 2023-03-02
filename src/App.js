@@ -179,20 +179,23 @@ function App() {
                 </div>
             </div>
 
-            <div className="block2 container">
-                <div className="row">
+            <div className="block2">
+                <div className="spider-bg"></div>
+                <div className="container">
+                    <div className="row">
                         <div className="text col-lg-6 col-md-6 col-sm-12">
-                            <p>Ваш педагог:</p>
-                            <p>Павел Иваненко.</p>
-                            <p>Со стажем в 3D - 12 лет. </p>
-                            <p>Опыт преподавания 3D - 5 лет</p>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12">
-                            <div className="image-block">
-                                <img src='./source/ava.jpg' title='Павел Иваненко фото'/>
+                                <p>Ваш педагог:</p>
+                                <p>Павел Иваненко.</p>
+                                <p>Со стажем в 3D - 12 лет. </p>
+                                <p>Опыт преподавания 3D - 5 лет</p>
                             </div>
-                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-12">
+                                <div className="image-block">
+                                    <img src='./source/ava.jpg' title='Павел Иваненко фото'/>
+                                </div>
+                            </div>
                     </div>
+                </div>
             </div>
 
             <div className="block3">
