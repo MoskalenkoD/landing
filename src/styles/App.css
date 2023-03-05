@@ -86,7 +86,6 @@ h1, h2, h3, h4, h5 {
 
 .block1,
 .block3,
-.block4,
 .block5,
 .block6,
 .block7 {
@@ -120,6 +119,7 @@ h1, h2, h3, h4, h5 {
     display: block;
     background-color: #ffffff;
     border-radius: 15px;
+    cursor: pointer;
 }
 .block1 .professions .descriptions,
 .block1 .pay {
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
-.block2 {
+.block2, .block4 {
     position: relative;
 }
 
@@ -190,7 +190,7 @@ h1, h2, h3, h4, h5 {
     z-index: 0;
     top: 46%;
     left: 75%;
-    transform: translate(-75%, -46%) rotate(210deg);
+    transform: translate(-58%, -33%) rotate(200deg);
 }
 
 .block2 .image-block {
@@ -228,6 +228,10 @@ h1, h2, h3, h4, h5 {
     text-align: center;
 }
 
+.block3 .slider {
+    z-index: 2;
+}
+
 .block3 .slider img {
     text-align: center;
     height: 25rem;
@@ -241,9 +245,28 @@ h1, h2, h3, h4, h5 {
     font-family: cursive;
 }
 
+.block4 .spider-bg {
+    width: 150%;
+    /*height: 365%;*/
+    padding-top: 92%;
+    display: block;
+    position: absolute;
+    background: url('../../public/images/spider.png') no-repeat 100% 0;
+    background-size: contain;
+    z-index: 0;
+    top: 46%;
+    left: 75%;
+    transform: translate(-75%, -30%) rotate(-30deg);
+}
+
+.block4 .module-item {
+    cursor: pointer;
+}
+
 .block4 .module-item .module-num {
     border-right: solid #000000 2px;
     display: table;
+    background-color: #f1f1f1;
 }
 
 .block4 .module-item .module-num h2 {
@@ -260,6 +283,7 @@ h1, h2, h3, h4, h5 {
 
 .block4 .module-item .module-text {
     display: table;
+    background-color: #f1f1f1;
 }
 
 .block4 .module-item .module-text p{

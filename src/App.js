@@ -16,7 +16,26 @@ function App() {
         let shadow = document.createElement('div');
         shadow.classList.add('shadow');
         document.querySelector('.App').append(clone);
-        shadow = document.querySelector('.App').append(shadow);
+        document.querySelector('.App').append(shadow);
+
+        document.querySelector('.shadow').addEventListener('click', () => {
+            let appBlock = document.querySelector('.App');
+            appBlock.querySelector('.modal').remove();
+            appBlock.querySelector('.shadow').remove();
+        });
+    }
+
+    function showAllText(e) {
+        e.preventDefault();
+        let clone = e.currentTarget.cloneNode(true);
+        let text = clone.querySelector('.module-text .hide')
+        text.classList.add('modal');
+        text.classList.add('col');
+        text.classList.remove('hide');
+        let shadow = document.createElement('div');
+        shadow.classList.add('shadow');
+        document.querySelector('.App').append(text);
+        document.querySelector('.App').append(shadow);
 
         document.querySelector('.shadow').addEventListener('click', () => {
             let appBlock = document.querySelector('.App');
@@ -179,21 +198,21 @@ function App() {
                 </div>
             </div>
 
-            <div className="block2">
+            <div className="block2 mb-5">
                 <div className="spider-bg"></div>
                 <div className="container">
                     <div className="row">
                         <div className="text col-lg-6 col-md-6 col-sm-12">
-                                <p>Ваш педагог:</p>
-                                <p>Павел Иваненко.</p>
-                                <p>Со стажем в 3D - 12 лет. </p>
-                                <p>Опыт преподавания 3D - 5 лет</p>
-                            </div>
+                            <p>Ваш педагог:</p>
+                            <p>Павел Иваненко.</p>
+                            <p>Со стажем в 3D - 12 лет. </p>
+                            <p>Опыт преподавания 3D - 5 лет</p>
+                        </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
-                                <div className="image-block">
-                                    <img src='./source/ava.jpg' title='Павел Иваненко фото'/>
-                                </div>
+                            <div className="image-block">
+                                <img src='./source/ava.jpg' title='Павел Иваненко фото'/>
                             </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -205,17 +224,17 @@ function App() {
                     </div>
                 </div>
                 <div className="row mt-5">
-                    <div className="col-4 col-lg-4 col-md-4 col-sm-4 slider">
+                    <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
                         <div className="image-block">
                             <img src='./source/sl1.jpg' title='Игра престолов'/>
                         </div>
                     </div>
-                    <div className="col-4 col-lg-4 col-md-4 col-sm-4 slider">
+                    <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
                         <div className="image-block">
                             <img src='./source/sl2.jpg' title='Дракула'/>
                         </div>
                     </div>
-                    <div className="col-4 col-lg-4 col-md-4 col-sm-4 slider">
+                    <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
                         <div className="image-block">
                             <img src='./source/sl3.jpg' title='Villain'/>
                         </div>
@@ -223,173 +242,215 @@ function App() {
                 </div>
             </div>
 
-            <div className="block4 container">
-                <div className="row justify-content-md-center mt-5">
-                    <div className="col col-12 m-auto">
-                        <h2 className="module">Модули обучения :</h2>
+            <div className="block4 mt-5">
+                <div className="spider-bg"></div>
+                <div className="container">
+                    <div className="row justify-content-md-center mt-5">
+                        <div className="col col-12 m-auto">
+                            <h2 className="module">Модули обучения :</h2>
+                        </div>
                     </div>
-                </div>
-                <div className="row module-item mt-5 mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>1</b></h2>
+                    <div className="row module-item mt-5 mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>1</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Работа в Maya. В конце этого модуля ты будешь уметь делать базовые фигуры и
+                                высокополигональные модели.</p>
+                            <p className="hide">
+                                МОДУЛЬ 1
+                                в этом модуле мы познакомимся с базовым 3Д пакетом (программой) для моделирования,
+                                научимся
+                                создавать и редактировать примитивы и создавать различные сложные объекты с учетом всех
+                                мельчайших особенностей. Так же в этом модуле мы научимся работать с базовой анимацией а
+                                так
+                                же познакомимся с рендерингом (получением финального изображения или видео)</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3" >
+                            <div className="image-block">
+                                <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Работа в Maya. В конце этого модуля ты будешь уметь делать базовые фигуры и высокополигональные модели.</p>
-                        <p className="hide">
-                            МОДУЛЬ 1
-                            в этом модуле мы познакомимся с базовым 3Д пакетом (программой) для моделирования, научимся создавать и редактировать примитивы и создавать различные сложные объекты с учетом всех мельчайших особенностей. Так же в этом модуле мы научимся работать с базовой анимацией а так же познакомимся с рендерингом (получением финального изображения или видео)</p>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>2</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Полный цикл создания моделей для высокобюджетных игр в мультяшном стиле.</p>
+                            <p className="hide">МОДУЛЬ 2
+                                в этом модуле мы познакомимся со способами по созданию очень высокодетализированных
+                                моделей
+                                в мультяшном стиле. Познакомимся с с элементами скульптинга в 3д при помощи планшета или
+                                мышки (лучше конечно планшета). Так же научимся покрашивать модель и рендерить ее уже в
+                                другой программе по другому пайплайну, и так же познакомимся немного с фотошопом.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module2.jpg' title='Модуль 2'/>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>3</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Полный цикл создания моделей высокобюджетных игр в реалистичном стиле.</p>
+                            <p className="hide">МОДУЛЬ 3
+                                Здесь мы познакомимся с особенностями быстрого моделирования реалистичного предмета и
+                                дальнейшую его обработку для более высокодетализированной обработки, так же добавим
+                                мелкую
+                                детализацию (сколы, царапины, средние повреждения и шероховатости) для более
+                                реалистичной и
+                                качественной картинки. И так же сделаем Рендеры нашей Высокополигональной
+                                (детализированной)
+                                модели.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module3.jpg' title='Модуль 3'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>4</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Оптимизация моделей для дальнейшего текстурирования.</p>
+                            <p className="hide">МОДУЛЬ 4
+                                В этом модуле мы займемся оптимизации модели и ее подготовкой для дальнейшего
+                                текстурировани
+                                (нанесения цвета и прочих нюансов типо потертостей, грязи и прочего).
+                                Здесь мы будем очень плотно работать с сеткой, заниматься тестированием модели, будет
+                                проходить полный QA.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module4.jpg' title='Модуль 4'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>5</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Полное текстурирование и высокодеталезированная покраска</p>
+                            <p className="hide">МОДУЛЬ 5
+                                Здесь мы будем заниматься покраской нашей модели, познакомимся с различными пайплайнами
+                                от
+                                стилизованного то реализма. Научимся работать в фотошопе а так же делать свои текстуры
+                                для
+                                текстурирования реалистичной модели. Помимо этого мы сделаем рендеры модели в
+                                пейнтере.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module5.jpg' title='Модуль 5'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>6</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Создание одежды и для персонажей. Выкройки</p>
+                            <p className="hide">МОДУЛЬ 6
+                                В этом модуле мы познакомимся с мощной программой для создания и симуляции ткани, она
+                                используется в современной игровой и кино индустрии. Познакомимся с выкройками а так же
+                                поближе познакомимся с рендером в данной программе и использованием сторонних анимаций
+                                для
+                                создания модельного подиума.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module1.jpg' title='Модуль 6'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>7</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Растительность в играх.</p>
+                            <p className="hide">МОДУЛЬ 7
+                                В этом модуле мы научимся делать различные виды растителостей в различной стилях (как
+                                реализм так и стилизация). Познакомимся с различными пайплайнами которые сейчас
+                                используются
+                                в играх и фильмах а так же сделаем соптимизированныю модель растительности</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module2.jpg' title='Модуль 7'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>8</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Создание локаций.</p>
+                            <p className="hide">МОДУЛЬ 8
+                                В этом модуле мы познакомимся с одним из самых новейших и используемых игровых движков
+                                для
+                                ПК и консолей. Мы научимся создавать игровые уровне, работать с материалами и создавать
+                                простые блюпринты для нашего окружения (это больше из программирования, по сути
+                                небольшой
+                                кусочек кода сделанный с помощью визуального программирования).</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module3.jpg' title='Модуль 8'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>9</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Полный рендер всего.</p>
+                            <p className="hide">МОДУЛЬ 9
+                                В этом модуле мы будем заниматься рендером (получением финального изображения или видео)
+                                а
+                                так же их дальнейшей обработкой в фотошопе или программой для обработки видео. Так же
+                                научимся выставлять свет внутри виртуальной сцены и редактировать его.</p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module4.jpg' title='Модуль 9'/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row module-item mb-3" onClick={showAllText}>
+                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                            <h2>Модуль <b>10</b></h2>
+                        </div>
+                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
+                            <p>Карьерная работа. Как составить резюме подать себя и найти работу.</p>
+                            <p className="hide"></p>
+                        </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <div className="image-block">
+                                <img src='./source/module/module5.jpg' title='Модуль 10'/>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>2</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Полный цикл создания моделей для высокобюджетных игр в мультяшном стиле.</p>
-                        <p className="hide">МОДУЛЬ 2
-                            в этом модуле мы познакомимся со способами по созданию очень высокодетализированных моделей в мультяшном стиле. Познакомимся с с элементами скульптинга в 3д при помощи планшета или мышки (лучше конечно планшета). Так же научимся покрашивать модель и рендерить ее уже в другой программе по другому пайплайну, и так же познакомимся немного с фотошопом.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module2.jpg' title='Модуль 2'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>3</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Полный цикл создания моделей высокобюджетных игр в реалистичном стиле.</p>
-                        <p className="hide">МОДУЛЬ 3
-                            Здесь мы познакомимся с особенностями быстрого моделирования реалистичного предмета и дальнейшую его обработку для более высокодетализированной обработки, так же добавим мелкую детализацию (сколы, царапины, средние повреждения и шероховатости) для более реалистичной и качественной картинки. И так же сделаем Рендеры нашей Высокополигональной (детализированной) модели.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module3.jpg' title='Модуль 3'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>4</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Оптимизация моделей для дальнейшего текстурирования.</p>
-                        <p className="hide">МОДУЛЬ 4
-                            В этом модуле мы займемся оптимизации модели и ее подготовкой для дальнейшего текстурировани (нанесения цвета и прочих нюансов типо потертостей, грязи и прочего).
-                            Здесь мы будем очень плотно работать с сеткой, заниматься тестированием модели, будет проходить полный QA.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module4.jpg' title='Модуль 4'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>5</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Полное текстурирование и высокодеталезированная покраска</p>
-                        <p className="hide">МОДУЛЬ 5
-                            Здесь мы будем заниматься покраской нашей модели, познакомимся с различными пайплайнами от стилизованного то реализма. Научимся работать в фотошопе а так же делать свои текстуры для текстурирования реалистичной модели. Помимо этого мы сделаем рендеры модели в пейнтере.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module5.jpg' title='Модуль 5'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>6</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Создание одежды и для персонажей. Выкройки</p>
-                        <p className="hide">МОДУЛЬ 6
-                            В этом модуле мы познакомимся с мощной программой для создания и симуляции ткани, она используется в современной игровой и кино индустрии. Познакомимся с выкройками а так же поближе познакомимся с рендером в данной программе и использованием сторонних анимаций для создания модельного подиума.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module1.jpg' title='Модуль 6'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>7</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Растительность в играх.</p>
-                        <p className="hide">МОДУЛЬ 7
-                            В этом модуле мы научимся делать различные виды растителостей в различной стилях (как реализм так и стилизация). Познакомимся с различными пайплайнами которые сейчас используются в играх и фильмах а так же сделаем соптимизированныю модель растительности</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module2.jpg' title='Модуль 7'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>8</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Создание локаций.</p>
-                        <p className="hide">МОДУЛЬ 8
-                            В этом модуле мы познакомимся с одним из самых новейших и используемых игровых движков для ПК и консолей. Мы научимся создавать игровые уровне, работать с материалами и создавать простые блюпринты для нашего окружения (это больше из программирования, по сути небольшой кусочек кода сделанный с помощью визуального программирования).</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module3.jpg' title='Модуль 8'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>9</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Полный рендер всего.</p>
-                        <p className="hide">МОДУЛЬ 9
-                            В этом модуле мы будем заниматься рендером (получением финального изображения или видео) а так же их дальнейшей обработкой в фотошопе или программой для обработки видео. Так же научимся выставлять свет внутри виртуальной сцены и редактировать его.</p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module4.jpg' title='Модуль 9'/>
-                        </div>
-                    </div>
-                </div>
-                <div className="row module-item mb-3">
-                    <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                        <h2>Модуль <b>10</b></h2>
-                    </div>
-                    <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                        <p>Карьерная работа. Как составить резюме подать себя и найти работу.</p>
-                        <p className="hide"></p>
-                    </div>
-                    <div className="col-lg-3 col-md-3 col-sm-3">
-                        <div className="image-block">
-                            <img src='./source/module/module5.jpg' title='Модуль 10'/>
-                        </div>
-                    </div>
-                </div>
-
             </div>
             <div className="block7 uk-container">
                 <div className="col-12 mt-3">
                     <h2 className="mb-5">Работы учеников: </h2>
                     <div className="uk-child-width-1-2" uk-grid="" uk-lightbox="animation: slide">
                         <div className="uk-first-column">
-                            <div className="uk-child-width-1-3" uk-grid="" >
+                            <div className="uk-child-width-1-3" uk-grid="">
                                 <div className="uk-first-column">
-                                    <div className="uk-child-width-1-1" uk-grid >
+                                    <div className="uk-child-width-1-1" uk-grid>
                                         <div>
                                             <a className="uk-inline" href="./source/slider/11.jpg"
                                                data-caption="Caption 1">
@@ -417,7 +478,7 @@ function App() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-child-width-1-1" uk-grid >
+                                    <div className="uk-child-width-1-1" uk-grid>
                                         <div>
                                             <a className="uk-inline" href="./source/slider/11.jpg"
                                                data-caption="Caption 1">
@@ -445,7 +506,7 @@ function App() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-child-width-1-1" uk-grid >
+                                    <div className="uk-child-width-1-1" uk-grid>
                                         <div>
                                             <a className="uk-inline" href="./source/slider/11.jpg"
                                                data-caption="Caption 1">
@@ -492,7 +553,7 @@ function App() {
                                     </a>
                                 </div>
                             </div>
-                            <div className="uk-child-width-1-2" uk-grid="" >
+                            <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-small">
                                         <a className="uk-inline" href="./source/slider/31.jpg"
