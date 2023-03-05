@@ -210,7 +210,7 @@ function App() {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="image-block">
-                                <img src='./source/ava.jpg' title='Павел Иваненко фото'/>
+                                <img src='./source/ava.JPG' title='Павел Иваненко фото'/>
                             </div>
                         </div>
                     </div>
@@ -226,17 +226,17 @@ function App() {
                 <div className="row mt-5">
                     <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
                         <div className="image-block">
-                            <img src='./source/sl1.jpg' title='Игра престолов'/>
+                            <img src='./source/sl1.JPG' title='Игра престолов'/>
                         </div>
                     </div>
                     <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
                         <div className="image-block">
-                            <img src='./source/sl2.jpg' title='Дракула'/>
+                            <img src='./source/sl2.JPG' title='Дракула'/>
                         </div>
                     </div>
                     <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
                         <div className="image-block">
-                            <img src='./source/sl3.jpg' title='Villain'/>
+                            <img src='./source/sl3.JPG' title='Villain'/>
                         </div>
                     </div>
                 </div>
