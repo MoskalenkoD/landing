@@ -88,7 +88,7 @@ function App() {
 
                 <div className="row mt-5">
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions1.jpg)"}}>
                             <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Environment Artist</h2>
@@ -101,7 +101,7 @@ function App() {
                             а у 3D environment artist меньше конкуренции и выше оплата.</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions2.jpg)"}}>
                             <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Modeler</h2>
@@ -112,7 +112,7 @@ function App() {
                             часто профессия совмещается с другими 3D профессиями.</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions3.jpg)"}}>
                             <img src='./source/professions3.png' title='Image professions3.png'/>
                         </div>
                         <h2 className='title mt-2'>3D Interior Artist</h2>
@@ -125,7 +125,7 @@ function App() {
                             бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions4.jpg)"}}>
                             <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Vehicle Artist</h2>
@@ -137,7 +137,7 @@ function App() {
 
                 <div className="row mt-5">
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
                             <img src='./source/professions5.jpg' title='Image professions5.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Printing Specialist</h2>
@@ -148,7 +148,7 @@ function App() {
                             почти всех отраслей и такие специалисты очень нужны.</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions6.jpg)"}}>
                             <img src='./source/professions6.jpg' title='Image professions6.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Props Artist</h2>
@@ -162,7 +162,7 @@ function App() {
                             моделей на различных производствах.</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions7.jpg)"}}>
                             <img src='./source/professions7.jpg' title='Image professions7.jpg'/>
                         </div>
                         <h2 className='title mt-2'>3D Generalist</h2>
@@ -176,7 +176,7 @@ function App() {
                             знаниями в различных нишах.</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block">
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions8.jpg)"}}>
                             <img src='./source/professions8.png' title='Image professions8.png'/>
                         </div>
                         <h2 className='title mt-2'>3D Conсept Artist</h2>

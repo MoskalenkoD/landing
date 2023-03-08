@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5 {
     flex: 0 0 100%;
     overflow: hidden;
     height: 100%;
+    border-radius: 10px;
 }
 
 .block1 .professions img {
@@ -328,7 +329,9 @@ h1, h2, h3, h4, h5 {
 
 
 .App .modal {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -341,14 +344,33 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
 }
 
-.App .modal .descriptions {
-    margin: 0;
+.App .modal .image-block {
+    display: flex;
+    flex: 1 1 33%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: url('../../public/source/professions1.jpg') no-repeat 100% 0;
+    background-size: contain;
+    background-position: center;
 }
 
 .App .modal .image-block img {
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.App .modal .title {
+    flex-shrink: 0;
+}
+
+.App .modal .descriptions {
+    margin: 0;
+    flex-shrink: 0;
 }
 
 .App .shadow {
