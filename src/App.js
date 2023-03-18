@@ -2,6 +2,16 @@ import logo from './logo.svg';
 import './styles/bootstrap.min.css';
 import './styles/App.css';
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+
+// import required modules
+import { EffectCoverflow, Pagination, Navigation } from "swiper";
+
 function App() {
 
     function showProfession(e) {
@@ -176,7 +186,7 @@ function App() {
                             знаниями в различных нишах.</p>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions8.jpg)"}}>
+                        <div className="image-block" style={{backgroundImage: "url(./source/professions8.png)"}}>
                             <img src='./source/professions8.png' title='Image professions8.png'/>
                         </div>
                         <h2 className='title mt-2'>3D Conсept Artist</h2>
@@ -223,23 +233,66 @@ function App() {
                         <h2 className="example">Работал с такими проектами как :</h2>
                     </div>
                 </div>
-                <div className="row mt-5">
-                    <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
-                        <div className="image-block">
-                            <img src='./source/sl1.JPG' title='Игра престолов'/>
-                        </div>
-                    </div>
-                    <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
-                        <div className="image-block">
-                            <img src='./source/sl2.JPG' title='Дракула'/>
-                        </div>
-                    </div>
-                    <div className="col col-4 col-lg-4 col-md-4 col-sm-4 slider">
-                        <div className="image-block">
-                            <img src='./source/sl3.JPG' title='Villain'/>
-                        </div>
-                    </div>
-                </div>
+
+                <Swiper
+                    effect={"coverflow"}
+                    grabCursor={true}
+                    centeredSlides={true}
+                    slidesPerView={"auto"}
+                    coverflowEffect={{
+                        rotate: -30,
+                        stretch: 0,
+                        depth: 0,
+                        modifier: 1,
+                        slideShadows: true,
+                    }}
+                    loop={true}
+                    pagination={true}
+                    modules={[EffectCoverflow, Pagination]}
+                    className="mySwiper mt-5">
+                    {/*<SwiperSlide>*/}
+                    {/*    <img src='./source/sl2.JPG' title='Дракула'/>*/}
+                    {/*</SwiperSlide>*/}
+                    {/*<SwiperSlide>*/}
+                    {/*    <img src='./source/sl3.JPG' title='Villain'/>*/}
+                    {/*</SwiperSlide>*/}
+                    {/*<SwiperSlide>*/}
+                    {/*    <img src='./source/sl3.JPG' title='Villain'/>*/}
+                    {/*</SwiperSlide>*/}
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                    </SwiperSlide>
+                    {/*<SwiperSlide>*/}
+                    {/*    <img src='./source/sl5.JPG' title='BEYOND THE THAW'/>*/}
+                    {/*</SwiperSlide>*/}
+                    {/*<SwiperSlide>*/}
+                    {/*    <img src='./source/sl1.JPG' title='Игра престолов'/>*/}
+                    {/*</SwiperSlide>*/}
+                </Swiper>
             </div>
 
             <div className="block4 mt-5">
@@ -259,12 +312,9 @@ function App() {
                                 высокополигональные модели.</p>
                             <p className="hide">
                                 МОДУЛЬ 1
-                                в этом модуле мы познакомимся с базовым 3Д пакетом (программой) для моделирования,
-                                научимся
-                                создавать и редактировать примитивы и создавать различные сложные объекты с учетом всех
-                                мельчайших особенностей. Так же в этом модуле мы научимся работать с базовой анимацией а
-                                так
-                                же познакомимся с рендерингом (получением финального изображения или видео)</p>
+                                В этом модуле ты познакомишься с базовым 3D пакетом (программой) для моделирования, научишься создавать и редактировать примитивы и создавать сложные объекты с учетом мельчайших особенностей.
+                                Также научишься работать с базовой анимацией.
+                                И познакомишься с рендерингом (получением финального изображения)</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3" >
                             <div className="image-block">
@@ -279,11 +329,9 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Полный цикл создания моделей для высокобюджетных игр в мультяшном стиле.</p>
                             <p className="hide">МОДУЛЬ 2
-                                в этом модуле мы познакомимся со способами по созданию очень высокодетализированных
-                                моделей
-                                в мультяшном стиле. Познакомимся с с элементами скульптинга в 3д при помощи планшета или
-                                мышки (лучше конечно планшета). Так же научимся покрашивать модель и рендерить ее уже в
-                                другой программе по другому пайплайну, и так же познакомимся немного с фотошопом.</p>
+                                Тут ты узнаешь, как создать очень высоко-детализированную модель в мультяшном стиле. Познакомишься с Photoshop и скульптингом в 3D.
+                                И научишься базово прокрашивать модель.
+                                А также рендерить ее уже в другой программе по-другому пайплайну.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -298,14 +346,11 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Полный цикл создания моделей высокобюджетных игр в реалистичном стиле.</p>
                             <p className="hide">МОДУЛЬ 3
-                                Здесь мы познакомимся с особенностями быстрого моделирования реалистичного предмета и
-                                дальнейшую его обработку для более высокодетализированной обработки, так же добавим
-                                мелкую
-                                детализацию (сколы, царапины, средние повреждения и шероховатости) для более
-                                реалистичной и
-                                качественной картинки. И так же сделаем Рендеры нашей Высокополигональной
-                                (детализированной)
-                                модели.</p>
+                                Здесь ты познакомишься с особенностями быстрого моделирования реалистичного предмета.
+                                Научишься высокодетализированной обработке.
+                                Сможешь делать сколы, царапины, средние повреждения и шероховатости и пр.
+                                В общем создавать очень реалистичную и качественную картинку.
+                                И научишься все это рендерить. </p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -320,11 +365,10 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Оптимизация моделей для дальнейшего текстурирования.</p>
                             <p className="hide">МОДУЛЬ 4
-                                В этом модуле мы займемся оптимизации модели и ее подготовкой для дальнейшего
-                                текстурировани
-                                (нанесения цвета и прочих нюансов типо потертостей, грязи и прочего).
-                                Здесь мы будем очень плотно работать с сеткой, заниматься тестированием модели, будет
-                                проходить полный QA.</p>
+                                Тут ты учишься оптимизировать модели, что очень важно в профессии.
+                                А также подготовишь ее к текстурированию.
+                                Будешь очень плотно работать с сеткой, заниматься тестированием модели.
+                                Будет проходить полный QA.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -339,12 +383,11 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Полное текстурирование и высокодеталезированная покраска</p>
                             <p className="hide">МОДУЛЬ 5
-                                Здесь мы будем заниматься покраской нашей модели, познакомимся с различными пайплайнами
-                                от
-                                стилизованного то реализма. Научимся работать в фотошопе а так же делать свои текстуры
-                                для
-                                текстурирования реалистичной модели. Помимо этого мы сделаем рендеры модели в
-                                пейнтере.</p>
+                                Тут ты научишься круто и детализировано красить свою модель.
+                                Познакомишься с пайплайнами от стилизованного до реализма!
+                                Будешь уверенно работать в Photoshop.
+                                А также делать свои собственные текстуры для реалистичных моделей.
+                                Сделаешь рендеры модели в Painter.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -359,11 +402,9 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Создание одежды и для персонажей. Выкройки</p>
                             <p className="hide">МОДУЛЬ 6
-                                В этом модуле мы познакомимся с мощной программой для создания и симуляции ткани, она
-                                используется в современной игровой и кино индустрии. Познакомимся с выкройками а так же
-                                поближе познакомимся с рендером в данной программе и использованием сторонних анимаций
-                                для
-                                создания модельного подиума.</p>
+                                В этом модуле ты будешь создавать различные виды растительностей в различной стилях (как реализм, так и стилизация).
+                                Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
+                                И сделаешь оптимизированную модель растительности.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -378,10 +419,9 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Растительность в играх.</p>
                             <p className="hide">МОДУЛЬ 7
-                                В этом модуле мы научимся делать различные виды растителостей в различной стилях (как
-                                реализм так и стилизация). Познакомимся с различными пайплайнами которые сейчас
-                                используются
-                                в играх и фильмах а так же сделаем соптимизированныю модель растительности</p>
+                                Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и консолей!
+                                Научишься создавать игровые уровни, работать с материалами и создавать блюпринты для нашего окружения.
+                                И немного программирования чтобы ты был круче других на рынке!</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -396,12 +436,10 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Создание локаций.</p>
                             <p className="hide">МОДУЛЬ 8
-                                В этом модуле мы познакомимся с одним из самых новейших и используемых игровых движков
-                                для
-                                ПК и консолей. Мы научимся создавать игровые уровне, работать с материалами и создавать
-                                простые блюпринты для нашего окружения (это больше из программирования, по сути
-                                небольшой
-                                кусочек кода сделанный с помощью визуального программирования).</p>
+                                Великий рендер! Все про получение финального изображения или видео.
+                                А также дальнейшая обработка в Photoshop или программах для обработки видео.
+                                И все что нужно про свет!
+                                Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать его.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -416,28 +454,20 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Полный рендер всего.</p>
                             <p className="hide">МОДУЛЬ 9
-                                В этом модуле мы будем заниматься рендером (получением финального изображения или видео)
-                                а
-                                так же их дальнейшей обработкой в фотошопе или программой для обработки видео. Так же
-                                научимся выставлять свет внутри виртуальной сцены и редактировать его.</p>
+                                Карьерный модуль.
+                                Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его оформить, хорошо подать и получить желаемую работу.
+                                Тут ты узнаешь, как и где нужно искать работу в сфере 3D.
+                                Совместно с карьерным консультантом составишь план старта своей карьеры.
+                                Отберешь компании, которые интересуют тебя больше всего.
+                                Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой рабочий кейс.
+                                Узнаешь, как лучше всего себя подавать на собеседовании.
+                                Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план на 5 лет.
+                                Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что останешься без работы и денег.
+                                Сходишь на собеседование под курированием карьерного консультанта.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
                                 <img src='./source/module/module4.jpg' title='Модуль 9'/>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                            <h2>Модуль <b>10</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Карьерная работа. Как составить резюме подать себя и найти работу.</p>
-                            <p className="hide"></p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
-                            <div className="image-block">
-                                <img src='./source/module/module5.jpg' title='Модуль 10'/>
                             </div>
                         </div>
                     </div>
