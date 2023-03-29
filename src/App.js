@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './styles/bootstrap.min.css';
 import './styles/App.css';
 
-import { Swiper, SwiperSlide } from "swiper/react";
+import {Swiper, SwiperSlide} from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,7 +10,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
+import {EffectCoverflow, Pagination, Navigation} from "swiper";
 
 function App() {
 
@@ -96,107 +96,131 @@ function App() {
                     </div>
                 </div>
 
-                <div className="row mt-5">
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions1.jpg)"}}>
-                            <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
+                <div className="row mt-5 slash-border">
+                    <div className="slash-background"></div>
+
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5  blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions1.jpg)"}}>
+                                <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Environment Artist</h2>
+                            <p className='descriptions'>Создание локаций для игр и фильмов. Ты будешь моделировать миры
+                                начиная
+                                с детализированных предметов и заканчивая разнообразными масштабными локациями
+                                окружающей
+                                среды
+                                с освещением в них. Это профессия особенно крутая, потому что сейчас многие идут в
+                                персонажку,
+                                а у 3D environment artist меньше конкуренции и выше оплата.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Environment Artist</h2>
-                        <p className='descriptions'>Создание локаций для игр и фильмов. Ты будешь моделировать миры
-                            начиная
-                            с детализированных предметов и заканчивая разнообразными масштабными локациями окружающей
-                            среды
-                            с освещением в них. Это профессия особенно крутая, потому что сейчас многие идут в
-                            персонажку,
-                            а у 3D environment artist меньше конкуренции и выше оплата.</p>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions2.jpg)"}}>
-                            <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5  blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions2.jpg)"}}>
+                                <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Modeler</h2>
+                            <p className='descriptions'>Востребованная профессия идеальна для начала карьеры. Ты будешь
+                                моделить
+                                многое от персонажей до небольших объектов, тебе не всегда надо будет прорабатывать
+                                модели
+                                детально,
+                                часто профессия совмещается с другими 3D профессиями.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Modeler</h2>
-                        <p className='descriptions'>Востребованная профессия идеальна для начала карьеры. Ты будешь
-                            моделить
-                            многое от персонажей до небольших объектов, тебе не всегда надо будет прорабатывать модели
-                            детально,
-                            часто профессия совмещается с другими 3D профессиями.</p>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions3.jpg)"}}>
-                            <img src='./source/professions3.png' title='Image professions3.png'/>
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions3.png)"}}>
+                                <img src='./source/professions3.png' title='Image professions3.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Interior Artist</h2>
+                            <p className='descriptions'>Создание интерьеров домов, квартир, окружения и ассетов,
+                                представляющих
+                                различные части интерьеров зданий. Будешь создавать полный интерьер от конструкций
+                                (стен,
+                                окон,
+                                комнат) до предметов интерьера (мебель, аксессуары, декор) и других элементов декора.
+                                Архитектурные
+                                бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
                         </div>
-                        <h2 className='title mt-2'>3D Interior Artist</h2>
-                        <p className='descriptions'>Создание интерьеров домов, квартир, окружения и ассетов,
-                            представляющих
-                            различные части интерьеров зданий. Будешь создавать полный интерьер от конструкций (стен,
-                            окон,
-                            комнат) до предметов интерьера (мебель, аксессуары, декор) и других элементов декора.
-                            Архитектурные
-                            бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions4.jpg)"}}>
-                            <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions4.jpg)"}}>
+                                <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Vehicle Artist</h2>
+                            <p className='descriptions'>Создание техники, автомобилей, танков и прочей техники. Все
+                                детализировано
+                                и красиво. Просто крутая и необходимая профессия в сфере кино и игр.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Vehicle Artist</h2>
-                        <p className='descriptions'>Создание техники, автомобилей, танков и прочей техники. Все
-                            детализировано
-                            и красиво. Просто крутая и необходимая профессия в сфере кино и игр.</p>
                     </div>
                 </div>
 
-                <div className="row mt-5">
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
-                            <img src='./source/professions5.jpg' title='Image professions5.jpg'/>
+                <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
+                                <img src='./source/professions5.jpg' title='Image professions5.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Printing Specialist</h2>
+                            <p className='descriptions'>Создание 3D моделей для 3D печати. Такие специалисты нужны во
+                                всех
+                                сферах
+                                от архитектуры до медицины и сферы развлечений. Сейчас 3D печать все больше входит в
+                                производства
+                                почти всех отраслей и такие специалисты очень нужны.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Printing Specialist</h2>
-                        <p className='descriptions'>Создание 3D моделей для 3D печати. Такие специалисты нужны во всех
-                            сферах
-                            от архитектуры до медицины и сферы развлечений. Сейчас 3D печать все больше входит в
-                            производства
-                            почти всех отраслей и такие специалисты очень нужны.</p>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions6.jpg)"}}>
-                            <img src='./source/professions6.jpg' title='Image professions6.jpg'/>
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions6.jpg)"}}>
+                                <img src='./source/professions6.jpg' title='Image professions6.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Props Artist</h2>
+                            <p className='descriptions'>Создание маленьких или средних объектов. Изготовление реквизита
+                                от
+                                украшений
+                                до оружия и даже движущихся моделей. Ты будешь работать с различными материалами и
+                                текстурами,
+                                включая металл, латекс, стекловолокно, дерево и текстиль.
+                                Круто если ты любишь работать с деталями. Такой специалист необходим в играх, кино и на
+                                разработках
+                                моделей на различных производствах.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Props Artist</h2>
-                        <p className='descriptions'>Создание маленьких или средних объектов. Изготовление реквизита от
-                            украшений
-                            до оружия и даже движущихся моделей. Ты будешь работать с различными материалами и
-                            текстурами,
-                            включая металл, латекс, стекловолокно, дерево и текстиль.
-                            Круто если ты любишь работать с деталями. Такой специалист необходим в играх, кино и на
-                            разработках
-                            моделей на различных производствах.</p>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions7.jpg)"}}>
-                            <img src='./source/professions7.jpg' title='Image professions7.jpg'/>
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions7.jpg)"}}>
+                                <img src='./source/professions7.jpg' title='Image professions7.jpg'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Generalist</h2>
+                            <p className='descriptions'>Профессия, подходящая для специалистов с небольшим опытом. Роль
+                                3D
+                                Generalist варьируется от студии к студии. Однако на большинстве должностей универсалы
+                                отвечают
+                                за моделирование, оснастку, анимацию, захват движения, рисование и скульптуру. От 3D
+                                Generalist
+                                не ожидается, что он будет экспертом во всех областях, но ожидается, что он обладает
+                                базовыми
+                                знаниями в различных нишах.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Generalist</h2>
-                        <p className='descriptions'>Профессия, подходящая для специалистов с небольшим опытом. Роль 3D
-                            Generalist варьируется от студии к студии. Однако на большинстве должностей универсалы
-                            отвечают
-                            за моделирование, оснастку, анимацию, захват движения, рисование и скульптуру. От 3D
-                            Generalist
-                            не ожидается, что он будет экспертом во всех областях, но ожидается, что он обладает
-                            базовыми
-                            знаниями в различных нишах.</p>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 professions mt-5" onClick={showProfession}>
-                        <div className="image-block" style={{backgroundImage: "url(./source/professions8.png)"}}>
-                            <img src='./source/professions8.png' title='Image professions8.png'/>
+                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                        <div className="professions" onClick={showProfession}>
+                            <div className="image-block" style={{backgroundImage: "url(./source/professions8.png)"}}>
+                                <img src='./source/professions8.png' title='Image professions8.png'/>
+                            </div>
+                            <h2 className='title pt-2'>3D Conсept Artist</h2>
+                            <p className='descriptions'>Ты будешь использовать моделирование для визуализации идей и
+                                создания
+                                изображений для цифровой среды, персонажей, существ и многих других ресурсов. Часто ты
+                                будешь
+                                собирать сцены из готовых моделей. В этой профессии важна скорость и творчество умение
+                                придумывать
+                                идеи и воплощать в жизнь.</p>
                         </div>
-                        <h2 className='title mt-2'>3D Conсept Artist</h2>
-                        <p className='descriptions'>Ты будешь использовать моделирование для визуализации идей и
-                            создания
-                            изображений для цифровой среды, персонажей, существ и многих других ресурсов. Часто ты
-                            будешь
-                            собирать сцены из готовых моделей. В этой профессии важна скорость и творчество умение
-                            придумывать
-                            идеи и воплощать в жизнь.</p>
                     </div>
                 </div>
 
@@ -260,31 +284,31 @@ function App() {
                     {/*    <img src='./source/sl3.JPG' title='Villain'/>*/}
                     {/*</SwiperSlide>*/}
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg"/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                        <img src="https://swiperjs.com/demos/images/nature-9.jpg"/>
                     </SwiperSlide>
                     {/*<SwiperSlide>*/}
                     {/*    <img src='./source/sl5.JPG' title='BEYOND THE THAW'/>*/}
@@ -312,11 +336,13 @@ function App() {
                                 высокополигональные модели.</p>
                             <p className="hide">
                                 МОДУЛЬ 1
-                                В этом модуле ты познакомишься с базовым 3D пакетом (программой) для моделирования, научишься создавать и редактировать примитивы и создавать сложные объекты с учетом мельчайших особенностей.
+                                В этом модуле ты познакомишься с базовым 3D пакетом (программой) для моделирования,
+                                научишься создавать и редактировать примитивы и создавать сложные объекты с учетом
+                                мельчайших особенностей.
                                 Также научишься работать с базовой анимацией.
                                 И познакомишься с рендерингом (получением финального изображения)</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3" >
+                        <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
                                 <img src='./source/module/module1.jpg' title='Модуль 1'/>
                             </div>
@@ -329,7 +355,8 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Полный цикл создания моделей для высокобюджетных игр в мультяшном стиле.</p>
                             <p className="hide">МОДУЛЬ 2
-                                Тут ты узнаешь, как создать очень высоко-детализированную модель в мультяшном стиле. Познакомишься с Photoshop и скульптингом в 3D.
+                                Тут ты узнаешь, как создать очень высоко-детализированную модель в мультяшном стиле.
+                                Познакомишься с Photoshop и скульптингом в 3D.
                                 И научишься базово прокрашивать модель.
                                 А также рендерить ее уже в другой программе по-другому пайплайну.</p>
                         </div>
@@ -402,7 +429,8 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Создание одежды и для персонажей. Выкройки</p>
                             <p className="hide">МОДУЛЬ 6
-                                В этом модуле ты будешь создавать различные виды растительностей в различной стилях (как реализм, так и стилизация).
+                                В этом модуле ты будешь создавать различные виды растительностей в различной стилях (как
+                                реализм, так и стилизация).
                                 Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
                                 И сделаешь оптимизированную модель растительности.</p>
                         </div>
@@ -419,8 +447,10 @@ function App() {
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
                             <p>Растительность в играх.</p>
                             <p className="hide">МОДУЛЬ 7
-                                Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и консолей!
-                                Научишься создавать игровые уровни, работать с материалами и создавать блюпринты для нашего окружения.
+                                Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и
+                                консолей!
+                                Научишься создавать игровые уровни, работать с материалами и создавать блюпринты для
+                                нашего окружения.
                                 И немного программирования чтобы ты был круче других на рынке!</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
@@ -439,7 +469,8 @@ function App() {
                                 Великий рендер! Все про получение финального изображения или видео.
                                 А также дальнейшая обработка в Photoshop или программах для обработки видео.
                                 И все что нужно про свет!
-                                Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать его.</p>
+                                Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать
+                                его.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">
                             <div className="image-block">
@@ -455,14 +486,18 @@ function App() {
                             <p>Полный рендер всего.</p>
                             <p className="hide">МОДУЛЬ 9
                                 Карьерный модуль.
-                                Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его оформить, хорошо подать и получить желаемую работу.
+                                Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его
+                                оформить, хорошо подать и получить желаемую работу.
                                 Тут ты узнаешь, как и где нужно искать работу в сфере 3D.
                                 Совместно с карьерным консультантом составишь план старта своей карьеры.
                                 Отберешь компании, которые интересуют тебя больше всего.
-                                Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой рабочий кейс.
+                                Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой рабочий
+                                кейс.
                                 Узнаешь, как лучше всего себя подавать на собеседовании.
-                                Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план на 5 лет.
-                                Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что останешься без работы и денег.
+                                Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план на 5
+                                лет.
+                                Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что
+                                останешься без работы и денег.
                                 Сходишь на собеседование под курированием карьерного консультанта.</p>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-3">

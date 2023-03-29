@@ -100,28 +100,59 @@ h1, h2, h3, h4, h5 {
 }
 
 .block1 .quest {
-    border: 2px rgba(33, 170, 81, 0.43) solid;
+    border: 2px #88b598 solid;
     border-radius: 22px;
     text-align: center;
     line-height: inherit;
-    padding: 20px;
+    padding: 25px 10px;
     font-size: 30px;
+    background-color: #ffffff;
+    margin: 0;
 }
 
+.block1 .slash-border {
+    /*background-color: #e3e3e3;*/
+    border: 0px solid #868686;
+    border-top-left-radius: 130px;
+    border-top-right-radius: 130px;
+    margin-top: -50px;
+    padding-top: 50px;
+    position: relative;
+}
+
+.block1 .slash-background {
+    background-color: #e3e3e3;
+    border: 1px solid #868686;
+    border-bottom-width: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.block1 .blockProfessions,
 .block1 .professions,
 .block1 .paywork {
     z-index: 2;
 }
 
-.block1 .professions {
-    padding-top: 15px;
-    padding-bottom: 15px;
+.block1 .blockProfessions {
     display: block;
-    background-color: #ffffff;
-    border-radius: 15px;
-    cursor: pointer;
+    padding: 5px;
 }
-.block1 .professions .descriptions,
+
+.block1 .professions {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 2px solid #000000;
+    border-radius: 70px;
+    padding: 35px 15px 70px;
+    height: 100%;
+}
+/*.block1 .professions .descriptions,*/
 .block1 .pay {
     background-color: #ffffff;
 }
@@ -133,15 +164,16 @@ h1, h2, h3, h4, h5 {
     flex: 0 0 100%;
     overflow: hidden;
     height: 100%;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
 }
 
 .block1 .professions img {
     height: 100%;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    flex-shrink: 1;
 }
 
 .block1 .professions h2,
@@ -150,16 +182,18 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
     font-family: monospace;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .block1 .professions .descriptions {
     overflow: hidden;
     text-overflow: ellipsis;
     margin: 0;
-    -webkit-line-clamp: 7;
+    -webkit-line-clamp: 4;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     display: -webkit-box;
+    flex-shrink: 0;
 }
 
 .block1 .pay {
