@@ -84,6 +84,14 @@ h1, h2, h3, h4, h5 {
     padding-bottom: 30px;
 }
 
+.block1,
+.block3,
+.block5,
+.block6,
+.block7 {
+    z-index: 2;
+}
+
 .block1 label{
     margin-right: 10px;
 }
@@ -100,7 +108,22 @@ h1, h2, h3, h4, h5 {
     font-size: 30px;
 }
 
-.block1 .professions{
+.block1 .professions,
+.block1 .paywork {
+    z-index: 2;
+}
+
+.block1 .professions {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.block1 .professions .descriptions,
+.block1 .pay {
+    background-color: #ffffff;
 }
 
 .block1 .professions .image-block {
@@ -110,6 +133,7 @@ h1, h2, h3, h4, h5 {
     flex: 0 0 100%;
     overflow: hidden;
     height: 100%;
+    border-radius: 10px;
 }
 
 .block1 .professions img {
@@ -152,9 +176,22 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
-.block2 {
-    background: url('../../public/images/spiderweb.jpg') no-repeat 100% 0;
-    background-size: cover;
+.block2, .block4 {
+    position: relative;
+}
+
+.block2 .spider-bg {
+    width: 150%;
+    /*height: 365%;*/
+    padding-top: 92%;
+    display: block;
+    position: absolute;
+    background: url('../../public/images/spider.png') no-repeat 100% 0;
+    background-size: contain;
+    z-index: 0;
+    top: 46%;
+    left: 75%;
+    transform: translate(-58%, -33%) rotate(200deg);
 }
 
 .block2 .image-block {
@@ -184,8 +221,114 @@ h1, h2, h3, h4, h5 {
 
 .block3 {
     margin-top: 30px;
-    background: url('../../public/images/spiderwebV.jpg') no-repeat 100% 0;
+    /*background: url('../../public/images/spiderwebV.jpg') no-repeat 100% 0;*/
     background-size: cover;
+}
+
+.block3 .example {
+    text-align: center;
+}
+
+.block3 .slider {
+    z-index: 2;
+}
+
+.block3 .slider img {
+    text-align: center;
+    height: 25rem;
+    display: block;
+    margin: auto;
+}
+
+.block3 .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block3 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    height: 50%;
+}
+
+.block3 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.block3 .swiper-3d .swiper-slide-shadow-right,
+.block3 .swiper-3d .swiper-slide-shadow-left {
+    /*background: none !important;*/
+}
+
+.block4 .module {
+    font-weight: bold;
+    text-align: center;
+    font-family: cursive;
+}
+
+.block4 .spider-bg {
+    width: 150%;
+    /*height: 365%;*/
+    padding-top: 92%;
+    display: block;
+    position: absolute;
+    background: url('../../public/images/spider.png') no-repeat 100% 0;
+    background-size: contain;
+    z-index: 0;
+    top: 46%;
+    left: 75%;
+    transform: translate(-75%, -30%) rotate(-30deg);
+}
+
+.block4 .module-item {
+    cursor: pointer;
+}
+
+.block4 .module-item .module-num {
+    border-right: solid #000000 2px;
+    display: table;
+    background-color: #f1f1f1;
+}
+
+.block4 .module-item .module-num h2 {
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.block4 .module-item .module-num b {
+    font-family: fantasy;
+}
+
+.block4 .module-item .module-text {
+    display: table;
+    background-color: #f1f1f1;
+}
+
+.block4 .module-item .module-text p{
+    font-size: 1.5rem;
+    font-family: inherit;
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.block4 .module-item .module-text p.hide {
+    display: none;
+}
+
+.block4 .module-item img {
+    text-align: center;
+    height: 7rem;
+    display: block;
+    margin: auto;
 }
 
 .block7 {
@@ -211,7 +354,9 @@ h1, h2, h3, h4, h5 {
 
 
 .App .modal {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -224,14 +369,33 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
 }
 
-.App .modal .descriptions {
-    margin: 0;
+.App .modal .image-block {
+    display: flex;
+    flex: 1 1 33%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: url('../../public/source/professions1.jpg') no-repeat 100% 0;
+    background-size: contain;
+    background-position: center;
 }
 
 .App .modal .image-block img {
     border-radius: 8px;
     display: block;
     margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.App .modal .title {
+    flex-shrink: 0;
+}
+
+.App .modal .descriptions {
+    margin: 0;
+    flex-shrink: 0;
 }
 
 .App .shadow {
