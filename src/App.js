@@ -96,7 +96,7 @@ function App() {
                     </div>
                 </div>
 
-                <div className="row mt-5 slash-border">
+                <div className="row slash-border">
                     <div className="slash-background"></div>
 
                     <div className="col-lg-3 col-md-6 col-sm-12 mt-5  blockProfessions">
@@ -158,7 +158,7 @@ function App() {
                     </div>
                 </div>
 
-                <div className="row">
+                <div className="row second-row">
                     <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
