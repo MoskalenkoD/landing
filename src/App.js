@@ -99,7 +99,7 @@ function App() {
                 <div className="row slash-border">
                     <div className="slash-background"></div>
 
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5  blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions1.jpg)"}}>
                                 <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
@@ -115,7 +115,7 @@ function App() {
                                 а у 3D environment artist меньше конкуренции и выше оплата.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5  blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions2.jpg)"}}>
                                 <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
@@ -129,7 +129,7 @@ function App() {
                                 часто профессия совмещается с другими 3D профессиями.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions3.png)"}}>
                                 <img src='./source/professions3.png' title='Image professions3.jpg'/>
@@ -145,7 +145,7 @@ function App() {
                                 бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions4.jpg)"}}>
                                 <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
@@ -159,7 +159,7 @@ function App() {
                 </div>
 
                 <div className="row second-row">
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
                                 <img src='./source/professions5.jpg' title='Image professions5.jpg'/>
@@ -173,7 +173,7 @@ function App() {
                                 почти всех отраслей и такие специалисты очень нужны.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions6.jpg)"}}>
                                 <img src='./source/professions6.jpg' title='Image professions6.jpg'/>
@@ -190,7 +190,7 @@ function App() {
                                 моделей на различных производствах.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions7.jpg)"}}>
                                 <img src='./source/professions7.jpg' title='Image professions7.jpg'/>
@@ -207,7 +207,7 @@ function App() {
                                 знаниями в различных нишах.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 mt-5 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions8.png)"}}>
                                 <img src='./source/professions8.png' title='Image professions8.png'/>
@@ -232,19 +232,21 @@ function App() {
                 </div>
             </div>
 
-            <div className="block2 mb-5">
+            <div className="block2">
                 <div className="spider-bg"></div>
                 <div className="container">
                     <div className="row">
-                        <div className="text col-lg-6 col-md-6 col-sm-12">
-                            <p>Ваш педагог:</p>
-                            <p>Павел Иваненко.</p>
-                            <p>Со стажем в 3D - 12 лет. </p>
-                            <p>Опыт преподавания 3D - 5 лет</p>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12">
-                            <div className="image-block">
-                                <img src='./source/ava.JPG' title='Павел Иваненко фото'/>
+                        <div className="person m-auto col-lg-8 col-md-8 col-sm-12">
+                            <div className="border-around">
+                                <div className="image-block">
+                                    <img src='./source/ava.JPG' title='Павел Иваненко фото'/>
+                                </div>
+                                <div className="text">
+                                    <p>Ваш педагог:</p>
+                                    <p>Павел Иваненко.</p>
+                                    <p>Со стажем в 3D - 12 лет.</p>
+                                    <p>Опыт преподавания 3D - 5 лет</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -252,7 +254,7 @@ function App() {
             </div>
 
             <div className="block3 container">
-                <div className="row justify-content-md-center mt-5">
+                <div className="row justify-content-md-center">
                     <div className="col col-12 m-auto">
                         <h2 className="example">Работал с такими проектами как :</h2>
                     </div>
@@ -264,7 +266,7 @@ function App() {
                     centeredSlides={true}
                     slidesPerView={"auto"}
                     coverflowEffect={{
-                        rotate: -30,
+                        rotate: -10,
                         stretch: 0,
                         depth: 0,
                         modifier: 1,
@@ -273,7 +275,7 @@ function App() {
                     loop={true}
                     pagination={true}
                     modules={[EffectCoverflow, Pagination]}
-                    className="mySwiper mt-5">
+                    className="mySwiper">
                     {/*<SwiperSlide>*/}
                     {/*    <img src='./source/sl2.JPG' title='Дракула'/>*/}
                     {/*</SwiperSlide>*/}
