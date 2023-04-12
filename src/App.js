@@ -276,82 +276,69 @@ function App() {
                     pagination={true}
                     modules={[EffectCoverflow, Pagination]}
                     className="mySwiper">
-                    {/*<SwiperSlide>*/}
-                    {/*    <img src='./source/sl2.JPG' title='Дракула'/>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide>*/}
-                    {/*    <img src='./source/sl3.JPG' title='Villain'/>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide>*/}
-                    {/*    <img src='./source/sl3.JPG' title='Villain'/>*/}
-                    {/*</SwiperSlide>*/}
+
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-1.jpg"/>
+                        <img src='./source/sl2.JPG' title='Дракула'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg"/>
+                        <img src='./source/sl3.JPG' title='Villain'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg"/>
+                        <img src='./source/sl5.JPG' title='BEYOND THE THAW'/>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src='./source/sl1.JPG' title='Игра престолов'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg"/>
+                        <img src='./source/sl2.JPG' title='Дракула'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-5.jpg"/>
+                        <img src='./source/sl3.JPG' title='Villain'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-6.jpg"/>
+                        <img src='./source/sl5.JPG' title='BEYOND THE THAW'/>
                     </SwiperSlide>
+
                     <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-7.jpg"/>
+                        <img src='./source/sl1.JPG' title='Игра престолов'/>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-8.jpg"/>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src="https://swiperjs.com/demos/images/nature-9.jpg"/>
-                    </SwiperSlide>
-                    {/*<SwiperSlide>*/}
-                    {/*    <img src='./source/sl5.JPG' title='BEYOND THE THAW'/>*/}
-                    {/*</SwiperSlide>*/}
-                    {/*<SwiperSlide>*/}
-                    {/*    <img src='./source/sl1.JPG' title='Игра престолов'/>*/}
-                    {/*</SwiperSlide>*/}
+
                 </Swiper>
             </div>
 
             <div className="block4 mt-5">
-                <div className="spider-bg"></div>
-                <div className="container">
+                <div className="container destroy-bg">
                     <div className="row justify-content-md-center mt-5">
-                        <div className="col col-12 m-auto">
+                        <div className="col col-6 m-auto mt-5">
                             <h2 className="module">Модули обучения :</h2>
                         </div>
                     </div>
-                    <div className="row module-item mt-5 mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
-                            <h2>Модуль <b>1</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Работа в Maya. В конце этого модуля ты будешь уметь делать базовые фигуры и
-                                высокополигональные модели.</p>
-                            <p className="hide">
-                                МОДУЛЬ 1
-                                В этом модуле ты познакомишься с базовым 3D пакетом (программой) для моделирования,
-                                научишься создавать и редактировать примитивы и создавать сложные объекты с учетом
-                                мельчайших особенностей.
-                                Также научишься работать с базовой анимацией.
-                                И познакомишься с рендерингом (получением финального изображения)</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
-                            <div className="image-block">
-                                <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                    <div className="row mt-5 mb-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className=" module-num">
+                                <h2>Модуль <b>1</b></h2>
+                            </div>
+                            <div className=" module-text">
+                                <p>Работа в Maya. В конце этого модуля ты будешь уметь делать базовые фигуры и
+                                    высокополигональные модели.</p>
+                                <p className="hide">
+                                    МОДУЛЬ 1
+                                    В этом модуле ты познакомишься с базовым 3D пакетом (программой) для моделирования,
+                                    научишься создавать и редактировать примитивы и создавать сложные объекты с учетом
+                                    мельчайших особенностей.
+                                    Также научишься работать с базовой анимацией.
+                                    И познакомишься с рендерингом (получением финального изображения)</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>2</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -362,14 +349,14 @@ function App() {
                                 И научишься базово прокрашивать модель.
                                 А также рендерить ее уже в другой программе по-другому пайплайну.</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module2.jpg' title='Модуль 2'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>3</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -381,14 +368,14 @@ function App() {
                                 В общем создавать очень реалистичную и качественную картинку.
                                 И научишься все это рендерить. </p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module3.jpg' title='Модуль 3'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>4</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -399,14 +386,14 @@ function App() {
                                 Будешь очень плотно работать с сеткой, заниматься тестированием модели.
                                 Будет проходить полный QA.</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module4.jpg' title='Модуль 4'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>5</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -418,14 +405,14 @@ function App() {
                                 А также делать свои собственные текстуры для реалистичных моделей.
                                 Сделаешь рендеры модели в Painter.</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module5.jpg' title='Модуль 5'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>6</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -436,14 +423,14 @@ function App() {
                                 Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
                                 И сделаешь оптимизированную модель растительности.</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module1.jpg' title='Модуль 6'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>7</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -455,14 +442,14 @@ function App() {
                                 нашего окружения.
                                 И немного программирования чтобы ты был круче других на рынке!</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module2.jpg' title='Модуль 7'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>8</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -474,14 +461,14 @@ function App() {
                                 Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать
                                 его.</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module3.jpg' title='Модуль 8'/>
                             </div>
                         </div>
                     </div>
                     <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="col-lg-3 col-md-3 col-sm-3 module-num">
+                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
                             <h2>Модуль <b>9</b></h2>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-6 module-text">
@@ -502,7 +489,7 @@ function App() {
                                 останешься без работы и денег.
                                 Сходишь на собеседование под курированием карьерного консультанта.</p>
                         </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3">
+                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
                             <div className="image-block">
                                 <img src='./source/module/module4.jpg' title='Модуль 9'/>
                             </div>

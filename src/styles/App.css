@@ -278,6 +278,7 @@ h1, h2, h3, h4, h5 {
     margin-top: 30px;
     /*background: url('../../public/images/spiderwebV.jpg') no-repeat 100% 0;*/
     background-size: cover;
+    padding: 0;
 }
 
 .block3 .example {
@@ -304,7 +305,7 @@ h1, h2, h3, h4, h5 {
 .block3 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 35%;
+    width: 32%;
     height: 50%;
 }
 
@@ -323,39 +324,41 @@ h1, h2, h3, h4, h5 {
 .block4 .module {
     font-weight: bold;
     text-align: center;
-    font-family: cursive;
+    font-family: system-ui;
+    background-color: #ffffff;
+    border: 1px solid #868686;
+    border-radius: 10px;
+    padding: 15px;
 }
 
-.block4 .spider-bg {
-    width: 150%;
-    /*height: 365%;*/
-    padding-top: 92%;
-    display: block;
-    position: absolute;
-    background: url('../../public/images/spider.png') no-repeat 100% 0;
-    background-size: contain;
-    z-index: 0;
-    top: 46%;
-    left: 75%;
-    transform: translate(-75%, -30%) rotate(-30deg);
+.block4 .destroy-bg {
+    background: url('../../public/images/destroy.png') no-repeat 100% 0;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .block4 .module-item {
     cursor: pointer;
+    display: flex;
+    padding: 0 0 10px;
+    border-bottom: solid #e1e1e1 2px;
 }
 
 .block4 .module-item .module-num {
-    border-right: solid #000000 2px;
-    display: table;
-    background-color: #f1f1f1;
+    border-right: solid #e1e1e1 2px;
+    display: inline-block;
+    /*background-color: #f1f1f1;*/
+    width: 25%;
+    text-align: center;
+    padding-right: 10px;
 }
 
 .block4 .module-item .module-num h2 {
     font-family: sans-serif;
     height: 100%;
     margin: 0;
-    display: table-cell;
-    vertical-align: middle;
+    background-color: #f1f1f1;
+    border-radius: 10px;
 }
 
 .block4 .module-item .module-num b {
@@ -363,16 +366,19 @@ h1, h2, h3, h4, h5 {
 }
 
 .block4 .module-item .module-text {
-    display: table;
-    background-color: #f1f1f1;
+    display: inline-block;
+    /*background-color: #ffffff;*/
+    width: 75%;
+    text-align: center;
+    padding-left: 10px;
 }
 
 .block4 .module-item .module-text p{
     font-size: 1.5rem;
     font-family: inherit;
     margin: 0;
-    display: table-cell;
-    vertical-align: middle;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 .block4 .module-item .module-text p.hide {
@@ -484,6 +490,10 @@ h1, h2, h3, h4, h5 {
     .block1 .professions .image-block {
         max-height: 250px;
     }
+}
+
+.hide {
+    display: none !important;
 }
 
 
