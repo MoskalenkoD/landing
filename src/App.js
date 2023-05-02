@@ -314,12 +314,15 @@ function App() {
                             <h2 className="module">Модули обучения :</h2>
                         </div>
                     </div>
-                    <div className="row mt-5 mb-3" onClick={showAllText}>
+                    <div className="row mt-5" onClick={showAllText}>
                         <div className="col col-8 m-auto mt-5 module-item ">
-                            <div className=" module-num">
+                            <div className="module-num">
                                 <h2>Модуль <b>1</b></h2>
                             </div>
-                            <div className=" module-text">
+                            <div className="border_vertical">
+                                <p></p>
+                            </div>
+                            <div className="module-text">
                                 <p>Работа в Maya. В конце этого модуля ты будешь уметь делать базовые фигуры и
                                     высокополигональные модели.</p>
                                 <p className="hide">
@@ -337,161 +340,201 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>2</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Полный цикл создания моделей для высокобюджетных игр в мультяшном стиле.</p>
-                            <p className="hide">МОДУЛЬ 2
-                                Тут ты узнаешь, как создать очень высоко-детализированную модель в мультяшном стиле.
-                                Познакомишься с Photoshop и скульптингом в 3D.
-                                И научишься базово прокрашивать модель.
-                                А также рендерить ее уже в другой программе по-другому пайплайну.</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module2.jpg' title='Модуль 2'/>
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>2</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className="module-text">
+                                <p>Полный цикл создания моделей для высокобюджетных игр в мультяшном стиле.</p>
+                                <p className="hide">МОДУЛЬ 2
+                                    Тут ты узнаешь, как создать очень высоко-детализированную модель в мультяшном стиле.
+                                    Познакомишься с Photoshop и скульптингом в 3D.
+                                    И научишься базово прокрашивать модель.
+                                    А также рендерить ее уже в другой программе по-другому пайплайну.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>3</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Полный цикл создания моделей высокобюджетных игр в реалистичном стиле.</p>
-                            <p className="hide">МОДУЛЬ 3
-                                Здесь ты познакомишься с особенностями быстрого моделирования реалистичного предмета.
-                                Научишься высокодетализированной обработке.
-                                Сможешь делать сколы, царапины, средние повреждения и шероховатости и пр.
-                                В общем создавать очень реалистичную и качественную картинку.
-                                И научишься все это рендерить. </p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module3.jpg' title='Модуль 3'/>
+
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>3</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className="module-text">
+                                <p>Полный цикл создания моделей высокобюджетных игр в реалистичном стиле.</p>
+                                <p className="hide">МОДУЛЬ 3
+                                    Здесь ты познакомишься с особенностями быстрого моделирования реалистичного предмета.
+                                    Научишься высокодетализированной обработке.
+                                    Сможешь делать сколы, царапины, средние повреждения и шероховатости и пр.
+                                    В общем создавать очень реалистичную и качественную картинку.
+                                    И научишься все это рендерить.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>4</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Оптимизация моделей для дальнейшего текстурирования.</p>
-                            <p className="hide">МОДУЛЬ 4
-                                Тут ты учишься оптимизировать модели, что очень важно в профессии.
-                                А также подготовишь ее к текстурированию.
-                                Будешь очень плотно работать с сеткой, заниматься тестированием модели.
-                                Будет проходить полный QA.</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module4.jpg' title='Модуль 4'/>
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>4</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className="module-text">
+                                <p>Оптимизация моделей для дальнейшего текстурирования.</p>
+                                <p className="hide">МОДУЛЬ 4
+                                    Тут ты учишься оптимизировать модели, что очень важно в профессии.
+                                    А также подготовишь ее к текстурированию.
+                                    Будешь очень плотно работать с сеткой, заниматься тестированием модели.
+                                    Будет проходить полный QA.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>5</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Полное текстурирование и высокодеталезированная покраска</p>
-                            <p className="hide">МОДУЛЬ 5
-                                Тут ты научишься круто и детализировано красить свою модель.
-                                Познакомишься с пайплайнами от стилизованного до реализма!
-                                Будешь уверенно работать в Photoshop.
-                                А также делать свои собственные текстуры для реалистичных моделей.
-                                Сделаешь рендеры модели в Painter.</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module5.jpg' title='Модуль 5'/>
+
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>5</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className="module-text">
+                                <p>Полное текстурирование и высокодеталезированная покраска</p>
+                                <p className="hide">МОДУЛЬ 5
+                                    Тут ты научишься круто и детализировано красить свою модель.
+                                    Познакомишься с пайплайнами от стилизованного до реализма!
+                                    Будешь уверенно работать в Photoshop.
+                                    А также делать свои собственные текстуры для реалистичных моделей.
+                                    Сделаешь рендеры модели в Painter.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>6</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Создание одежды и для персонажей. Выкройки</p>
-                            <p className="hide">МОДУЛЬ 6
-                                В этом модуле ты будешь создавать различные виды растительностей в различной стилях (как
-                                реализм, так и стилизация).
-                                Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
-                                И сделаешь оптимизированную модель растительности.</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module1.jpg' title='Модуль 6'/>
+
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>6</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className="module-text">
+                                <p>Создание одежды и для персонажей. Выкройки</p>
+                                <p className="hide">МОДУЛЬ 6
+                                    В этом модуле ты будешь создавать различные виды растительностей в различной стилях (как
+                                    реализм, так и стилизация).
+                                    Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
+                                    И сделаешь оптимизированную модель растительности.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>7</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Растительность в играх.</p>
-                            <p className="hide">МОДУЛЬ 7
-                                Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и
-                                консолей!
-                                Научишься создавать игровые уровни, работать с материалами и создавать блюпринты для
-                                нашего окружения.
-                                И немного программирования чтобы ты был круче других на рынке!</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module2.jpg' title='Модуль 7'/>
+
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>7</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className=" module-text">
+                                <p>Растительность в играх.</p>
+                                <p className="hide">МОДУЛЬ 7
+                                    Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и
+                                    консолей!
+                                    Научишься создавать игровые уровни, работать с материалами и создавать блюпринты для
+                                    нашего окружения.
+                                    И немного программирования чтобы ты был круче других на рынке!</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>8</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Создание локаций.</p>
-                            <p className="hide">МОДУЛЬ 8
-                                Великий рендер! Все про получение финального изображения или видео.
-                                А также дальнейшая обработка в Photoshop или программах для обработки видео.
-                                И все что нужно про свет!
-                                Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать
-                                его.</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module3.jpg' title='Модуль 8'/>
+
+                    <div className="row mt-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>8</b></h2>
+                            </div>
+                            <div className="border_vertical">
+                            </div>
+                            <div className="module-text">
+                                <p>Создание локаций.</p>
+                                <p className="hide">МОДУЛЬ 8
+                                    Великий рендер! Все про получение финального изображения или видео.
+                                    А также дальнейшая обработка в Photoshop или программах для обработки видео.
+                                    И все что нужно про свет!
+                                    Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать
+                                    его.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="row module-item mb-3" onClick={showAllText}>
-                        <div className="ml-2 col-lg-2 col-md-2 col-sm-2 module-num">
-                            <h2>Модуль <b>9</b></h2>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-6 module-text">
-                            <p>Полный рендер всего.</p>
-                            <p className="hide">МОДУЛЬ 9
-                                Карьерный модуль.
-                                Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его
-                                оформить, хорошо подать и получить желаемую работу.
-                                Тут ты узнаешь, как и где нужно искать работу в сфере 3D.
-                                Совместно с карьерным консультантом составишь план старта своей карьеры.
-                                Отберешь компании, которые интересуют тебя больше всего.
-                                Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой рабочий
-                                кейс.
-                                Узнаешь, как лучше всего себя подавать на собеседовании.
-                                Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план на 5
-                                лет.
-                                Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что
-                                останешься без работы и денег.
-                                Сходишь на собеседование под курированием карьерного консультанта.</p>
-                        </div>
-                        <div className="col-lg-3 col-md-3 col-sm-3 hide">
-                            <div className="image-block">
-                                <img src='./source/module/module4.jpg' title='Модуль 9'/>
+
+                    <div className="row mt-3 mb-3" onClick={showAllText}>
+                        <div className="col col-8 m-auto mt-5 module-item ">
+                            <div className="module-num">
+                                <h2>Модуль <b>9</b></h2>
+                            </div>
+
+                            <div className="border_vertical">
+                            </div>
+
+                            <div className="module-text">
+                                <p>Полный рендер всего.</p>
+                                <p className="hide">МОДУЛЬ 9
+                                    Карьерный модуль.
+                                    Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его
+                                    оформить, хорошо подать и получить желаемую работу.
+                                    Тут ты узнаешь, как и где нужно искать работу в сфере 3D.
+                                    Совместно с карьерным консультантом составишь план старта своей карьеры.
+                                    Отберешь компании, которые интересуют тебя больше всего.
+                                    Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой рабочий
+                                    кейс.
+                                    Узнаешь, как лучше всего себя подавать на собеседовании.
+                                    Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план на 5
+                                    лет.
+                                    Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что
+                                    останешься без работы и денег.
+                                    Сходишь на собеседование под курированием карьерного консультанта.</p>
+                            </div>
+                            <div className="hide">
+                                <div className="image-block">
+                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                </div>
                             </div>
                         </div>
                     </div>
