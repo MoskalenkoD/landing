@@ -194,10 +194,6 @@ h1, h2, h3, h4, h5 {
     padding: 35px 15px 70px;
     height: 100%;
 }
-/*.block1 .professions .descriptions,*/
-.block1 .pay {
-    background-color: #ffffff;
-}
 
 .block1 .professions .image-block {
     width: 100%;
@@ -239,16 +235,19 @@ h1, h2, h3, h4, h5 {
     font-family: monospace;
 }
 
-.block1 .pay {
+.block1 .pay,
+.block5 .pay {
     border: 2px rgba(54, 145, 165, 0.43) solid;
     border-radius: 22px;
     text-align: center;
     line-height: inherit;
     padding: 20px;
     font-size: 30px;
+    background-color: #ffffff;
 }
 
-.block1 .pay p{
+.block1 .pay p,
+.block5 .pay p{
     display: inline-block;
     margin: 0;
 }
@@ -460,24 +459,69 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 
-.block7 {
+.block5 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
 }
 
-.block7 h2 {
-    font-size: 3rem;
+.block5 .example h2 {
+    font-size: 1.5rem;
     font-family: monospace;
-    height: 3rem;
     text-align: center;
+    height: 3rem;
+    line-height: 3rem;
 }
 
-.block7 .uk-grid {
+.block5 h2 .text-left {
+    font-size: 1.1rem;
+    display: block;
+    margin: 10px 0;
+}
+
+.block5 .result,
+.block5 .discount {
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 50px;
+    display: grid;
+}
+
+.block5 .result .border-around,
+.block5 .discount .border-around{
+    border-radius: 40px;
+    padding: 30px 50px;
+    display: inline-block;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.block5 .border-around p {
+    text-align: center;
+    margin: 0;
+}
+
+.block5 .result .border-around p:first-child {
+    margin-bottom: 1rem;
+}
+
+.block5 .example {
+    background-color: #e3e3e3;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.block5 .example h2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.block5 .uk-grid {
     margin: 0 !important;
 }
 
-.block7 .uk-grid div {
+.block5 .uk-grid div {
     padding: 0 !important;
 }
 

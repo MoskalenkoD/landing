@@ -502,9 +502,37 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="block7 uk-container">
-                <div className="col-12 mt-3">
-                    <h2 className="mb-5">Работы учеников: </h2>
+            <div className="block5 uk-container container">
+                <div className="row justify-content-md-center">
+                    <div className="col col-12 m-auto paywork">
+                        <h2 className='pay'>
+                            <p className='text-left'>Наш педагог работает индивидуально, вы будете с ним всегда на связи и будете получать подробную обратную связь как вам лучше двигаться и расти в 3D</p>
+                            <p className='text-left'>Каждому ученику помогаем оформить кейс под желаемую работу, составить резюме и дать пути возможной монетизации без наемной работы.</p>
+                            <p className='text-left'>Лучший учений курса получает полное сопровождение с карьерным консультантом чтобы прийти к своей цели!</p>
+                            <p className='text-left'>Мы верим в наших учеников!</p>
+                        </h2>
+                    </div>
+                </div>
+
+                <div className="row mt-3">
+                    <div className="result m-auto col-lg-8 col-md-12 col-sm-12">
+                        <div className="border-around">
+                            <div className="text">
+                                <p><b>Что получишь :</b></p>
+                                <p>- Дистанционную профессию</p>
+                                <p>- Портфолио из 4 профессиональных работ</p>
+                                <p>- Полное индивидуальное курирование</p>
+                                <p>- Карьерное курирование по окончанию курса</p>
+                                <p>- Приятные эмоции от прохождения курса</p>
+                                <p>- Доступ к материалам после окончания курса</p>
+                                <p>- Скидки на дальнейшие курсы</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="col-12 mt-3 example">
+                    <h2 className="col-8 mt-5 mb-5">Работы учеников: </h2>
                     <div className="uk-child-width-1-2" uk-grid="" uk-lightbox="animation: slide">
                         <div className="uk-first-column">
                             <div className="uk-child-width-1-3" uk-grid="">
@@ -629,6 +657,38 @@ function App() {
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2 className="col-8 mt-5 mb-5"><a href="https://www.w3schools.com">Ещё больше работ:</a></h2>
+                </div>
+
+                <div className="row mt-5">
+                    <div className="discount m-auto col-lg-8 col-md-12 col-sm-12">
+                        <div className="border-around">
+                            <div className="text">
+                                <p>После прохождения  курса ты получишь 50% скидку  на прохождение  курсов Персонажка  созданиебазоваое  создание  персонажей и одежы
+                                    Нейросети+ No Д  моделинг как использовать нейросети чтобы увеличивать скорость и качество  своей работы  в 3 можжделировании.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row mt-5">
+                    <div className="discount m-auto col-lg-10 col-md-12 col-sm-12">
+                        <div className="border-around">
+                            <div className="text">
+                                <p>Цена курса<b>:</b></p>
+                                <p className="mb-2"><b>6</b> месяцев <b>600$</b></p>
+                                <p className="mb-5">Есть рассрочки</p>
+                                <p>Понравилась программа<b>?</b></p>
+                                <p>Пообщайтесь с нашим педагогом чтобы он ответил на все ваши вопросы<b>.</b></p>
+                                <p className="mb-5">Определил ваши цели уровень и определил в группу<b>;)</b></p>
+                                <p>Даты следующих наборов<b>: 03.02.23</b>                      <b>03.04.23</b></p>
+
+
+
+                                <p>Созвонись и проконсультируйся подходит ли твоя техника для занятий.</p>
                             </div>
                         </div>
                     </div>
