@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Land/static/css/main.61471559.css",
+    "main.js": "/Land/static/js/main.72cdcadc.js",
+    "static/js/787.9c5dfbc3.chunk.js": "/Land/static/js/787.9c5dfbc3.chunk.js",
+    "static/media/MPLUS1p-Black.ttf": "/Land/static/media/MPLUS1p-Black.ccafc770874c2c3eea84.ttf",
+    "static/media/spiderB.PNG": "/Land/static/media/spiderB.176559cc377e1117e315.PNG",
+    "static/media/ava.JPG": "/Land/static/media/ava.6f73543e0df53a624609.JPG",
+    "static/media/professions1.jpg": "/Land/static/media/professions1.2e90ebeb5c3d162ac2c4.jpg",
+    "static/media/destroy.png": "/Land/static/media/destroy.a010d4e34b9fdce19302.png",
+    "static/media/Donpoligrafbum-Bold.otf": "/Land/static/media/Donpoligrafbum-Bold.a81bb1167acc3dd74d2d.otf",
+    "static/media/Graduate-Regular.ttf": "/Land/static/media/Graduate-Regular.563ccac2f3f73c615885.ttf",
+    "index.html": "/Land/index.html",
+    "main.61471559.css.map": "/Land/static/css/main.61471559.css.map",
+    "main.72cdcadc.js.map": "/Land/static/js/main.72cdcadc.js.map",
+    "787.9c5dfbc3.chunk.js.map": "/Land/static/js/787.9c5dfbc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61471559.css",
+    "static/js/main.72cdcadc.js"
+  ]
+}
