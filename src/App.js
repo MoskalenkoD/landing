@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './styles/bootstrap.min.css';
 import './styles/App.css';
 
@@ -10,7 +9,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
 // import required modules
-import {EffectCoverflow, Pagination, Navigation} from "swiper";
+import {EffectCoverflow, Pagination} from "swiper";
 
 function App() {
 
