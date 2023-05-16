@@ -276,7 +276,7 @@ function App() {
                         </div>
                     </div>
                     <div className="row mt-5" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>1</b></h2>
                             </div>
@@ -302,7 +302,7 @@ function App() {
                         </div>
                     </div>
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>2</b></h2>
                             </div>
@@ -325,7 +325,7 @@ function App() {
                     </div>
 
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>3</b></h2>
                             </div>
@@ -348,7 +348,7 @@ function App() {
                         </div>
                     </div>
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>4</b></h2>
                             </div>
@@ -371,7 +371,7 @@ function App() {
                     </div>
 
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>5</b></h2>
                             </div>
@@ -395,7 +395,7 @@ function App() {
                     </div>
 
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>6</b></h2>
                             </div>
@@ -418,7 +418,7 @@ function App() {
                     </div>
 
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>7</b></h2>
                             </div>
@@ -442,7 +442,7 @@ function App() {
                     </div>
 
                     <div className="row mt-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>8</b></h2>
                             </div>
@@ -466,7 +466,7 @@ function App() {
                     </div>
 
                     <div className="row mt-3 mb-3" onClick={showAllText}>
-                        <div className="col col-8 m-auto mt-5 module-item ">
+                        <div className="col col-12 m-auto mt-5 module-item ">
                             <div className="module-num">
                                 <h2>Модуль <b>9</b></h2>
                             </div>
