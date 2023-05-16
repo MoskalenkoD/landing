@@ -56,7 +56,7 @@ function App() {
     return (
         <div className="App">
             <div className="header video-background">
-                <img src='./source/background.jpg'/>
+                <img alt='' src='./source/background.jpg'/>
                 <video autoPlay muted loop>
                     <source src="../source/background.MP4" type="video/mp4"></source>
                 </video>
@@ -101,7 +101,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions1.jpg)"}}>
-                                <img src='./source/professions1.jpg' title='Image professions1.jpg'/>
+                                <img alt='' src='./source/professions1.jpg' title='Image professions1.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Environment Artist</h2>
                             <p className='descriptions'>Моделирование локаций для игр и фильмов.
@@ -112,7 +112,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions2.jpg)"}}>
-                                <img src='./source/professions2.jpg' title='Image professions2.jpg'/>
+                                <img alt='' src='./source/professions2.jpg' title='Image professions2.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Modeler</h2>
                             <p className='descriptions'>Идеальная профессия для начала карьеры. Ты будешь моделить многое! От объектов до персонажей, тебе не всегда надо будет прорабатывать модели детально.
@@ -123,7 +123,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions3.png)"}}>
-                                <img src='./source/professions3.png' title='Image professions3.jpg'/>
+                                <img alt='' src='./source/professions3.png' title='Image professions3.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Interior Artist</h2>
                             <p className='descriptions'>Будешь моделить интерьеры домов, квартир, окружения и ассетов, представляющих различные части интерьеров зданий.
@@ -134,7 +134,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions4.jpg)"}}>
-                                <img src='./source/professions4.jpg' title='Image professions4.jpg'/>
+                                <img alt='' src='./source/professions4.jpg' title='Image professions4.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Vehicle Artist</h2>
                             <p className='descriptions'>Сильная тема! Создание техники, автомобилей, танков и прочей инженерии.
@@ -147,7 +147,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
-                                <img src='./source/professions5.jpg' title='Image professions5.jpg'/>
+                                <img alt='' src='./source/professions5.jpg' title='Image professions5.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Printing Specialist</h2>
                             <p className='descriptions'>3D модели для 3D печати! Очень развивающееся направление.
@@ -158,7 +158,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions6.jpg)"}}>
-                                <img src='./source/professions6.jpg' title='Image professions6.jpg'/>
+                                <img alt='' src='./source/professions6.jpg' title='Image professions6.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Props Artist</h2>
                             <p className='descriptions'>Любишь кропотливо работать над одним объектом, от и до, доводя его до идеала?
@@ -170,7 +170,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions7.jpg)"}}>
-                                <img src='./source/professions7.jpg' title='Image professions7.jpg'/>
+                                <img alt='' src='./source/professions7.jpg' title='Image professions7.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Generalist</h2>
                             <p className='descriptions'>Очень хорошая профессия для начала карьеры если ты хочешь вырасти, и поискать что тебе может подходить в 3D.
@@ -181,7 +181,7 @@ function App() {
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions8.png)"}}>
-                                <img src='./source/professions8.png' title='Image professions8.png'/>
+                                <img alt='' src='./source/professions8.png' title='Image professions8.png'/>
                             </div>
                             <h2 className='title pt-2'>3D Conсept Artist</h2>
                             <p className='descriptions'>Очень творческое направление. Ты будешь использовать моделирование для визуализации идей и создания изображений для цифровой среды, персонажей, существ и многих других ресурсов.
@@ -245,24 +245,24 @@ function App() {
                     className="mySwiper">
 
                     <SwiperSlide>
-                        <img src='./source/sl2.JPG' title='Дракула'/>
+                        <img alt='' src='./source/sl2.JPG' title='Дракула'/>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src='./source/sl3.JPG' title='Villain'/>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <img src='./source/sl1.JPG' title='Игра престолов'/>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src='./source/sl2.JPG' title='Дракула'/>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img src='./source/sl3.JPG' title='Villain'/>
+                        <img alt='' src='./source/sl3.JPG' title='Villain'/>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <img src='./source/sl1.JPG' title='Игра престолов'/>
+                        <img alt='' src='./source/sl1.JPG' title='Игра престолов'/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img alt='' src='./source/sl2.JPG' title='Дракула'/>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img alt='' src='./source/sl3.JPG' title='Villain'/>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img alt='' src='./source/sl1.JPG' title='Игра престолов'/>
                     </SwiperSlide>
 
                 </Swiper>
@@ -296,7 +296,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -318,7 +318,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -342,7 +342,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -364,7 +364,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -388,7 +388,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -411,7 +411,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -435,7 +435,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -459,7 +459,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
@@ -494,7 +494,7 @@ function App() {
                             </div>
                             <div className="hide">
                                 <div className="image-block">
-                                    <img src='./source/module/module1.jpg' title='Модуль 1'/>
+                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
                                 </div>
                             </div>
                         </div>
