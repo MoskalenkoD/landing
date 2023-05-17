@@ -203,6 +203,7 @@ h1, h2, h3, h4, h5 {
     overflow: hidden;
     height: 100%;
     border-radius: 10px;
+    background-image: none !important;
 }
 
 .block1 .professions img {
@@ -361,6 +362,11 @@ h1, h2, h3, h4, h5 {
     /*background: none !important;*/
 }
 
+.block4 {
+    background: url('../../public/images/destroy.png') no-repeat 100% 0;
+    background-size: cover;
+}
+
 .block4 .module {
     font-weight: bold;
     text-align: center;
@@ -371,12 +377,9 @@ h1, h2, h3, h4, h5 {
     padding: 15px;
 }
 
-.block4 {
+.block4 .destroy-bg {
     background: url('../../public/images/destroy.png') no-repeat 100% 0;
     background-size: cover;
-}
-
-.block4 .destroy-bg {
     overflow: hidden;
 }
 
