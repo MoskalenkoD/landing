@@ -105,8 +105,10 @@ function App() {
                             </div>
                             <h2 className='title pt-2'>3D Environment Artist</h2>
                             <p className='descriptions'>Моделирование локаций для игр и фильмов.
-                                Будешь создавать миры начиная с небольших детализированных предметов и доходя до масштабных локаций с окружающей средой и освещением в них.
-                                Это профессия особенно крутая, потому что сейчас многие идут в персонажку, а у 3D environment artist меньше конкуренции и выше оплата!</p>
+                                Будешь создавать миры начиная с небольших детализированных предметов и доходя до
+                                масштабных локаций с окружающей средой и освещением в них.
+                                Это профессия особенно крутая, потому что сейчас многие идут в персонажку, а у 3D
+                                environment artist меньше конкуренции и выше оплата!</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
@@ -115,8 +117,11 @@ function App() {
                                 <img alt='' src='./source/professions2.jpg' title='Image professions2.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Modeler</h2>
-                            <p className='descriptions'>Идеальная профессия для начала карьеры. Ты будешь моделить многое! От объектов до персонажей, тебе не всегда надо будет прорабатывать модели детально.
-                                Идеально если любишь мыслить масштабно и структурно, но не фанат долгой кропотливой работы над одним объектом.
+                            <p className='descriptions'>Идеальная профессия для начала карьеры. Ты будешь моделить
+                                многое! От объектов до персонажей, тебе не всегда надо будет прорабатывать модели
+                                детально.
+                                Идеально если любишь мыслить масштабно и структурно, но не фанат долгой кропотливой
+                                работы над одним объектом.
                                 Также часто эта профессия совмещается с другими 3D профессиями.</p>
                         </div>
                     </div>
@@ -126,8 +131,10 @@ function App() {
                                 <img alt='' src='./source/professions3.png' title='Image professions3.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Interior Artist</h2>
-                            <p className='descriptions'>Будешь моделить интерьеры домов, квартир, окружения и ассетов, представляющих различные части интерьеров зданий.
-                                Создавать полный интерьер начиная с конструкций (стен, окон, комнат) и заканчивая предметами интерьера (мебель, аксессуары, декор) и других элементов декора.
+                            <p className='descriptions'>Будешь моделить интерьеры домов, квартир, окружения и ассетов,
+                                представляющих различные части интерьеров зданий.
+                                Создавать полный интерьер начиная с конструкций (стен, окон, комнат) и заканчивая
+                                предметами интерьера (мебель, аксессуары, декор) и других элементов декора.
                                 Архитектурные бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
                         </div>
                     </div>
@@ -137,8 +144,10 @@ function App() {
                                 <img alt='' src='./source/professions4.jpg' title='Image professions4.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Vehicle Artist</h2>
-                            <p className='descriptions'>Сильная тема! Создание техники, автомобилей, танков и прочей инженерии.
-                                Если ты фанат стимпанка это твое. Все детализировано и красиво. Крутая и необходимая профессия в сфере кино и игр.</p>
+                            <p className='descriptions'>Сильная тема! Создание техники, автомобилей, танков и прочей
+                                инженерии.
+                                Если ты фанат стимпанка это твое. Все детализировано и красиво. Крутая и необходимая
+                                профессия в сфере кино и игр.</p>
                         </div>
                     </div>
                 </div>
@@ -151,7 +160,8 @@ function App() {
                             </div>
                             <h2 className='title pt-2'>3D Printing Specialist</h2>
                             <p className='descriptions'>3D модели для 3D печати! Очень развивающееся направление.
-                                Если ты выбираешь эту профессию, то ты нужен будешь практически везде от архитектуры до медицины, от крупных производств до сферы развлечений.
+                                Если ты выбираешь эту профессию, то ты нужен будешь практически везде от архитектуры до
+                                медицины, от крупных производств до сферы развлечений.
                                 Если хочешь двигаться с опережением развития технологий, то тебе точно сюда.</p>
                         </div>
                     </div>
@@ -161,9 +171,11 @@ function App() {
                                 <img alt='' src='./source/professions6.jpg' title='Image professions6.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Props Artist</h2>
-                            <p className='descriptions'>Любишь кропотливо работать над одним объектом, от и до, доводя его до идеала?
+                            <p className='descriptions'>Любишь кропотливо работать над одним объектом, от и до, доводя
+                                его до идеала?
                                 Изготовление реквизита, украшений, оружия, инструментов, мебели и пр!
-                                Ты часто будешь работать с материалами и текстурами, включая металл, латекс, стекловолокно, дерево и текстиль.
+                                Ты часто будешь работать с материалами и текстурами, включая металл, латекс,
+                                стекловолокно, дерево и текстиль.
                                 Такой специалист необходим в играх, кино, и различных производствах.</p>
                         </div>
                     </div>
@@ -173,9 +185,13 @@ function App() {
                                 <img alt='' src='./source/professions7.jpg' title='Image professions7.jpg'/>
                             </div>
                             <h2 className='title pt-2'>3D Generalist</h2>
-                            <p className='descriptions'>Очень хорошая профессия для начала карьеры если ты хочешь вырасти, и поискать что тебе может подходить в 3D.
-                                Роль 3D Generalist варьируется от студии к студии.  Однако чаще всего ты будешь заниматься моделированием, оснасткой, анимацией, захватом движения, рисованием и скульптурой.
-                                От 3D Generalist не ожидается, что он будет экспертом во всех областях, но ожидается, что он обладает базовыми знаниями в 3D.</p>
+                            <p className='descriptions'>Очень хорошая профессия для начала карьеры если ты хочешь
+                                вырасти, и поискать что тебе может подходить в 3D.
+                                Роль 3D Generalist варьируется от студии к студии. Однако чаще всего ты будешь
+                                заниматься моделированием, оснасткой, анимацией, захватом движения, рисованием и
+                                скульптурой.
+                                От 3D Generalist не ожидается, что он будет экспертом во всех областях, но ожидается,
+                                что он обладает базовыми знаниями в 3D.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
@@ -184,9 +200,12 @@ function App() {
                                 <img alt='' src='./source/professions8.png' title='Image professions8.png'/>
                             </div>
                             <h2 className='title pt-2'>3D Conсept Artist</h2>
-                            <p className='descriptions'>Очень творческое направление. Ты будешь использовать моделирование для визуализации идей и создания изображений для цифровой среды, персонажей, существ и многих других ресурсов.
+                            <p className='descriptions'>Очень творческое направление. Ты будешь использовать
+                                моделирование для визуализации идей и создания изображений для цифровой среды,
+                                персонажей, существ и многих других ресурсов.
                                 Часто ты будешь собирать сцены из готовых моделей.
-                                В этой профессии важна скорость и творческое умение придумывать идеи! Если ты любишь работать с креативами, то это то, что нужно!</p>
+                                В этой профессии важна скорость и творческое умение придумывать идеи! Если ты любишь
+                                работать с креативами, то это то, что нужно!</p>
                         </div>
                     </div>
                 </div>
@@ -334,7 +353,8 @@ function App() {
                             <div className="module-text">
                                 <p>Полный цикл создания моделей высокобюджетных игр в реалистичном стиле.</p>
                                 <p className="hide">МОДУЛЬ 3
-                                    Здесь ты познакомишься с особенностями быстрого моделирования реалистичного предмета.
+                                    Здесь ты познакомишься с особенностями быстрого моделирования реалистичного
+                                    предмета.
                                     Научишься высокодетализированной обработке.
                                     Сможешь делать сколы, царапины, средние повреждения и шероховатости и пр.
                                     В общем создавать очень реалистичную и качественную картинку.
@@ -404,7 +424,8 @@ function App() {
                             <div className="module-text">
                                 <p>Создание одежды и для персонажей. Выкройки</p>
                                 <p className="hide">МОДУЛЬ 6
-                                    В этом модуле ты будешь создавать различные виды растительностей в различной стилях (как
+                                    В этом модуле ты будешь создавать различные виды растительностей в различной стилях
+                                    (как
                                     реализм, так и стилизация).
                                     Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
                                     И сделаешь оптимизированную модель растительности.</p>
@@ -483,10 +504,12 @@ function App() {
                                     Тут ты узнаешь, как и где нужно искать работу в сфере 3D.
                                     Совместно с карьерным консультантом составишь план старта своей карьеры.
                                     Отберешь компании, которые интересуют тебя больше всего.
-                                    Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой рабочий
+                                    Конкретно под эти компании составишь правильное рабочее резюме, и оформишь свой
+                                    рабочий
                                     кейс.
                                     Узнаешь, как лучше всего себя подавать на собеседовании.
-                                    Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план на 5
+                                    Так же узнаешь, как выходить на иностранный рынок, и как составлять карьерный план
+                                    на 5
                                     лет.
                                     Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что
                                     останешься без работы и денег.
@@ -505,9 +528,12 @@ function App() {
                 <div className="row justify-content-md-center">
                     <div className="col col-12 m-auto paywork">
                         <h2 className='pay'>
-                            <p className='text-left'>Наш педагог работает индивидуально, вы будете с ним всегда на связи и будете получать подробную обратную связь как вам лучше двигаться и расти в 3D</p>
-                            <p className='text-left'>Каждому ученику помогаем оформить кейс под желаемую работу, составить резюме и дать пути возможной монетизации без наемной работы.</p>
-                            <p className='text-left'>Лучший учений курса получает полное сопровождение с карьерным консультантом чтобы прийти к своей цели!</p>
+                            <p className='text-left'>Наш педагог работает индивидуально, вы будете с ним всегда на связи
+                                и будете получать подробную обратную связь как вам лучше двигаться и расти в 3D</p>
+                            <p className='text-left'>Каждому ученику помогаем оформить кейс под желаемую работу,
+                                составить резюме и дать пути возможной монетизации без наемной работы.</p>
+                            <p className='text-left'>Лучший учений курса получает полное сопровождение с карьерным
+                                консультантом чтобы прийти к своей цели!</p>
                             <p className='text-left'>Мы верим в наших учеников!</p>
                         </h2>
                     </div>
@@ -534,127 +560,92 @@ function App() {
                     <h2 className="col-8 mt-5 mb-5">Работы учеников: </h2>
                     <div className="uk-child-width-1-2" uk-grid="" uk-lightbox="animation: slide">
                         <div className="uk-first-column">
-                            <div className="uk-child-width-1-3" uk-grid="">
+                            <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
-                                    <div className="uk-child-width-1-1" uk-grid>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/11.jpg"
-                                               data-caption="Caption 1">
-                                                <img src="./source/slider/11.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/12.jpg"
-                                               data-caption="Caption 2">
-                                                <img src="./source/slider/12.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/13.jpg"
-                                               data-caption="Caption 3">
-                                                <img src="./source/slider/13.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/14.jpg"
-                                               data-caption="Caption 4">
-                                                <img src="./source/slider/14.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
+                                    <div className="uk-width-1-1 uk-height-medium">
+                                        <a className="uk-inline" href="./source/slider/111.jpg"
+                                           data-caption="Caption 1">
+                                            <img src="./source/slider/111.jpg" width="1800" height="1200" alt=""/>
+                                        </a>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-child-width-1-1" uk-grid>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/11.jpg"
-                                               data-caption="Caption 1">
-                                                <img src="./source/slider/11.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/12.jpg"
-                                               data-caption="Caption 2">
-                                                <img src="./source/slider/12.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/13.jpg"
-                                               data-caption="Caption 3">
-                                                <img src="./source/slider/13.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/14.jpg"
-                                               data-caption="Caption 4">
-                                                <img src="./source/slider/14.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className="uk-child-width-1-1" uk-grid>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/11.jpg"
-                                               data-caption="Caption 1">
-                                                <img src="./source/slider/11.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/12.jpg"
-                                               data-caption="Caption 2">
-                                                <img src="./source/slider/12.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/13.jpg"
-                                               data-caption="Caption 3">
-                                                <img src="./source/slider/13.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
-                                        <div>
-                                            <a className="uk-inline" href="./source/slider/14.jpg"
-                                               data-caption="Caption 4">
-                                                <img src="./source/slider/14.jpg" width="1800" height="1200" alt=""/>
-                                            </a>
-                                        </div>
+                                    <div className="uk-width-1-1 uk-height-medium">
+                                        <a className="uk-inline" href="./source/slider/222.jpg"
+                                           data-caption="Caption 1">
+                                            <img src="./source/slider/222.jpg" width="1800" height="1200" alt=""/>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div>
-
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-small">
-                                    <a className="uk-inline" href="./source/slider/22.jpg"
+                                <div className="uk-width-1-1 uk-height-medium">
+                                    <a className="uk-inline" href="./source/slider/333.jpg"
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/22.jpg" width="1800" height="1200" alt=""/>
+                                        <img src="./source/slider/333.jpg" width="1800" height="1200" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-small">
-                                    <a className="uk-inline" href="./source/slider/23.jpg"
+                                <div className="uk-width-1-1 uk-height-medium">
+                                    <a className="uk-inline" href="./source/slider/444.jpg"
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/23.jpg" width="1800" height="1200" alt=""/>
+                                        <img src="./source/slider/444.jpg" width="1800" height="1200" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div className="uk-child-width-1-2" uk-grid="">
+                                <div className="uk-first-column">
+                                    <div className="uk-width-1-1 uk-height-small">
+                                        <a className="uk-inline" href="./source/slider/550.jpg"
+                                           data-caption="Caption 1">
+                                            <img src="./source/slider/550.jpg" width="1800" height="1200" alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="uk-width-1-1 uk-height-small">
+                                        <a className="uk-inline" href="./source/slider/551.jpg"
+                                           data-caption="Caption 1">
+                                            <img src="./source/slider/551.jpg" width="1800" height="1200" alt=""/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="uk-child-width-1-1" uk-grid="">
+                                <div className="uk-width-1-1 uk-height-small">
+                                    <a className="uk-inline" href="./source/slider/660.jpg"
+                                       data-caption="Caption 1">
+                                        <img src="./source/slider/660.jpg" width="1800" height="1200" alt=""/>
                                     </a>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
-                                    <div className="uk-width-1-1 uk-height-small">
-                                        <a className="uk-inline" href="./source/slider/31.jpg"
+                                    <div className="uk-width-1-1 uk-height-medium">
+                                        <a className="uk-inline" href="./source/slider/221.jpg"
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/31.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/221.jpg" width="1800" height="1200" alt=""/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-width-1-1 uk-height-small">
-                                        <a className="uk-inline" href="./source/slider/32.jpg"
+                                    <div className="uk-width-1-1 uk-height-medium">
+                                        <a className="uk-inline" href="./source/slider/220.jpg"
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/32.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/220.jpg" width="1800" height="1200" alt=""/>
                                         </a>
                                     </div>
+                                </div>
+                            </div>
+                            <div className="uk-child-width-1-1" uk-grid="">
+                                <div className="uk-width-1-1 uk-height-medium">
+                                    <a className="uk-inline" href="./source/slider/440.jpg"
+                                       data-caption="Caption 1">
+                                        <img src="./source/slider/440.jpg" width="1800" height="1200" alt=""/>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -666,8 +657,10 @@ function App() {
                     <div className="discount m-auto col-lg-8 col-md-12 col-sm-12">
                         <div className="border-around">
                             <div className="text">
-                                <p>После прохождения  курса ты получишь 50% скидку  на прохождение  курсов Персонажка  созданиебазоваое  создание  персонажей и одежы
-                                    Нейросети+ No Д  моделинг как использовать нейросети чтобы увеличивать скорость и качество  своей работы  в 3 можжделировании.</p>
+                                <p>После прохождения курса ты получишь 50% скидку на прохождение курсов:</p>
+                                <p>«Персонажка»- 3 месяца по базовому созданию персонажей и одежды для них. </p>
+                                <p>«Нейросети+ 3D»- как использовать нейросети в своей работе, чтобы увеличивать
+                                    скорость и качество работы в 3D моделировании. </p>
                             </div>
                         </div>
                     </div>
@@ -683,8 +676,7 @@ function App() {
                                 <p>Понравилась программа<b>?</b></p>
                                 <p>Пообщайтесь с нашим педагогом чтобы он ответил на все ваши вопросы<b>.</b></p>
                                 <p className="mb-5">Определил ваши цели уровень и определил в группу<b>;)</b></p>
-                                <p>Даты следующих наборов<b>: 03.02.23</b>                      <b>03.04.23</b></p>
-
+                                <p>Даты следующих наборов<b>: 03.02.23</b> <b>03.04.23</b></p>
 
 
                                 <p>Созвонись и проконсультируйся подходит ли твоя техника для занятий.</p>
