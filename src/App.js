@@ -563,34 +563,34 @@ function App() {
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/111.jpg"
+                                        <a className="uk-inline" href="./source/slider/111.jpg"  style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/111.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/111.jpg" width="1800" height="1200" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/222.jpg"
+                                        <a className="uk-inline" href="./source/slider/222.jpg"  style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/222.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/222.jpg" width="1800" height="1200" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-medium">
-                                    <a className="uk-inline" href="./source/slider/333.jpg"
+                                    <a className="uk-inline" href="./source/slider/333.jpg"  style={{height: '100%'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/333.jpg" width="1800" height="1200" alt=""/>
+                                        <img src="./source/slider/333.jpg" width="1800" height="1200" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                     </a>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-medium">
-                                    <a className="uk-inline" href="./source/slider/444.jpg"
+                                <div className="uk-width-1-1 uk-height-small">
+                                    <a className="uk-inline" href="./source/slider/444.jpg" style={{height: '100%', overflow: 'hidden'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/444.jpg" width="1800" height="1200" alt=""/>
+                                        <img src="./source/slider/444.jpg" width="1800" height="1200" alt="" style={{marginTop: '-18%'}}/>
                                     </a>
                                 </div>
                             </div>
@@ -599,52 +599,52 @@ function App() {
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-small">
-                                        <a className="uk-inline" href="./source/slider/550.jpg"
+                                        <a className="uk-inline" href="./source/slider/550.jpg"   style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/550.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/550.jpg" width="1800" height="1200" alt=""  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-small">
-                                        <a className="uk-inline" href="./source/slider/551.jpg"
+                                        <a className="uk-inline" href="./source/slider/551.jpg"   style={{width: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/551.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/551.jpg" width="1800" height="1200" alt=""  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-small">
-                                    <a className="uk-inline" href="./source/slider/660.jpg"
+                                    <a className="uk-inline" href="./source/slider/660.jpg" style={{overflow: 'hidden'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/660.jpg" width="1800" height="1200" alt=""/>
+                                        <img src="./source/slider/660.jpg" width="1800" height="1200" alt="" style={{marginTop: '-10%'}}/>
                                     </a>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/221.jpg"
+                                        <a className="uk-inline" href="./source/slider/221.jpg" style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/221.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/221.jpg" width="1800" height="1200" alt=""  style={{width: '133%', height: '100%', objectFit: 'cover', maxWidth: 'none'}}/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/220.jpg"
+                                        <a className="uk-inline" href="./source/slider/220.jpg" style={{height: '100%', overflow: 'hidden'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/220.jpg" width="1800" height="1200" alt=""/>
+                                            <img src="./source/slider/220.jpg" width="1800" height="1200" alt=""  style={{width: '220%', height: '100%', objectFit: 'cover', maxWidth: 'none', marginLeft: '-120%'}}/>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-medium">
-                                    <a className="uk-inline" href="./source/slider/440.jpg"
+                                <div className="uk-width-1-1 uk-height-small">
+                                    <a className="uk-inline" href="./source/slider/440.jpg" style={{height: '100%', overflow: 'hidden'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/440.jpg" width="1800" height="1200" alt=""/>
+                                        <img src="./source/slider/440.jpg" width="1800" height="1200" alt="" style={{marginTop: '-8%'}}/>
                                     </a>
                                 </div>
                             </div>
