@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.ab8cb32b.css",
-    "main.js": "/landing/static/js/main.b7641b3d.js",
+    "main.css": "/landing/static/css/main.99d7a21b.css",
+    "main.js": "/landing/static/js/main.115e3310.js",
     "static/js/787.9c5dfbc3.chunk.js": "/landing/static/js/787.9c5dfbc3.chunk.js",
     "static/media/MPLUS1p-Black.ttf": "/landing/static/media/MPLUS1p-Black.ccafc770874c2c3eea84.ttf",
     "static/media/spiderB.PNG": "/landing/static/media/spiderB.176559cc377e1117e315.PNG",
@@ -11,12 +11,12 @@
     "static/media/Donpoligrafbum-Bold.otf": "/landing/static/media/Donpoligrafbum-Bold.a81bb1167acc3dd74d2d.otf",
     "static/media/Graduate-Regular.ttf": "/landing/static/media/Graduate-Regular.563ccac2f3f73c615885.ttf",
     "index.html": "/landing/index.html",
-    "main.ab8cb32b.css.map": "/landing/static/css/main.ab8cb32b.css.map",
-    "main.b7641b3d.js.map": "/landing/static/js/main.b7641b3d.js.map",
+    "main.99d7a21b.css.map": "/landing/static/css/main.99d7a21b.css.map",
+    "main.115e3310.js.map": "/landing/static/js/main.115e3310.js.map",
     "787.9c5dfbc3.chunk.js.map": "/landing/static/js/787.9c5dfbc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab8cb32b.css",
-    "static/js/main.b7641b3d.js"
+    "static/css/main.99d7a21b.css",
+    "static/js/main.115e3310.js"
   ]
 }
