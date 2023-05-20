@@ -678,6 +678,23 @@ function App() {
                                 <p className="mb-5">Определил ваши цели уровень и определил в группу<b>;)</b></p>
                                 <p>Даты следующих наборов<b>: 03.02.23</b> <b>03.04.23</b></p>
 
+                                <div className="order-contacts">
+                                    <button className="open-form">Оставить заявку на звонок</button>
+                                    <div className="contacts">
+                                        <p>Или просто пиши нам по телефону:</p>
+                                        <div className="social">
+                                            <a href="tel:+79779925425" target="_blank" rel="nofollow noopener">+79779925425</a>
+                                            <a href="https://wa.me/79779925425" target="_blank" rel="nofollow noopener">
+                                                <img alt="WhatsApp"/>
+                                                WhatsApp
+                                            </a>
+                                            <a href="https://t.me/DMask124" target="_blank" rel="nofollow noopener">
+                                                <img alt="Telegram"/>
+                                                Telegram
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <p>Созвонись и проконсультируйся подходит ли твоя техника для занятий.</p>
                             </div>
