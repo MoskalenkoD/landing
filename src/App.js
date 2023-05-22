@@ -563,34 +563,39 @@ function App() {
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/111.jpg"  style={{height: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/111.jpg" style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/111.jpg" width="1800" height="1200" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
+                                            <img src="./source/slider/111.jpg" width="1800" height="1200" alt=""
+                                                 style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/222.jpg"  style={{height: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/222.jpg" style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/222.jpg" width="1800" height="1200" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
+                                            <img src="./source/slider/222.jpg" width="1800" height="1200" alt=""
+                                                 style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-medium">
-                                    <a className="uk-inline" href="./source/slider/333.jpg"  style={{height: '100%'}}
+                                    <a className="uk-inline" href="./source/slider/333.jpg" style={{height: '100%'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/333.jpg" width="1800" height="1200" alt="" style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
+                                        <img src="./source/slider/333.jpg" width="1800" height="1200" alt=""
+                                             style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                     </a>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-small">
-                                    <a className="uk-inline" href="./source/slider/444.jpg" style={{height: '100%', overflow: 'hidden'}}
+                                    <a className="uk-inline" href="./source/slider/444.jpg"
+                                       style={{height: '100%', overflow: 'hidden'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/444.jpg" width="1800" height="1200" alt="" style={{marginTop: '-18%'}}/>
+                                        <img src="./source/slider/444.jpg" width="1800" height="1200" alt=""
+                                             style={{marginTop: '-18%'}}/>
                                     </a>
                                 </div>
                             </div>
@@ -599,17 +604,19 @@ function App() {
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-small">
-                                        <a className="uk-inline" href="./source/slider/550.jpg"   style={{height: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/550.jpg" style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/550.jpg" width="1800" height="1200" alt=""  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
+                                            <img src="./source/slider/550.jpg" width="1800" height="1200" alt=""
+                                                 style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-small">
-                                        <a className="uk-inline" href="./source/slider/551.jpg"   style={{width: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/551.jpg" style={{width: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/551.jpg" width="1800" height="1200" alt=""  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
+                                            <img src="./source/slider/551.jpg" width="1800" height="1200" alt=""
+                                                 style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                         </a>
                                     </div>
                                 </div>
@@ -618,7 +625,8 @@ function App() {
                                 <div className="uk-width-1-1 uk-height-small">
                                     <a className="uk-inline" href="./source/slider/660.jpg" style={{overflow: 'hidden'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/660.jpg" width="1800" height="1200" alt="" style={{marginTop: '-10%'}}/>
+                                        <img src="./source/slider/660.jpg" width="1800" height="1200" alt=""
+                                             style={{marginTop: '-10%'}}/>
                                     </a>
                                 </div>
                             </div>
@@ -627,24 +635,40 @@ function App() {
                                     <div className="uk-width-1-1 uk-height-medium">
                                         <a className="uk-inline" href="./source/slider/221.jpg" style={{height: '100%'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/221.jpg" width="1800" height="1200" alt=""  style={{width: '133%', height: '100%', objectFit: 'cover', maxWidth: 'none'}}/>
+                                            <img src="./source/slider/221.jpg" width="1800" height="1200" alt=""
+                                                 style={{
+                                                     width: '133%',
+                                                     height: '100%',
+                                                     objectFit: 'cover',
+                                                     maxWidth: 'none'
+                                                 }}/>
                                         </a>
                                     </div>
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-medium">
-                                        <a className="uk-inline" href="./source/slider/220.jpg" style={{height: '100%', overflow: 'hidden'}}
+                                        <a className="uk-inline" href="./source/slider/220.jpg"
+                                           style={{height: '100%', overflow: 'hidden'}}
                                            data-caption="Caption 1">
-                                            <img src="./source/slider/220.jpg" width="1800" height="1200" alt=""  style={{width: '220%', height: '100%', objectFit: 'cover', maxWidth: 'none', marginLeft: '-120%'}}/>
+                                            <img src="./source/slider/220.jpg" width="1800" height="1200" alt=""
+                                                 style={{
+                                                     width: '220%',
+                                                     height: '100%',
+                                                     objectFit: 'cover',
+                                                     maxWidth: 'none',
+                                                     marginLeft: '-120%'
+                                                 }}/>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-small">
-                                    <a className="uk-inline" href="./source/slider/440.jpg" style={{height: '100%', overflow: 'hidden'}}
+                                    <a className="uk-inline" href="./source/slider/440.jpg"
+                                       style={{height: '100%', overflow: 'hidden'}}
                                        data-caption="Caption 1">
-                                        <img src="./source/slider/440.jpg" width="1800" height="1200" alt="" style={{marginTop: '-8%'}}/>
+                                        <img src="./source/slider/440.jpg" width="1800" height="1200" alt=""
+                                             style={{marginTop: '-8%'}}/>
                                     </a>
                                 </div>
                             </div>
@@ -683,7 +707,8 @@ function App() {
                                     <div className="contacts">
                                         <p>Или просто пиши нам по телефону:</p>
                                         <div className="social">
-                                            <a href="tel:+79779925425" target="_blank" rel="nofollow noopener">+79779925425</a>
+                                            <a href="tel:+79779925425" target="_blank"
+                                               rel="nofollow noopener">+79779925425</a>
                                             <a href="https://wa.me/79779925425" target="_blank" rel="nofollow noopener">
                                                 <img alt="WhatsApp"/>
                                                 WhatsApp
@@ -699,6 +724,37 @@ function App() {
                                 <p>Созвонись и проконсультируйся подходит ли твоя техника для занятий.</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="return-form container">
+                <div className="row">
+                    <div className="m-auto col-6 p-5 bg-primary  border  text-white">
+                        <h1>Оставить заявку</h1>
+                        <h4>Напишите нам если хотите узнать подробнее!</h4>
+                    </div>
+                </div>
+                <div className="row ">
+                    <div className="form-data  border  bg-light  m-auto col-6 py-3">
+                        <h1>Контакты для связи</h1>
+                        <div className="form-group">
+                            <h5 for='name'>Имя *:</h5>
+                            <input type='text' className='form-control' id='name' placeholder='Ваше имя'/>
+                        </div>
+                        <div className="form-group">
+                            <h5 for='email'>E-mail *:</h5>
+                            <input type='email' className='form-control' id='email' placeholder='Ваше E-mail'/>
+                        </div>
+                        <div className="form-group">
+                            <h5 for='phone'>Телефон *:</h5>
+                            <input type='tel' className='form-control' id='phone' placeholder='Ваше телефон'/>
+                        </div>
+                        <div className="form-group">
+                            <h5 for='message'>Сообщение:</h5>
+                            <textarea className='form-control' rows='4' id='message'/>
+                        </div>
+                        <button className='btn btn-primary'>Отправить</button>
                     </div>
                 </div>
             </div>

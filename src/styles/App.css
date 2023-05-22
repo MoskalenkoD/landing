@@ -575,6 +575,18 @@ h1, h2, h3, h4, h5 {
     padding: 0 !important;
 }
 
+.return-form {
+    border-radius: 15px;
+}
+
+.return-form h1, .return-form h4{
+    color: #ffffff !important;
+}
+
+.return-form .form-data h1, .return-form .form-data h4{
+    color: #000000 !important;
+}
+
 
 .App .modal {
     display: flex;
