@@ -2,6 +2,7 @@ import './styles/bootstrap.min.css';
 import './styles/App.css';
 
 import {Swiper, SwiperSlide} from "swiper/react";
+import emailjs from '@emailjs/browser';
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -50,6 +51,20 @@ function App() {
             let appBlock = document.querySelector('.App');
             appBlock.querySelector('.modal').remove();
             appBlock.querySelector('.shadow').remove();
+        });
+    }
+    
+    function openForm() {
+
+    }
+    
+    function sendEmail(e) {
+        e.preventDefault();
+        console.log(e.target);
+        emailjs.sendForm('service_7gedn9i', 'template_lza7lpp', e.target, 'J6QjiN7ftHvd1okXb').then((res)=> {
+            console.log(res);
+        }).catch(err=> {
+            console.log(err);
         });
     }
 
@@ -728,36 +743,33 @@ function App() {
                 </div>
             </div>
 
-            <div className="return-form container">
-                <div className="row">
-                    <div className="m-auto col-6 p-5 bg-primary  border  text-white">
-                        <h1>Оставить заявку</h1>
-                        <h4>Напишите нам если хотите узнать подробнее!</h4>
-                    </div>
+            <div className="return-form hide">
+                <div className="form-header m-auto p-3 bg-primary  border  text-white">
+                    <h1>Оставить заявку</h1>
+                    <h4>Напишите нам если хотите узнать подробнее!</h4>
                 </div>
-                <div className="row ">
-                    <div className="form-data  border  bg-light  m-auto col-6 py-3">
-                        <h1>Контакты для связи</h1>
-                        <div className="form-group">
-                            <h5 for='name'>Имя *:</h5>
-                            <input type='text' className='form-control' id='name' placeholder='Ваше имя'/>
-                        </div>
-                        <div className="form-group">
-                            <h5 for='email'>E-mail *:</h5>
-                            <input type='email' className='form-control' id='email' placeholder='Ваше E-mail'/>
-                        </div>
-                        <div className="form-group">
-                            <h5 for='phone'>Телефон *:</h5>
-                            <input type='tel' className='form-control' id='phone' placeholder='Ваше телефон'/>
-                        </div>
-                        <div className="form-group">
-                            <h5 for='message'>Сообщение:</h5>
-                            <textarea className='form-control' rows='4' id='message'/>
-                        </div>
-                        <button className='btn btn-primary'>Отправить</button>
+                <form className="form-data  border  m-auto p-3" onSubmit={sendEmail}>
+                    <h1>Контакты для связи</h1>
+                    <div className="form-group">
+                        <h5 >Имя *:</h5>
+                        <input type='text' className='form-control' name='name' placeholder='Ваше имя'/>
                     </div>
-                </div>
+                    <div className="form-group">
+                        <h5>E-mail *:</h5>
+                        <input type='email' className='form-control' name='email' placeholder='Ваше E-mail'/>
+                    </div>
+                    <div className="form-group">
+                        <h5>Телефон *:</h5>
+                        <input type='tel' className='form-control' name='phone' placeholder='Ваше телефон'/>
+                    </div>
+                    <div className="form-group">
+                        <h5>Сообщение:</h5>
+                        <textarea className='form-control' rows='4' name='message'/>
+                    </div>
+                    <button className='btn btn-primary'>Отправить</button>
+                </form>
             </div>
+
         </div>
     );
 }
