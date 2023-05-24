@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .video-background h1 {
-    top: 35%;
+    top: 45%;
     left: 5%;
     text-align: center;
     font-family: Donpoligraf;
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5 {
 
 .block1 .professions img {
     height: 100%;
-    /*border-radius: 10px;*/
+    border-radius: 10px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -523,13 +523,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .block5 .order-contacts {
-   display: inline-block;
-    margin-bottom: 30px;
+   display: flex;
+    margin: 30px 0;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .block5 .open-form {
-    width: 30%;
-    float: left;
+    width: 180px;
     background-color: #ffab11;
     border-radius: 15px;
     border: 1px solid grey;
@@ -542,30 +543,20 @@ h1, h2, h3, h4, h5 {
     color: #ffffff;
 }
 
-.block5 .contacts {
-    width: 70%;
-    float: right;
-}
-
-.block5 .contacts p {
-    width: 55%;
+.block5 .order-contacts p {
     font-size: 1.3rem;
     padding: 10px;
     border-radius: 15px;
     border: 1px solid #c1c0c0;
-    margin-left: 10%;
-    display: inline-block;
+    width: 230px;
 }
 
 .block5 .social {
-    width: 35%;
-    display: inline-block;
+    width: 160px;
 }
 
-.block5 .social a img {
-    height: 10px;
-    width: 10px;
-    display: inline-block;
+.block5 .social a {
+    display: block;
 }
 
 .block5 .uk-grid {
@@ -702,8 +693,31 @@ h1, h2, h3, h4, h5 {
     .block1 .professions .image-block {
         max-height: 230px;
     }
+
+    .video-background h1, .video-background h2, .video-background h4,
+    .video-background h1 b{
+        font-size: 1.5rem;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .video-background h1 {
+        top: 29%;
+    }
 }
 @media (max-width: 768px) {
+
+    video {
+        display: none;
+    }
+
+    .video-background h1 {
+        top: 50%;
+    }
+
     .block1 .professions .image-block {
         max-height: 250px;
     }
@@ -712,10 +726,74 @@ h1, h2, h3, h4, h5 {
         text-align: center;
         height: 1.5rem;
     }
+
+    .block5 .order-contacts {
+        display: flex;
+        margin: 30px 0;
+        flex-direction: column;
+    }
+
+    .block5 .open-form,
+    .block5 .order-contacts p,
+    .block5 .social{
+        margin: 10px auto;
+    }
+
+    .block5 .social a {
+        text-align: center;
+    }
 }
 @media (max-width: 576px) {
+    video {
+        display: none;
+    }
+
+    .video-background h1, .video-background h2, .video-background h4,
+    .video-background h1 b{
+        font-size: 1rem;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        box-shadow: none;
+    }
+
+    .video-background h1 {
+        top: 50%;
+    }
+
+    .row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .block1 .quest{
+        font-size: 1.2rem;
+    }
+
     .block1 .professions .image-block {
-        max-height: 250px;
+        max-height: 180px;
+    }
+
+    .block2 .image-block {
+        width: 100%;
+        float: none;
+        padding-bottom: 100%;
+    }
+
+    .block2 .text {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+
+    .block2 .text p {
+       text-align: center;
+        font-size: 1.2rem;
+    }
+
+    .block4 .module-item .module-text p,
+    .block4 .module-item .module-num h2{
+        font-size: 1rem;
     }
 }
 
