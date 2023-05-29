@@ -90,8 +90,8 @@ function App() {
                 <video autoPlay muted loop>
                     <source src="../source/background.MP4" type="video/mp4"></source>
                 </video>
-                <h2>Дистанционное обучение</h2>
-                <h1>Профессия <b>3D artist</b></h1>
+                <h2>Профессия <b>3D artist</b></h2>
+                <h1>Дистанционное обучение</h1>
                 <h4>Получи работу <br/> в кино и видеоиграх</h4>
             </div>
             <div className="block1 container">
@@ -592,7 +592,7 @@ function App() {
                         <div className="uk-first-column">
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
-                                    <div className="uk-width-1-1 uk-height-medium">
+                                    <div className="uk-width-1-1 uk-height-medium p-3">
                                         <a className="uk-inline" href="./source/slider/111.jpg" style={{height: '100%'}}
                                            data-caption="Example 1">
                                             <img src="./source/slider/111.jpg" width="1800" height="1200" alt=""
@@ -601,7 +601,7 @@ function App() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-width-1-1 uk-height-medium">
+                                    <div className="uk-width-1-1 uk-height-medium p-3">
                                         <a className="uk-inline" href="./source/slider/222.jpg" style={{height: '100%'}}
                                            data-caption="Example 2">
                                             <img src="./source/slider/222.jpg" width="1800" height="1200" alt=""
@@ -611,7 +611,7 @@ function App() {
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-medium">
+                                <div className="uk-width-1-1 uk-height-medium p-3">
                                     <a className="uk-inline" href="./source/slider/333.jpg" style={{height: '100%'}}
                                        data-caption="Example 3">
                                         <img src="./source/slider/333.jpg" width="1800" height="1200" alt=""
@@ -620,7 +620,7 @@ function App() {
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-small">
+                                <div className="uk-width-1-1 uk-height-small p-3">
                                     <a className="uk-inline" href="./source/slider/444.jpg"
                                        style={{height: '100%', overflow: 'hidden'}}
                                        data-caption="Example 4">
@@ -633,7 +633,7 @@ function App() {
                         <div>
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
-                                    <div className="uk-width-1-1 uk-height-small">
+                                    <div className="uk-width-1-1 uk-height-small p-3">
                                         <a className="uk-inline" href="./source/slider/550.jpg"
                                            style={{width: '100%', height: '100%'}}
                                            data-caption="Example 5">
@@ -643,7 +643,7 @@ function App() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-width-1-1 uk-height-small">
+                                    <div className="uk-width-1-1 uk-height-small p-3">
                                         <a className="uk-inline" href="./source/slider/551.jpg" style={{width: '100%'}}
                                            data-caption="Example 6">
                                             <img src="./source/slider/551.jpg" width="1800" height="1200" alt=""
@@ -653,7 +653,7 @@ function App() {
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-small">
+                                <div className="uk-width-1-1 uk-height-small p-3">
                                     <a className="uk-inline" href="./source/slider/660.jpg" style={{overflow: 'hidden'}}
                                        data-caption="Example 7">
                                         <img src="./source/slider/660.jpg" width="1800" height="1200" alt=""
@@ -663,7 +663,7 @@ function App() {
                             </div>
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
-                                    <div className="uk-width-1-1 uk-height-medium">
+                                    <div className="uk-width-1-1 uk-height-medium p-3">
                                         <a className="uk-inline" href="./source/slider/221.jpg" style={{height: '100%'}}
                                            data-caption="Example 8">
                                             <img src="./source/slider/221.jpg" width="1800" height="1200" alt=""
@@ -677,7 +677,7 @@ function App() {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="uk-width-1-1 uk-height-medium">
+                                    <div className="uk-width-1-1 uk-height-medium p-3">
                                         <a className="uk-inline" href="./source/slider/220.jpg"
                                            style={{height: '100%', overflow: 'hidden'}}
                                            data-caption="Example 9">
@@ -694,7 +694,7 @@ function App() {
                                 </div>
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
-                                <div className="uk-width-1-1 uk-height-small">
+                                <div className="uk-width-1-1 uk-height-small p-3">
                                     <a className="uk-inline" href="./source/slider/440.jpg"
                                        style={{height: '100%', overflow: 'hidden'}}
                                        data-caption="Example 10">
@@ -1045,7 +1045,7 @@ function App() {
             <div className="return-form hide">
                 <div className="form-header m-auto p-3 bg-primary  border  text-white">
                     <h1>Оставить заявку</h1>
-                    <h4>Напишите нам если хотите узнать подробнее!</h4>
+                    <h4>Напишите нам, мы с вами свяжемся и все раскажем подробно :)</h4>
                 </div>
                 <form className="form-data  border  m-auto p-3" onSubmit={sendEmail}>
                     <h1>Контакты для связи</h1>

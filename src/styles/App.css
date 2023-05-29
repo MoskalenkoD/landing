@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Donpoligraf';
-    src: url('../fonts/Donpoligrafbum/Donpoligrafbum-Bold.otf');
+    font-family: 'Gawaa';
+    src: url('../fonts/Gawaa/Gawaa-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }
@@ -59,30 +59,30 @@ h1, h2, h3, h4, h5 {
     z-index: 3;
     color: #ffffff;
     margin: 0;
-    font-size: 2.5rem;
-    -webkit-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
-    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 5rem;
+    -webkit-box-shadow: 0px 0px 50px 30px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0px 50px 30px rgba(0,0,0,0.67);
+    box-shadow: 0px 0px 50px 30px rgb(0 0 0 / 67%);
+    background-color: rgba(0, 0, 0, 0.56);
     border-radius: 30px;
 }
 
 .video-background h2 {
-    top: 20%;
-    left: 15%;
+    top: 15%;
+    left: 5%;
     text-align: center;
-    font-family: Donpoligraf;
+    font-family: Gawaa;
 }
 
 .video-background h1 {
-    top: 45%;
+    top: 36%;
     left: 5%;
     text-align: center;
-    font-family: Donpoligraf;
+    font-family: Gawaa;
 }
 
 .video-background h1 b {
-    font-family: Donpoligraf;
+    font-family: Gawaa;
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5 {
     font-size: 2rem;
     background: none;
     box-shadow: none;
-    font-family: Mplus;
+    font-family: Gawaa;
 }
 
 .block1,
@@ -122,6 +122,10 @@ h1, h2, h3, h4, h5 {
 .block1.container .short-text p,
 .block1.container h4 {
     font-family: Graduate;
+}
+
+.block1.container .short-text p{
+    font-size: 1.22rem;
 }
 
 .block1 label{
@@ -566,6 +570,11 @@ h1, h2, h3, h4, h5 {
     padding: 0 !important;
 }
 
+.block5 .uk-grid div.p-3 {
+    padding: 4px !important;
+    overflow: hidden;
+}
+
 .form-shadow {
     position: absolute;
     top: 0;
@@ -749,7 +758,7 @@ h1, h2, h3, h4, h5 {
 
     .video-background h1, .video-background h2, .video-background h4,
     .video-background h1 b{
-        font-size: 1rem;
+        font-size: 2rem;
         width: 100%;
         left: 0;
         text-align: center;
@@ -757,7 +766,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .video-background h1 {
-        top: 50%;
+        top: 35%;
     }
 
     .row {
