@@ -470,13 +470,6 @@ h1, h2, h3, h4, h5 {
     box-sizing: border-box;
 }
 
-.block5 .example h2 {
-    font-size: 1.5rem;
-    font-family: monospace;
-    text-align: center;
-    height: 3rem;
-    line-height: 3rem;
-}
 
 .block5 h2 .text-left {
     font-size: 1.1rem;
@@ -516,10 +509,16 @@ h1, h2, h3, h4, h5 {
     display: inline-block;
 }
 
-.block5 .example h2 {
+.block5 .example .work-students,
+.block5 .example  h2 {
     background-color: #ffffff;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 3rem auto !important;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
 }
 
 .block5 .order-contacts {
@@ -799,6 +798,10 @@ h1, h2, h3, h4, h5 {
 
 .hide {
     display: none !important;
+}
+
+svg {
+    margin-left: 7px;
 }
 
 
