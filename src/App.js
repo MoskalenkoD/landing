@@ -56,7 +56,6 @@ function App() {
     }
 
     function openForm(e) {
-        console.log(1);
         e.preventDefault();
         let modalForm = document.querySelector('.return-form');
         modalForm.classList.remove('hide');
@@ -74,7 +73,6 @@ function App() {
         e.preventDefault();
         console.log(e.target);
         emailjs.sendForm('service_0wwnd9r', 'template_2dar9wk', e.target, 'nDG6n7rdLG4kbsG8H').then((res) => {
-            console.log(res);
             document.querySelector('.return-form').classList.add('hide');
             document.querySelector('.form-shadow').classList.add('hide');
         }).catch(err => {
@@ -90,8 +88,7 @@ function App() {
                 <video autoPlay muted loop>
                     <source src="../source/background.MP4" type="video/mp4"></source>
                 </video>
-                <h2>Профессия <b>3D artist</b></h2>
-                <h1>Дистанционное обучение</h1>
+                <h2>Профессия <b>3D artist</b> <br/> <p>Дистанционное обучение</p></h2>
                 <h4>Получи работу <br/> в кино и видеоиграх</h4>
             </div>
             <div className="block1 container">
@@ -596,7 +593,7 @@ function App() {
                 </div>
 
                 <div className="col-12 mt-3 example">
-                    <h2 className="col-md-8 col-lg-8 col-sm-12">Работы учеников: </h2>
+                    <h2 className="col-md-8 col-lg-8 col-sm-12">Работы учеников : </h2>
                     <div className="uk-child-width-1-2" uk-grid="" uk-lightbox="animation: slide">
                         <div className="uk-first-column">
                             <div className="uk-child-width-1-2" uk-grid="">
@@ -719,7 +716,7 @@ function App() {
                             <a className="uk-inline" href="./source/slider/aleksandr_grishanovich-1-006.jpg"
                                style={{height: '100%', width: '100%'}}
                                data-caption="Example 11">Ещё
-                                больше работ:
+                                больше работ :
                                 <img className='hide' src="./source/slider/aleksandr_grishanovich-1-006.jpg" width="1800" height="1200" alt=""
                                      style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                             </a>
