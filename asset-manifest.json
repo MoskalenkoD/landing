@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.2737094c.css",
-    "main.js": "/landing/static/js/main.65708f41.js",
+    "main.css": "/landing/static/css/main.c8237cd2.css",
+    "main.js": "/landing/static/js/main.26dfe1a8.js",
     "static/js/787.9c5dfbc3.chunk.js": "/landing/static/js/787.9c5dfbc3.chunk.js",
     "static/media/MPLUS1p-Black.ttf": "/landing/static/media/MPLUS1p-Black.ccafc770874c2c3eea84.ttf",
     "static/media/spiderB.PNG": "/landing/static/media/spiderB.176559cc377e1117e315.PNG",
     "static/media/ava.JPG": "/landing/static/media/ava.6f73543e0df53a624609.JPG",
     "static/media/professions1.jpg": "/landing/static/media/professions1.2e90ebeb5c3d162ac2c4.jpg",
     "static/media/destroy.png": "/landing/static/media/destroy.a010d4e34b9fdce19302.png",
+    "static/media/Gawaa-Italic.otf": "/landing/static/media/Gawaa-Italic.3103a9c94831141177a4.otf",
     "static/media/Gawaa-Regular.otf": "/landing/static/media/Gawaa-Regular.b2c850d60571b5fee818.otf",
     "static/media/Graduate-Regular.ttf": "/landing/static/media/Graduate-Regular.563ccac2f3f73c615885.ttf",
     "index.html": "/landing/index.html",
-    "main.2737094c.css.map": "/landing/static/css/main.2737094c.css.map",
-    "main.65708f41.js.map": "/landing/static/js/main.65708f41.js.map",
+    "main.c8237cd2.css.map": "/landing/static/css/main.c8237cd2.css.map",
+    "main.26dfe1a8.js.map": "/landing/static/js/main.26dfe1a8.js.map",
     "787.9c5dfbc3.chunk.js.map": "/landing/static/js/787.9c5dfbc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2737094c.css",
-    "static/js/main.65708f41.js"
+    "static/css/main.c8237cd2.css",
+    "static/js/main.26dfe1a8.js"
   ]
 }
