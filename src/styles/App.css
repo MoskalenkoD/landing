@@ -180,11 +180,14 @@ h1, h2, h3, h4, h5 {
     margin-top: -50px;
     position: relative;
     padding: 100px 100px 0;
+    z-index: 3;
 }
 
 .block1 .second-row {
     margin-top: -100px;
     padding: 100px 100px 50px 100px;
+    z-index: 3;
+    position: relative;
 }
 
 .block1 .slash-background {
@@ -422,6 +425,7 @@ h1, h2, h3, h4, h5 {
     margin-left: 0;
     margin-right: 0;
     max-width: 100%;
+    z-index: 4;
 }
 
 .block4 .module {
@@ -593,9 +597,14 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 
+.block5 .spider-bg {
+    top: 0;
+}
+
 .block5 .footer .spider-bg {
     transform: scale(1, -1);
-    top: -87%;
+    top: -126%;
+    padding-top: 94%;
 }
 
 .block5 .order-contacts {
@@ -774,7 +783,7 @@ h1, h2, h3, h4, h5 {
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 2;
+    z-index: 999;
     background: #000000;
     opacity: 0.4;
 }
