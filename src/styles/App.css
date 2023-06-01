@@ -1048,11 +1048,11 @@ svg {
 
 
     .App .modal {
-        transform: translate(-75%, -75%);
+        transform: translate(-50%, -50%);
     }
 
     .return-form {
-        transform: translate(-75%, -50%);
+        transform: translate(-50%, -50%);
     }
 }
 
