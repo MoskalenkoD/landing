@@ -411,7 +411,7 @@ function App() {
                             <div className="border_vertical">
                             </div>
                             <div className="module-text">
-                                <p>Оптимизация моделей для дальнейшего текстурирования.</p>
+                                <p>Научись оптимизировать и...</p>
                                 <p className="hide">МОДУЛЬ 4
                                     Тут ты учишься оптимизировать модели, что очень важно в профессии.
                                     А также подготовишь ее к текстурированию.
@@ -434,7 +434,7 @@ function App() {
                             <div className="border_vertical">
                             </div>
                             <div className="module-text">
-                                <p>Полное текстурирование и высокодеталезированная покраска</p>
+                                <p>Узнаешь все про текстурирование и высокодеталезированную покраску и...</p>
                                 <p className="hide">МОДУЛЬ 5
                                     Тут ты научишься круто и детализировано красить свою модель.
                                     Познакомишься с пайплайнами от стилизованного до реализма!
@@ -458,7 +458,7 @@ function App() {
                             <div className="border_vertical">
                             </div>
                             <div className="module-text">
-                                <p>Создание одежды и для персонажей. Выкройки</p>
+                                <p>Растительность в 3D мире и...</p>
                                 <p className="hide">МОДУЛЬ 6
                                     В этом модуле ты будешь создавать различные виды растительностей в различной стилях
                                     (как
@@ -482,7 +482,7 @@ function App() {
                             <div className="border_vertical">
                             </div>
                             <div className=" module-text">
-                                <p>Растительность в играх.</p>
+                                <p>Научишься создавать игровые уровни и...</p>
                                 <p className="hide">МОДУЛЬ 7
                                     Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и
                                     консолей!
@@ -506,7 +506,7 @@ function App() {
                             <div className="border_vertical">
                             </div>
                             <div className="module-text">
-                                <p>Создание локаций.</p>
+                                <p>Создашь крутое освещение в объекте</p>
                                 <p className="hide">МОДУЛЬ 8
                                     Великий рендер! Все про получение финального изображения или видео.
                                     А также дальнейшая обработка в Photoshop или программах для обработки видео.
@@ -532,7 +532,7 @@ function App() {
                             </div>
 
                             <div className="module-text">
-                                <p>Полный рендер всего.</p>
+                                <p>Работа над твоей карьерой в 3D!</p>
                                 <p className="hide">МОДУЛЬ 9
                                     Карьерный модуль.
                                     Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его
@@ -561,6 +561,7 @@ function App() {
                 </div>
             </div>
             <div className="block5 uk-container container">
+                <div className="spider-bg"></div>
                 <div className="row justify-content-md-center">
                     <div className="col col-12 m-auto paywork">
                         <h2 className='pay'>
@@ -598,7 +599,7 @@ function App() {
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-medium p-3">
-                                        <a className="uk-inline" href="./source/slider/111.jpg" style={{height: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/111.jpg" style={{height: '100%', overflow: 'hidden', width: '100%'}}
                                            data-caption="Example 1">
                                             <img src="./source/slider/111.jpg" width="1800" height="1200" alt=""
                                                  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
@@ -607,7 +608,7 @@ function App() {
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-medium p-3">
-                                        <a className="uk-inline" href="./source/slider/222.jpg" style={{height: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/222.jpg" style={{height: '100%', overflow: 'hidden', width: '100%'}}
                                            data-caption="Example 2">
                                             <img src="./source/slider/222.jpg" width="1800" height="1200" alt=""
                                                  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
@@ -617,14 +618,14 @@ function App() {
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-medium p-3">
-                                    <a className="uk-inline" href="./source/slider/333.jpg" style={{height: '100%'}}
+                                    <a className="uk-inline" href="./source/slider/333.jpg" style={{overflow: 'hidden', width: '100%', height: '100%'}}
                                        data-caption="Example 3">
                                         <img src="./source/slider/333.jpg" width="1800" height="1200" alt=""
                                              style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
                                     </a>
                                 </div>
                             </div>
-                            <div className="uk-child-width-1-1" uk-grid="">
+                            <div className="uk-child-width-1-1 first-last" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-small p-3">
                                     <a className="uk-inline" href="./source/slider/444.jpg"
                                        style={{height: '100%', overflow: 'hidden'}}
@@ -701,7 +702,7 @@ function App() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="uk-child-width-1-1" uk-grid="">
+                            <div className="uk-child-width-1-1 second-last" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-small p-3">
                                     <a className="uk-inline" href="./source/slider/440.jpg"
                                        style={{height: '100%', overflow: 'hidden'}}
@@ -1043,7 +1044,8 @@ function App() {
                     </div>
                 </div>
 
-                <div className="row mt-5">
+                <div className="row mt-5 footer">
+                    <div className="spider-bg"></div>
                     <div className="discount m-auto col-lg-8 col-md-12 col-sm-12">
                         <div className="border-around">
                             <div className="text">

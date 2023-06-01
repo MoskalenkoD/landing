@@ -184,11 +184,12 @@ h1, h2, h3, h4, h5 {
 
 .block1 .second-row {
     margin-top: -100px;
-    padding: 100px;
+    padding: 100px 100px 50px 100px;
 }
 
 .block1 .slash-background {
     --bevel-size: 200px;
+    z-index: 2;
     background-color: #e3e3e3;
     border: 1px solid #868686;
     border-bottom-width: 0;
@@ -298,18 +299,21 @@ h1, h2, h3, h4, h5 {
     position: relative;
 }
 
-.block2 .spider-bg {
-    width: 150%;
-    /*height: 365%;*/
-    padding-top: 92%;
+.block2 .spider-bg,
+.footer .spider-bg,
+.block5 .spider-bg {
+    width: calc(100% + 20px);
+    height: 100%;
+    padding-top: 100%;
+    margin: 0 -10px;
     display: block;
     position: absolute;
-    background: url('../../public/images/spiderB.PNG') no-repeat 100% 0;
+    background: url('../../public/images/spider-m2.png') no-repeat 100% 0;
     background-size: contain;
     z-index: 0;
-    top: 46%;
-    left: 67%;
-    transform: translate(-58%, -33%) rotate(200deg);
+    top: -126%;
+    /*left: 67%;*/
+    /*transform: translate(-58%, -33%) rotate(200deg);*/
 }
 
 .block2 .person {
@@ -522,8 +526,8 @@ h1, h2, h3, h4, h5 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
+    position: relative;
 }
-
 
 .block5 h2 .text-left {
     font-size: 1.5rem;
@@ -563,6 +567,7 @@ h1, h2, h3, h4, h5 {
     background-color: #e3e3e3;
     border-radius: 100px;
     display: inline-block;
+    z-index: 1;
 }
 
 .block5 .example .work-students,
@@ -572,7 +577,7 @@ h1, h2, h3, h4, h5 {
     margin: 3rem auto !important;
     font-size: 1.5rem;
     /*font-family: monospace;*/
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     text-align: center;
     height: 3rem;
     line-height: 3rem;
@@ -582,6 +587,15 @@ h1, h2, h3, h4, h5 {
 .block5 .example .work-students a:first-child {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     color: #000000;
+}
+
+.block5 .footer {
+    position: relative;
+}
+
+.block5 .footer .spider-bg {
+    transform: scale(1, -1);
+    top: -87%;
 }
 
 .block5 .order-contacts {
@@ -765,9 +779,29 @@ h1, h2, h3, h4, h5 {
     opacity: 0.4;
 }
 
+.uk-height-small {
+    height: 200px;
+}
+
+.uk-height-medium {
+    height: 400px;
+}
+
+@media (max-width: 1200px) {
+    .row.slash-border,
+    .row.second-row {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 @media (max-width: 992px) {
     .block1 .professions .image-block {
         max-height: 230px;
+    }
+
+    .video-background img {
+        margin: 0;
     }
 
     .video-background h2 p, .video-background h2, .video-background h4,
@@ -778,10 +812,39 @@ h1, h2, h3, h4, h5 {
         text-align: center;
         box-shadow: none;
         border-radius: 0;
+        line-height: 1.5rem;
+        color: #ffffff;
     }
 
-    .video-background h1 {
-        top: 29%;
+    .video-background h2 {
+        padding-left: 0;
+    }
+
+    .row.slash-border,
+    .row.second-row{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .block1 .pay-ex {
+        margin: 1rem auto !important;
+    }
+
+    .block2 p, .block2 a {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .block4 .module {
+        font-size: 1.5rem;
+    }
+
+    .first-last img {
+        margin-top: -15% !important;
+    }
+
+    .second-last img {
+        margin-top: 0 !important;
     }
 }
 
@@ -795,6 +858,8 @@ h1, h2, h3, h4, h5 {
         top: 50%;
     }
 
+
+
     .block1 .professions .image-block {
         max-height: 250px;
     }
@@ -802,6 +867,22 @@ h1, h2, h3, h4, h5 {
     .block1 .professions h2.title {
         text-align: center;
         height: 1.5rem;
+    }
+
+    .block2 p, .block2 a {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .block1.container .short-text div:last-child p {
+        text-align: left;
+    }
+
+    .block5 .example .work-students, .block5 .example h2 {
+        margin: 2rem auto !important;
+        width: fit-content;
+        display: block;
+
     }
 
     .block5 .order-contacts {
@@ -819,6 +900,14 @@ h1, h2, h3, h4, h5 {
     .block5 .social a {
         text-align: center;
     }
+
+    .uk-height-small {
+        height: 150px;
+    }
+
+    .uk-height-medium {
+        height: 300px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -833,10 +922,15 @@ h1, h2, h3, h4, h5 {
         left: 0;
         text-align: center;
         box-shadow: none;
+        line-height: 1.8rem;
     }
 
     .video-background h1 {
         top: 35%;
+    }
+
+    .block1.container .short-text div:last-child p {
+        text-align: left;
     }
 
     .row {
@@ -865,15 +959,73 @@ h1, h2, h3, h4, h5 {
     }
 
     .block2 .text p,
-    .block2 .text a{
+    .block2 .text a {
         text-align: center;
         font-size: 1.2rem;
+        width: 100%;
+        display: block;
+    }
+
+    .row.slash-border,
+    .row.second-row{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .pay-ex {
+        margin: 0 auto !important;
+    }
+
+    .block4 .module {
+        font-size: 1.5rem;
     }
 
     .block4 .module-item .module-text p,
     .block4 .module-item .module-num h2 {
         font-size: 1rem;
     }
+
+    .block5 .example .work-students, .block5 .example h2 {
+        margin: 2rem auto !important;
+        width: fit-content;
+        display: block;
+
+    }
+
+    .block5 .discount .border-around {
+        padding: 0;
+        width: 100%;
+    }
+
+    .block5 h2 .text-left {
+        font-size: 1.2rem;
+    }
+
+    .block5 .return-soc {
+        display: block;
+    }
+
+    .block5 .return-soc p,
+    .block5 .return-soc div
+    {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .block5 .border-around p {
+        text-align: center;
+        margin: 5px 20px;
+        font-size: 1.2rem;
+    }
+
+    .example .uk-height-small {
+        height: 75px;
+    }
+
+    .example .uk-height-medium {
+        height: 150px;
+    }
+
 }
 
 .hide {
@@ -885,11 +1037,21 @@ svg {
 }
 
 @media only screen and (max-device-width: 812px) {
-    .App .modal{
+    .short-text {
+        display: block;
+    }
+
+    .block1.container .short-text p {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+
+    .App .modal {
         transform: translate(-75%, -75%);
     }
 
-    .return-form{
+    .return-form {
         transform: translate(-75%, -50%);
     }
 }
