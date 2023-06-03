@@ -323,6 +323,11 @@ h1, h2, h3, h4, h5 {
     background-color: #f9f9f9;
 }
 
+.block5 .pay {
+    border: 1px #17a2b8 solid;
+    background-color: #3bcbe2;
+}
+
 .block1 .pay p,
 .block5 .pay p {
     display: inline-block;
@@ -342,17 +347,17 @@ h1, h2, h3, h4, h5 {
 .footer .spider-bg,
 .block5 .spider-bg {
     width: calc(100% + 20px);
-    height: 100%;
-    padding-top: 100%;
+/* height: 100%; */
+    padding-top: 126%;
     margin: 0 -10px;
     display: block;
     position: absolute;
-    background: url('../../public/images/spider-m2.png') no-repeat 100% 0;
-    background-size: contain;
+    background: url(../../public/images/pexels-adrien-olichon-3137076.jpg) no-repeat 100% 0;
+    background-size: cover;
     z-index: 0;
-    top: -126%;
-    /*left: 67%;*/
-    /*transform: translate(-58%, -33%) rotate(200deg);*/
+    top: -146%;
+/* left: -8%; */
+    transform: translate(0, 0) rotate(0deg);
 }
 
 .block2 .person {
@@ -463,7 +468,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .block4 {
-    background: url('../../public/images/destroy.png') no-repeat 100% 0;
+    background: url('../../public/images/pexels-david-buchi-1070345.jpg') no-repeat 100% 0;
     background-size: cover;
     margin-left: 0;
     margin-right: 0;
@@ -472,6 +477,7 @@ h1, h2, h3, h4, h5 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    border-top: 0.3rem solid #000000;
 }
 
 .block4 .module {
@@ -486,8 +492,12 @@ h1, h2, h3, h4, h5 {
 
 .block4 .destroy-bg {
     overflow: hidden;
-    max-width: 100%;
+    max-width: 70%;
     padding: 0 10%;
+    background-color: #FFFFFF;
+    margin: 0 15%;
+    border-radius: 154px;
+    border: 1px solid #bbbbbb;
 }
 
 .block4 .module-item {
@@ -503,7 +513,7 @@ h1, h2, h3, h4, h5 {
 
 .block4 .module-item .module-num {
     display: flex;
-    /*background-color: #f1f1f1;*/
+    border: 1px solid #bbbbbb;
     width: 25%;
     text-align: center;
     margin-right: 10px;
@@ -578,6 +588,7 @@ h1, h2, h3, h4, h5 {
     padding-right: 0;
     box-sizing: border-box;
     position: relative;
+    overflow: hidden;
 }
 
 .block5 h2 .text-left {
@@ -653,13 +664,16 @@ h1, h2, h3, h4, h5 {
 }
 
 .block5 .spider-bg {
-    top: 0;
+    top: -9%;
+    left: 17%;
+    transform: translate(0, 0) rotate(-110deg);
 }
 
 .block5 .footer .spider-bg {
     transform: scale(1, -1);
-    top: -126%;
-    padding-top: 94%;
+    top: -50%;
+    padding-top: 111%;
+    left: 0;
 }
 
 .block5 .order-contacts {
