@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.278727d6.css",
+    "main.css": "/landing/static/css/main.b23392af.css",
     "main.js": "/landing/static/js/main.07a5cf31.js",
     "static/js/787.9c5dfbc3.chunk.js": "/landing/static/js/787.9c5dfbc3.chunk.js",
     "static/media/MPLUS1p-Black.ttf": "/landing/static/media/MPLUS1p-Black.ccafc770874c2c3eea84.ttf",
@@ -12,15 +12,15 @@
     "static/media/Allegretto-Script-One.ttf": "/landing/static/media/Allegretto-Script-One.30e18443cb980fcf2aa7.ttf",
     "static/media/Gawaa-Regular.otf": "/landing/static/media/Gawaa-Regular.b2c850d60571b5fee818.otf",
     "static/media/DECORR.TTF": "/landing/static/media/DECORR.cfdf4d612a8bfcf04b27.TTF",
-    "static/media/DECORI.TTF": "/landing/static/media/DECORI.7d44f1e2f78a4b0d5438.TTF",
+    "static/media/DECORI2.ttf": "/landing/static/media/DECORI2.7d44f1e2f78a4b0d5438.ttf",
     "static/media/Graduate-Regular.ttf": "/landing/static/media/Graduate-Regular.563ccac2f3f73c615885.ttf",
     "index.html": "/landing/index.html",
-    "main.278727d6.css.map": "/landing/static/css/main.278727d6.css.map",
+    "main.b23392af.css.map": "/landing/static/css/main.b23392af.css.map",
     "main.07a5cf31.js.map": "/landing/static/js/main.07a5cf31.js.map",
     "787.9c5dfbc3.chunk.js.map": "/landing/static/js/787.9c5dfbc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.278727d6.css",
+    "static/css/main.b23392af.css",
     "static/js/main.07a5cf31.js"
   ]
 }
