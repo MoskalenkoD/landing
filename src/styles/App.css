@@ -39,9 +39,9 @@
 }
 
 @font-face {
-    font-family: 'DecorI';
-    src: url('../fonts/Decor/DECORI.TTF'),
-    url('../fonts/Decor/DECORI.TTF') format('truetype');
+    font-family: 'DECORI2';
+    src: url('../fonts/Decor/DECORI2.ttf'),
+    url('../fonts/Decor/DECORI2.ttf') format('truetype');
     /*url('open_sans.woff') format('woff');*/
     font-weight: normal;
     font-style: normal;
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5 {
     font-size: 1.6rem;
     background: none;
     box-shadow: none;
-    font-family: DecorI;
+    font-family: Monaco, serif;
     color: #ffffff;
     line-height: 2rem;
     font-style: italic;
