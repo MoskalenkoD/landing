@@ -88,7 +88,7 @@ function App() {
                 <video autoPlay muted loop>
                     <source src="../source/background.MP4" type="video/mp4"></source>
                 </video>
-                <h2>Профессия 3D artist<br/> <p>Дистанционное обучение</p></h2>
+                <h2>3D artist<br/> <p>Дистанционное обучение</p></h2>
                 <h4>Получи работу <br/> в кино и видеоиграх</h4>
             </div>
             <div className="block1 container">
