@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
 
 .video-background h2 p {
     font-size: 4rem;
-    font-family: Gawaa;
+    font-family: Gawaa-Italic;
     margin: 0 !important;
     color: #bfbfbf;
 }
@@ -105,9 +105,10 @@ h1, h2, h3, h4, h5 {
     font-size: 3rem;
     background: none;
     box-shadow: none;
-    font-family: 'Gawaa';
+    font-family: 'Gawaa-Italic';
     color: #bfbfbf;
     line-height: 2.9rem;
+    font-style: italic;
 }
 
 .block1,
@@ -135,7 +136,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .block1.container .short-text {
-    margin: 0 5%;
+    margin: 0 0 0 5%;
 }
 
 .block1.container .short-text p,
@@ -143,8 +144,12 @@ h1, h2, h3, h4, h5 {
     font-family: Monaco;
 }
 
+.block1.container .short-text div:last-child {
+    padding-left: 5%;
+}
+
 .block1.container .short-text div:last-child p {
-    text-align: right;
+    text-align: left;
 }
 
 .block1.container .short-text p {
@@ -170,6 +175,8 @@ h1, h2, h3, h4, h5 {
     margin: 0;
     z-index: 23;
     position: relative;
+    font-family: inherit;
+    font-weight: 400;
 }
 
 .block1 .slash-border {
@@ -215,7 +222,7 @@ h1, h2, h3, h4, h5 {
 
 .block1 .pay-ex {
     max-width: 80%;
-    margin: 3rem auto;
+    margin: 3rem auto 1rem;
 }
 
 .block1 .blockProfessions {
@@ -258,8 +265,8 @@ h1, h2, h3, h4, h5 {
 .block1 .professions h2,
 .App .modal h2 {
     font-size: 1.5rem;
-    font-weight: bold;
-    font-family: Monaco;
+    font-weight: 400;
+    font-family: inherit;
     text-align: center;
     flex-shrink: 0;
 }
@@ -273,12 +280,13 @@ h1, h2, h3, h4, h5 {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     flex-shrink: 0;
-    font-family: Monaco;
+    font-family: inherit;
+    font-weight: 400;
 }
 
 .block1 .pay,
 .block5 .pay {
-    border: 2px rgba(54, 145, 165, 0.43) solid;
+    border: 1px #959494 solid;
     border-radius: 22px;
     text-align: center;
     line-height: inherit;
@@ -352,12 +360,17 @@ h1, h2, h3, h4, h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 7%;
 }
 
 .block2 .text p,
 .block2 .text a {
     padding-right: 1rem;
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
 }
 
 .block2 p,
@@ -381,6 +394,8 @@ h1, h2, h3, h4, h5 {
 
 .block3 .example {
     text-align: center;
+    font-family: inherit;
+    font-weight: 400;
 }
 
 .block3 .slider {
@@ -426,12 +441,15 @@ h1, h2, h3, h4, h5 {
     margin-right: 0;
     max-width: 100%;
     z-index: 4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
 }
 
 .block4 .module {
-    font-weight: bold;
+    font-weight: 200;
     text-align: center;
-    font-family: Monaco;
+    font-family: inherit;
     background-color: #ffffff;
     border: 1px solid #bbbbbb;
     border-radius: 10px;
@@ -468,7 +486,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .block4 .module-item .module-num h2 {
-    font-family: Monaco;
+    font-family: inherit;
+    font-weight: 400;
     /*height: 100%;*/
     margin: 0;
     font-size: 1.5rem;
@@ -501,7 +520,8 @@ h1, h2, h3, h4, h5 {
 
 .block4 .module-item .module-text p {
     font-size: 1.5rem;
-    font-family: Monaco;
+    font-family: inherit;
+    font-weight: 100;
     margin: 0;
     /*background-color: #ffffff;*/
     overflow: hidden;
@@ -547,6 +567,10 @@ h1, h2, h3, h4, h5 {
     display: grid;
 }
 
+.block5 .paywork {
+    padding: 0 7%;
+}
+
 .block5 .result .border-around,
 .block5 .discount .border-around {
     border-radius: 40px;
@@ -580,15 +604,19 @@ h1, h2, h3, h4, h5 {
     margin: 3rem auto !important;
     font-size: 1.5rem;
     /*font-family: monospace;*/
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     text-align: center;
     height: 3rem;
     line-height: 3rem;
-    font-weight: bolder;
+    font-weight: 600;
 }
 
 .block5 .example .work-students a:first-child {
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
     color: #000000;
 }
 
@@ -615,16 +643,16 @@ h1, h2, h3, h4, h5 {
 
 .block5 .open-form {
     width: 180px;
-    background-color: #01c003;
+    background-color: rgba(56, 180, 70, 0.86);
     border-radius: 15px;
-    border: 1px solid grey;
+    border: 1px solid #14783669;
     font-size: 1.3rem;
     padding: 10px 10px;
     margin: 10px auto;
 }
 
 .block5 .open-form:hover {
-    background-color: rgba(1, 192, 3, 0.88);
+    background-color: rgba(34, 132, 45, 0.78);
     color: #ffffff;
 }
 
@@ -738,7 +766,10 @@ h1, h2, h3, h4, h5 {
     border-radius: 15px;
     max-height: 85%;
     overflow: hidden;
-    font-family: Monaco;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 400;
 }
 
 .App .modal .image-block {
@@ -773,6 +804,14 @@ h1, h2, h3, h4, h5 {
 
 .App .modal .descriptions p {
     font-family: Monaco;
+}
+
+.App .professions.modal h2,
+.App .modal p.descriptions {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 400;
 }
 
 .App .shadow {

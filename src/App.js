@@ -88,37 +88,37 @@ function App() {
                 <video autoPlay muted loop>
                     <source src="../source/background.MP4" type="video/mp4"></source>
                 </video>
-                <h2>Профессия <b>3D artist</b> <br/> <p>Дистанционное обучение</p></h2>
+                <h2>Профессия 3D artist<br/> <p>Дистанционное обучение</p></h2>
                 <h4>Получи работу <br/> в кино и видеоиграх</h4>
             </div>
             <div className="block1 container">
                 <div className="row short-text">
                     <div className="col col-lg-6 col-md-6 col-sm-12">
-                        <p><label>&#9632;</label> 6 месяцев и новая дистанционная профессия.</p>
+                        <p><label>&#9632;</label> 6 месяцев и новая дистанционная профессия</p>
                     </div>
                     <div className="col col-lg-6 col-md-6 col-sm-12">
-                        <p><label>&#9632;</label> 7 профильных программ от MAYA до UNREAL ENGINE.</p>
+                        <p><label>&#9632;</label> 7 профильных программ от MAYA до UNREAL ENGINE</p>
                     </div>
                 </div>
                 <div className="row short-text">
                     <div className="col col-lg-6 col-md-6 col-sm-12">
-                        <p><label>&#9632;</label> Нескучные курсы для тех кто хочет освоить 3D. </p>
+                        <p><label>&#9632;</label> Нескучные курсы для тех кто хочет освоить 3D</p>
                     </div>
                     <div className="col col-lg-6 col-md-6 col-sm-12">
-                        <p><label>&#9632;</label> Индивидуальное курирование от старта до поиска работы.</p>
+                        <p><label>&#9632;</label> Индивидуальное курирование от старта до поиска работы</p>
                     </div>
                 </div>
 
                 <div className="row mt-5 ">
                     <div className="col col-12">
                         <h4>Добро пожаловать в 3D вселенную!) От 3D визуализации в играх, кино и архитектуре, до
-                            создания блокчейн ITEMов и воплощения виртуальных миров в мета вселенных.</h4>
+                            создания блокчейн ITEMов и воплощения виртуальных миров в мета вселенных</h4>
                     </div>
                 </div>
 
                 <div className="row justify-content-md-center mt-5">
                     <div className="col col-6 m-auto">
-                        <h2 className='quest'>Кем ты станешь после курса:</h2>
+                        <h2 className='quest'>Кем ты сможешь работать после обучения:</h2>
                     </div>
                 </div>
 
@@ -237,11 +237,11 @@ function App() {
                     </div>
                 </div>
 
-                <div className="row justify-content-md-center mt-5 pay-ex">
+                <div className="row justify-content-md-center mt-3 pay-ex">
                     <div className="col col-12 m-auto paywork">
                         <h2 className='pay'>
                             <p>Средняя заработная плата: в России <p>125 000р, </p></p>
-                            <p>по Миру 7 000$</p>
+                            <p>по Миру 5600$</p>
                         </h2>
                     </div>
                 </div>
@@ -251,14 +251,14 @@ function App() {
                 <div className="spider-bg"></div>
                 <div className="container">
                     <div className="row">
-                        <div className="person m-auto col-lg-12 col-md-12 col-sm-12">
+                        <div className="person m-auto col-lg-8 col-md-8 col-sm-8">
                             <div className="border-around">
                                 <div className="image-block">
                                 </div>
                                 <div className="text">
                                     <p><b>Ваш педагог:</b></p>
-                                    <p>Павел Иваненко.</p>
-                                    <p>Стаж в 3D - 12 лет.</p>
+                                    <p>Павел Иваненко</p>
+                                    <p>Стаж в 3D - 12 лет</p>
                                     <p>Преподает 3D - 5 лет</p>
                                     <a href='https://www.linkedin.com/in/pavel-ivanenko-4178b0b4' target="_blank"
                                        rel="nofollow noopener">
@@ -342,7 +342,7 @@ function App() {
                             <div className="module-text">
                                 <p>Будешь уметь делать предметы и помещения и...</p>
                                 <p className="hide">
-                                    МОДУЛЬ 1
+                                    <b>МОДУЛЬ 1</b>
                                     В этом модуле ты познакомишься с базовым 3D пакетом (программой) для моделирования,
                                     научишься создавать и редактировать примитивы и создавать сложные объекты с учетом
                                     мельчайших особенностей.
@@ -365,7 +365,7 @@ function App() {
                             </div>
                             <div className="module-text">
                                 <p>Научишься создавать 3D модели для высокобюджетных игр! В мультяшном стиле …</p>
-                                <p className="hide">МОДУЛЬ 2
+                                <p className="hide"><b>МОДУЛЬ 2</b>
                                     Тут ты узнаешь, как создать очень высоко-детализированную модель в мультяшном стиле.
                                     Познакомишься с Photoshop и скульптингом в 3D.
                                     И научишься базово прокрашивать модель.
@@ -388,7 +388,7 @@ function App() {
                             </div>
                             <div className="module-text">
                                 <p>Сделаешь 3D модель высокобюджетных игр. Реалистичный стиль...</p>
-                                <p className="hide">МОДУЛЬ 3
+                                <p className="hide"><b>МОДУЛЬ 3</b>
                                     Здесь ты познакомишься с особенностями быстрого моделирования реалистичного
                                     предмета.
                                     Научишься высокодетализированной обработке.
@@ -412,7 +412,7 @@ function App() {
                             </div>
                             <div className="module-text">
                                 <p>Научись оптимизировать и...</p>
-                                <p className="hide">МОДУЛЬ 4
+                                <p className="hide"><b>МОДУЛЬ 4</b>
                                     Тут ты учишься оптимизировать модели, что очень важно в профессии.
                                     А также подготовишь ее к текстурированию.
                                     Будешь очень плотно работать с сеткой, заниматься тестированием модели.
@@ -435,10 +435,12 @@ function App() {
                             </div>
                             <div className="module-text">
                                 <p>Узнаешь все про текстурирование и высокодеталезированную покраску и...</p>
-                                <p className="hide">МОДУЛЬ 5
+                                <p className="hide"><b>МОДУЛЬ 5</b>
                                     Тут ты научишься круто и детализировано красить свою модель.
                                     Познакомишься с пайплайнами от стилизованного до реализма!
-                                    Будешь уверенно работать в Photoshop.
+                                    Будешь уверенно работать в
+
+                                    Photoshop.
                                     А также делать свои собственные текстуры для реалистичных моделей.
                                     Сделаешь рендеры модели в Painter.</p>
                             </div>
@@ -459,7 +461,7 @@ function App() {
                             </div>
                             <div className="module-text">
                                 <p>Растительность в 3D мире и...</p>
-                                <p className="hide">МОДУЛЬ 6
+                                <p className="hide"><b>МОДУЛЬ 6</b>
                                     В этом модуле ты будешь создавать различные виды растительностей в различной стилях
                                     (как
                                     реализм, так и стилизация).
@@ -483,7 +485,7 @@ function App() {
                             </div>
                             <div className=" module-text">
                                 <p>Научишься создавать игровые уровни и...</p>
-                                <p className="hide">МОДУЛЬ 7
+                                <p className="hide"><b>МОДУЛЬ 7</b>
                                     Тут познакомишься с одним из самых новейших и используемых игровых движков для ПК и
                                     консолей!
                                     Научишься создавать игровые уровни, работать с материалами и создавать блюпринты для
@@ -507,7 +509,7 @@ function App() {
                             </div>
                             <div className="module-text">
                                 <p>Создашь крутое освещение в объекте</p>
-                                <p className="hide">МОДУЛЬ 8
+                                <p className="hide"><b>МОДУЛЬ 8</b>
                                     Великий рендер! Все про получение финального изображения или видео.
                                     А также дальнейшая обработка в Photoshop или программах для обработки видео.
                                     И все что нужно про свет!
@@ -533,7 +535,7 @@ function App() {
 
                             <div className="module-text">
                                 <p>Работа над твоей карьерой в 3D!</p>
-                                <p className="hide">МОДУЛЬ 9
+                                <p className="hide"><b>МОДУЛЬ 9</b>
                                     Карьерный модуль.
                                     Сейчас ты умеешь делать все что нужно. У тебя хорошее портфолио. Осталось только его
                                     оформить, хорошо подать и получить желаемую работу.
@@ -584,15 +586,15 @@ function App() {
                                 <p>- Дистанционную профессию</p>
                                 <p>- Портфолио из 4 профессиональных работ</p>
                                 <p>- Полное индивидуальное курирование</p>
-                                <p>- Карьерное курирование по окончанию курса</p>
-                                <p>- Доступ к материалам после окончания курса</p>
+                                <p>- Карьерное курирование по окончанию обучения</p>
+                                <p>- Доступ к материалам после окончания обучения</p>
                                 <p>- Скидки на дальнейшие курсы</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="col-12 mt-3 example">
+                <div className="col-12 mt-5 example">
                     <h2 className="col-md-8 col-lg-8 col-sm-12">Работы учеников : </h2>
                     <div className="uk-child-width-1-2" uk-grid="" uk-lightbox="animation: slide">
                         <div className="uk-first-column">
@@ -720,7 +722,7 @@ function App() {
                             <a className="uk-inline" href="./source/slider/aleksandr_grishanovich-1-006.jpg"
                                style={{height: '100%', width: '100%'}}
                                data-caption="Example 11">Ещё
-                                больше работ :
+                                больше работ
                                 <img className='hide' src="./source/slider/aleksandr_grishanovich-1-006.jpg"
                                      width="1800" height="1200" alt=""
                                      style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
@@ -1064,10 +1066,9 @@ function App() {
                             <div className="text">
                                 <p><b>Цена курса:</b></p>
                                 <p className="mb-2"><b>6</b> месяцев <b>600$</b></p>
-                                <p className="mb-1">Есть рассрочки</p>
                                 <p>Понравилась программа<b>?</b></p>
                                 <p>Пообщайтесь с нашим педагогом чтобы он ответил на все ваши вопросы<b>.</b></p>
-                                <p className="mb-3">Определил ваши цели уровень и определил в группу<b>;)</b></p>
+                                <p className="mb-3">Определил ваши цели, уровень, и определил в группу<b>;)</b></p>
                                 {/*<p>Даты следующих наборов<b>: 03.02.23</b> <b>03.04.23</b></p>*/}
 
                                 <div className="order-contacts">
