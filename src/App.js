@@ -93,18 +93,18 @@ function App() {
             </div>
             <div className="block1 container">
                 <div className="row short-text">
-                    <div className="col col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                         <p><label>&#9632;</label> 6 месяцев и новая дистанционная профессия</p>
                     </div>
-                    <div className="col col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                         <p><label>&#9632;</label> 7 профильных программ от MAYA до UNREAL ENGINE</p>
                     </div>
                 </div>
                 <div className="row short-text">
-                    <div className="col col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                         <p><label>&#9632;</label> Нескучные курсы для тех кто хочет освоить 3D</p>
                     </div>
-                    <div className="col col-lg-6 col-md-6 col-sm-12">
+                    <div className="col-lg-6 col-md-6 col-sm-12">
                         <p><label>&#9632;</label> Индивидуальное курирование от старта до поиска работы</p>
                     </div>
                 </div>

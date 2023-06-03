@@ -882,8 +882,30 @@ h1, h2, h3, h4, h5 {
         margin: 0;
     }
 
+    .block2 .image-block {
+        width: 100%;
+        float: none;
+        padding-bottom: 100%;
+    }
+
+    .block2 .text {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-top: 1rem;
+    }
+
+    .block2 .text p,
+    .block2 .text a {
+        text-align: center;
+        font-size: 1.2rem;
+        width: 100%;
+        display: block;
+    }
+
     .block4 .module {
         font-size: 1.5rem;
+        font-weight: 200;
     }
 
     .first-last img {
@@ -905,8 +927,6 @@ h1, h2, h3, h4, h5 {
         top: 50%;
     }
 
-
-
     .block1 .professions .image-block {
         max-height: 250px;
     }
@@ -919,6 +939,10 @@ h1, h2, h3, h4, h5 {
     .block2 p, .block2 a {
         font-size: 1rem;
         margin: 0;
+    }
+
+    .block1.container .short-text div:last-child {
+        padding-left: 15px;
     }
 
     .block1.container .short-text div:last-child p {
