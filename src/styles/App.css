@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .block1.container .short-text div:last-child {
-    padding-left: 5%;
+    /*padding-left: 5%;*/
 }
 
 .block1.container .short-text div:last-child p {
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5 {
 .footer .spider-bg,
 .block5 .spider-bg {
     width: calc(100% + 20px);
-/* height: 100%; */
+    /* height: 100%; */
     padding-top: 126%;
     margin: 0 -10px;
     display: block;
@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5 {
     background-size: cover;
     z-index: 0;
     top: -146%;
-/* left: -8%; */
+    /* left: -8%; */
     transform: translate(0, 0) rotate(0deg);
 }
 
@@ -880,6 +880,10 @@ h1, h2, h3, h4, h5 {
     .video-background h4 {
         font-size: 2rem;
     }
+
+    .block1.container .short-text div:last-child {
+        padding-left: 5%;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -916,13 +920,26 @@ h1, h2, h3, h4, h5 {
     }
 
     .row.slash-border,
-    .row.second-row{
+    .row.second-row {
         padding-left: 10px;
         padding-right: 10px;
     }
 
+    .block1, .block2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .block1 .pay-ex {
-        margin: 1rem auto !important;
+        margin: 10px auto !important;
+    }
+
+    .block1 .quest {
+        font-size: 1rem;
+    }
+
+    .block1 .pay p {
+        font-size: 1rem;
     }
 
     .block2 p, .block2 a {
@@ -967,12 +984,29 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 768px) {
 
+    .video-background {
+        padding-top: 45%;
+        background: url('../../public/source/background.jpg') no-repeat 100% 0;
+        background-size: cover;
+    }
+
+    .video-background img {
+        opacity: 0;
+    }
+
     video {
         display: none;
     }
 
     .video-background h1 {
         top: 50%;
+    }
+
+    .video-background h2 p, .video-background h2, .video-background h4,
+    .video-background h2 b {
+        font-size: 2rem;
+        line-height: 2rem;
+        color: #ffffff;
     }
 
     .block1 .professions .image-block {
@@ -984,6 +1018,10 @@ h1, h2, h3, h4, h5 {
         height: 1.5rem;
     }
 
+    .block1.container h4 {
+        font-size: 1rem;
+    }
+
     .block2 p, .block2 a {
         font-size: 1rem;
         margin: 0;
@@ -991,6 +1029,14 @@ h1, h2, h3, h4, h5 {
 
     .block1.container .short-text div:last-child {
         padding-left: 15px;
+    }
+
+    block1.container .short-text div:last-child {
+        padding-left: 0%;
+    }
+
+    .block1 .quest {
+        font-size: 0.9rem;
     }
 
     .block1.container .short-text div:last-child p {
@@ -1044,6 +1090,11 @@ h1, h2, h3, h4, h5 {
         line-height: 1.8rem;
     }
 
+    .video-background h4 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
     .video-background h1 {
         top: 35%;
     }
@@ -1058,7 +1109,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .block1 .quest {
-        font-size: 1.2rem;
+        font-size: 0.7rem;
     }
 
     .block1 .professions .image-block {
@@ -1086,7 +1137,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .row.slash-border,
-    .row.second-row{
+    .row.second-row {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -1095,13 +1146,32 @@ h1, h2, h3, h4, h5 {
         margin: 0 auto !important;
     }
 
-    .block4 .module {
-        font-size: 1.5rem;
+    .block3 .example {
+        font-size: 1rem;
     }
+
+    .block3 .swiper {
+        padding-top: 1rem;
+    }
+
+    .block4 .destroy-bg {
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 15px;
+    }
+
+    .block4 .destroy-bg .mt-5 {
+        margin-top: 1rem !important;
+    }
+
+    .block4 .module {
+        font-size: 1rem;
+    }
+
 
     .block4 .module-item .module-text p,
     .block4 .module-item .module-num h2 {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .block5 .example .work-students, .block5 .example h2 {
@@ -1125,8 +1195,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .block5 .return-soc p,
-    .block5 .return-soc div
-    {
+    .block5 .return-soc div {
         margin: 0 auto;
         display: block;
     }
@@ -1165,6 +1234,10 @@ svg {
         margin: 0;
     }
 
+    block1.container .short-text div:last-child {
+        padding-left: 0%;
+    }
+
 
     .App .modal {
         transform: translate(-50%, -50%);
@@ -1172,6 +1245,18 @@ svg {
 
     .return-form {
         transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 520px) {
+    .block1.container .short-text p {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .block1.container .short-text p {
+        font-size: 0.5rem;
     }
 }
 
