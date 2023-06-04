@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/landing/static/css/main.ed9d049a.css",
+    "main.css": "/landing/static/css/main.d469b6c4.css",
     "main.js": "/landing/static/js/main.a3dc8c30.js",
     "static/js/787.9c5dfbc3.chunk.js": "/landing/static/js/787.9c5dfbc3.chunk.js",
     "static/media/MPLUS1p-Black.ttf": "/landing/static/media/MPLUS1p-Black.ccafc770874c2c3eea84.ttf",
+    "static/media/background.jpg": "/landing/static/media/background.5bb2175d9a6175dacafc.jpg",
     "static/media/pexels-david-buchi-1070345.jpg": "/landing/static/media/pexels-david-buchi-1070345.e2164338e5e2b2ccf7c8.jpg",
     "static/media/pexels-adrien-olichon-3137076.jpg": "/landing/static/media/pexels-adrien-olichon-3137076.b037d545fd31ade64db9.jpg",
     "static/media/ava.JPG": "/landing/static/media/ava.6f73543e0df53a624609.JPG",
@@ -15,12 +16,12 @@
     "static/media/DECORI2.ttf": "/landing/static/media/DECORI2.7d44f1e2f78a4b0d5438.ttf",
     "static/media/Graduate-Regular.ttf": "/landing/static/media/Graduate-Regular.563ccac2f3f73c615885.ttf",
     "index.html": "/landing/index.html",
-    "main.ed9d049a.css.map": "/landing/static/css/main.ed9d049a.css.map",
+    "main.d469b6c4.css.map": "/landing/static/css/main.d469b6c4.css.map",
     "main.a3dc8c30.js.map": "/landing/static/js/main.a3dc8c30.js.map",
     "787.9c5dfbc3.chunk.js.map": "/landing/static/js/787.9c5dfbc3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed9d049a.css",
+    "static/css/main.d469b6c4.css",
     "static/js/main.a3dc8c30.js"
   ]
 }
