@@ -1130,11 +1130,22 @@ h1, h2, h3, h4, h5 {
     }
 
     .block1 .professions {
-        border-radius: 50px;
+        border-radius: 30px;
+        padding: 20px 15px;
     }
 
     .block1 .professions .image-block {
-        max-height: 180px;
+        max-height: 100px;
+    }
+
+    .block1 .professions h2.title {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .block1 .professions .descriptions {
+        font-size: 0.9rem;
     }
 
     .block1 .second-row {
@@ -1146,9 +1157,10 @@ h1, h2, h3, h4, h5 {
     }
 
     .block2 .image-block {
-        width: 100%;
+        width: 75%;
         float: none;
-        padding-bottom: 100%;
+        padding-bottom: 75%;
+        margin: 0 auto;
     }
 
     .block2 .text {
@@ -1187,6 +1199,8 @@ h1, h2, h3, h4, h5 {
         padding-left: 5px;
         padding-right: 5px;
         border-radius: 15px;
+        max-width: 90%;
+        margin: 0 5%;
     }
 
     .block4 .module-item {
@@ -1209,6 +1223,8 @@ h1, h2, h3, h4, h5 {
 
     .block4 .module {
         font-size: 1rem;
+        display: table;
+        margin: 0 auto;
     }
 
     .block4 .module-item .module-text p,
@@ -1264,6 +1280,7 @@ h1, h2, h3, h4, h5 {
     .App .modal h2 {
         font-size: 1rem;
         margin-top: 5px;
+        font-weight: 500 !important;
     }
 
     .App .modal p {
@@ -1321,7 +1338,7 @@ svg {
 
 @media (max-width: 380px) {
     .block1.container .short-text p {
-        font-size: 0.5rem;
+        font-size: 0.65rem;
     }
 
     .block2 .text p {

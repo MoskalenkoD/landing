@@ -125,7 +125,7 @@ function App() {
                 <div className="row slash-border">
                     <div className="slash-background"></div>
 
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions1.jpg)"}}>
                                 <img alt='' src='./source/professions1.jpg' title='Image professions1.jpg'/>
@@ -138,7 +138,7 @@ function App() {
                                 environment artist меньше конкуренции и выше оплата!</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions2.jpg)"}}>
                                 <img alt='' src='./source/professions2.jpg' title='Image professions2.jpg'/>
@@ -152,7 +152,7 @@ function App() {
                                 Также часто эта профессия совмещается с другими 3D профессиями.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions3.png)"}}>
                                 <img alt='' src='./source/professions3.png' title='Image professions3.jpg'/>
@@ -165,7 +165,7 @@ function App() {
                                 Архитектурные бюро ждут тебя, а может ты мечтал сделать свой идеальный дом?</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions4.jpg)"}}>
                                 <img alt='' src='./source/professions4.jpg' title='Image professions4.jpg'/>
@@ -180,7 +180,7 @@ function App() {
                 </div>
 
                 <div className="row second-row">
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions5.jpg)"}}>
                                 <img alt='' src='./source/professions5.jpg' title='Image professions5.jpg'/>
@@ -192,7 +192,7 @@ function App() {
                                 Если хочешь двигаться с опережением развития технологий, то тебе точно сюда.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions6.jpg)"}}>
                                 <img alt='' src='./source/professions6.jpg' title='Image professions6.jpg'/>
@@ -206,7 +206,7 @@ function App() {
                                 Такой специалист необходим в играх, кино, и различных производствах.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions7.jpg)"}}>
                                 <img alt='' src='./source/professions7.jpg' title='Image professions7.jpg'/>
@@ -221,7 +221,7 @@ function App() {
                                 что он обладает базовыми знаниями в 3D.</p>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 blockProfessions">
+                    <div className="col-lg-3 col-md-6 col-sm-6 col-6 blockProfessions">
                         <div className="professions" onClick={showProfession}>
                             <div className="image-block" style={{backgroundImage: "url(./source/professions8.png)"}}>
                                 <img alt='' src='./source/professions8.png' title='Image professions8.png'/>
