@@ -150,9 +150,9 @@ h1, h2, h3, h4, h5 {
     display: block;
     padding-top: 30px;
     padding-bottom: 30px;
-    max-width: calc(100% - 20px);
-    margin-left: 10px;
-    margin-right: 10px;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .block1,
@@ -216,6 +216,9 @@ h1, h2, h3, h4, h5 {
     position: relative;
     padding: 100px 100px 0;
     z-index: 3;
+    width: calc(100%);
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .block1 .second-row {
@@ -223,6 +226,9 @@ h1, h2, h3, h4, h5 {
     padding: 100px 100px 50px 100px;
     z-index: 3;
     position: relative;
+    width: calc(100%);
+    margin-right: 0;
+    margin-left: 0;
 }
 
 .block1 .slash-background {
@@ -634,6 +640,9 @@ h1, h2, h3, h4, h5 {
     border-radius: 100px;
     display: inline-block;
     z-index: 1;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .block5 .example .work-students,
@@ -1154,6 +1163,19 @@ h1, h2, h3, h4, h5 {
 
     .block1 .paywork p:last-child {
         display: inherit;
+    }
+
+    .block2 .person {
+        max-width: 70%;
+        border-radius: 45px;
+    }
+
+    .block2 .person .border-around {
+        border: 1px solid #868686;
+        border-radius: 36px;
+        padding: 10px 20px;
+        display: inline-block;
+        height: 100%;
     }
 
     .block2 .image-block {
