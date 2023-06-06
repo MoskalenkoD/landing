@@ -352,10 +352,10 @@ h1, h2, h3, h4, h5 {
 .block2 .spider-bg,
 .footer .spider-bg,
 .block5 .spider-bg {
-    width: calc(100% + 20px);
+    width: 100%;
     /* height: 100%; */
     padding-top: 126%;
-    margin: 0 -10px;
+    margin: 0;
     display: block;
     position: absolute;
     background: url(../../public/images/pexels-adrien-olichon-3137076.jpg) no-repeat 100% 0;
@@ -1023,17 +1023,30 @@ h1, h2, h3, h4, h5 {
         color: #ffffff;
     }
 
+    .block1 .professions {
+        padding: 35px 15px;
+    }
+
     .block1 .professions .image-block {
-        max-height: 250px;
+        max-height: 150px;
     }
 
     .block1 .professions h2.title {
         text-align: center;
-        height: 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .block1 .professions .description {
+        font-size: 0.9rem;
     }
 
     .block1.container h4 {
         font-size: 1rem;
+    }
+
+    .block1 .slash-border {
+        padding-top: 70px;
     }
 
     .block2 p, .block2 a {
@@ -1043,10 +1056,6 @@ h1, h2, h3, h4, h5 {
 
     .block1.container .short-text div:last-child {
         padding-left: 15px;
-    }
-
-    block1.container .short-text div:last-child {
-        padding-left: 0%;
     }
 
     .block1 .quest {
@@ -1059,6 +1068,51 @@ h1, h2, h3, h4, h5 {
 
     .block3 .example {
         font-size: 1.3rem;
+    }
+
+    .block3 .swiper {
+        padding-top: 1.2rem;
+    }
+
+    .block4 .destroy-bg {
+        max-width: 90%;
+        margin: 0 5%;
+        padding: 0 5%;
+        border-radius: 35px;
+    }
+
+    .block4 .module-item {
+        margin-top: 0.5rem !important;
+        padding-bottom: 0.5rem;
+    }
+
+    .block4 .module-item .border_vertical,
+    .block4 .module-item .module-text {
+        min-height: 50px;
+    }
+
+    .block4 .module {
+        font-size: 1.2rem;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .block4 .module-item .module-text p,
+    .block4 .module-item .module-num h2 {
+        font-size: 0.9rem;
+    }
+
+    .block5 .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .block5 h2 .text-left {
+        font-size: 1.2rem;
+    }
+
+    .block5 .border-around p {
+        font-size: 1.2rem;
     }
 
     .block5 .example .work-students, .block5 .example h2 {
@@ -1090,6 +1144,14 @@ h1, h2, h3, h4, h5 {
 
     .uk-height-medium {
         height: 300px;
+    }
+
+    .mt-5 {
+        margin-top: 1.2rem !important;
+    }
+
+    .mt-3 {
+        margin-top: 0.9rem !important;
     }
 }
 
@@ -1233,6 +1295,17 @@ h1, h2, h3, h4, h5 {
     .block4 .module-item .border_vertical,
     .block4 .module-item .module-text {
         min-height: 35px;
+    }
+
+    .block4 .module {
+        font-size: 1rem;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .block4 .module-item .module-text p,
+    .block4 .module-item .module-num h2 {
+        font-size: 0.7rem;
     }
 
     .mt-5 {
