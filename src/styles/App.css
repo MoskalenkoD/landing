@@ -56,6 +56,15 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'MonacoL';
+    src: url('../fonts/Monaco.ttf'),
+    url('../fonts/Monaco.ttf') format('truetype');
+    /*url('open_sans.woff') format('woff');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
 .App {
     width: 100%;
     display: block;
@@ -1049,6 +1058,11 @@ h1, h2, h3, h4, h5 {
         color: #ffffff;
     }
 
+    .video-background h4 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
     .block1 .professions {
         padding: 35px 15px;
     }
@@ -1191,7 +1205,16 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 620px) {
+    .block1 .professions .descriptions {
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+@media (max-width: 590px) {
     video {
         display: none;
     }
@@ -1453,9 +1476,9 @@ svg {
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 560px) {
     .block1.container .short-text p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     .block2 .text p {
@@ -1467,7 +1490,13 @@ svg {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 450px) {
+
+    .video-background h4 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
     .block1.container .short-text p {
         font-size: 0.65rem;
     }
@@ -1478,6 +1507,20 @@ svg {
 
     .block5 .border-around p {
         font-size: 0.8rem;
+    }
+
+    .block1 .professions .image-block {
+        max-height: 70px;
+    }
+
+    .block1 .professions h2.title {
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .block1 .professions .descriptions {
+        font-size: 0.7rem;
     }
 }
 

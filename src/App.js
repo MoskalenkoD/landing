@@ -21,14 +21,6 @@ function App() {
         {data: 'phone'},
     ]
 
-    function createButton() {
-        return (
-            <button type="button" id="close-return-form" className="close" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        )
-    }
-
     function showProfession(e) {
         e.preventDefault();
         let clone = e.currentTarget.cloneNode(true);
