@@ -15,6 +15,20 @@ import {EffectCoverflow, Pagination} from "swiper";
 // "homepage": "https://moskalenkod.github.io/landing",
 function App() {
 
+    let listInput = [
+        {data: 'name'},
+        {data: 'email'},
+        {data: 'phone'},
+    ]
+
+    function createButton() {
+        return (
+            <button type="button" id="close-return-form" className="close" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        )
+    }
+
     function showProfession(e) {
         e.preventDefault();
         let clone = e.currentTarget.cloneNode(true);
@@ -24,6 +38,18 @@ function App() {
         clone.classList.remove('col-md-6');
         clone.classList.remove('col-sm-12');
         clone.classList.remove('mt-5');
+
+
+        let button = document.createElement('button');
+        let close = '<button type="button" id="close-return-form" class="close" aria-label="Close">' +
+            '                        <span aria-hidden="true">&times;</span>' +
+            '                    </button>';
+        close = close.trim();
+
+        button.innerHTML = close;
+
+        // clone.append(button);
+
         let shadow = document.createElement('div');
         shadow.classList.add('shadow');
         document.querySelector('.App').append(clone);
@@ -67,18 +93,47 @@ function App() {
             document.querySelector('.form-shadow').classList.add('hide');
         });
 
+        document.querySelector('#close-return-form').addEventListener('click', () => {
+            let modalForm = document.querySelector('.return-form');
+            modalForm.classList.add('hide');
+            document.querySelector('.form-shadow').classList.add('hide');
+        });
+
     }
 
     function sendEmail(e) {
         e.preventDefault();
         console.log(e.target);
-        emailjs.sendForm('service_0wwnd9r', 'template_2dar9wk', e.target, 'nDG6n7rdLG4kbsG8H').then((res) => {
-            document.querySelector('.return-form').classList.add('hide');
-            document.querySelector('.form-shadow').classList.add('hide');
-        }).catch(err => {
-            console.log(err);
-            alert(err)
-        });
+
+        let sendFlag = true;
+
+        for (const input of listInput) {
+
+            let error = e.target[input.data].closest('div').querySelector('.error');
+
+            if (!e.target[input.data].value) {
+                error.classList.toggle('hide');
+                if (error.classList.contains('hide')) {
+                    error.classList.remove('hide');
+                }
+                sendFlag = false;
+            } else {
+                if (!error.classList.contains('hide')) {
+                    error.classList.add('hide');
+                }
+            }
+        }
+
+        if (sendFlag) {
+
+            emailjs.sendForm('service_0wwnd9r', 'template_2dar9wk', e.target, 'nDG6n7rdLG4kbsG8H').then((res) => {
+                document.querySelector('.return-form').classList.add('hide');
+                document.querySelector('.form-shadow').classList.add('hide');
+            }).catch(err => {
+                console.log(err);
+                alert(err)
+            });
+        }
     }
 
     return (
@@ -601,7 +656,8 @@ function App() {
                             <div className="uk-child-width-1-2" uk-grid="">
                                 <div className="uk-first-column">
                                     <div className="uk-width-1-1 uk-height-medium p-3">
-                                        <a className="uk-inline" href="./source/slider/111.jpg" style={{height: '100%', overflow: 'hidden', width: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/111.jpg"
+                                           style={{height: '100%', overflow: 'hidden', width: '100%'}}
                                            data-caption="Example 1">
                                             <img src="./source/slider/111.jpg" width="1800" height="1200" alt=""
                                                  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
@@ -610,7 +666,8 @@ function App() {
                                 </div>
                                 <div>
                                     <div className="uk-width-1-1 uk-height-medium p-3">
-                                        <a className="uk-inline" href="./source/slider/222.jpg" style={{height: '100%', overflow: 'hidden', width: '100%'}}
+                                        <a className="uk-inline" href="./source/slider/222.jpg"
+                                           style={{height: '100%', overflow: 'hidden', width: '100%'}}
                                            data-caption="Example 2">
                                             <img src="./source/slider/222.jpg" width="1800" height="1200" alt=""
                                                  style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
@@ -620,7 +677,8 @@ function App() {
                             </div>
                             <div className="uk-child-width-1-1" uk-grid="">
                                 <div className="uk-width-1-1 uk-height-medium p-3">
-                                    <a className="uk-inline" href="./source/slider/333.jpg" style={{overflow: 'hidden', width: '100%', height: '100%'}}
+                                    <a className="uk-inline" href="./source/slider/333.jpg"
+                                       style={{overflow: 'hidden', width: '100%', height: '100%'}}
                                        data-caption="Example 3">
                                         <img src="./source/slider/333.jpg" width="1800" height="1200" alt=""
                                              style={{width: '100%', height: '100%', objectFit: 'cover'}}/>
@@ -1118,20 +1176,26 @@ function App() {
                 <div className="form-header m-auto p-3 border  text-white">
                     <h1>Оставить заявку</h1>
                     <h4>Напишите нам, мы с вами свяжемся и все раскажем подробно :)</h4>
+                    <button type="button" id='close-return-form' className="close" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <form className="form-data  border  m-auto p-3" onSubmit={sendEmail}>
                     <h1>Контакты для связи</h1>
                     <div className="form-group">
                         <h5>Имя *:</h5>
                         <input type='text' className='form-control' name='name' placeholder='Ваше имя'/>
+                        <h5 className='error hide'>Обязательное поле для заполнения</h5>
                     </div>
                     <div className="form-group">
                         <h5>E-mail *:</h5>
                         <input type='email' className='form-control' name='email' placeholder='Ваше E-mail'/>
+                        <h5 className='error hide'>Обязательное поле для заполнения</h5>
                     </div>
                     <div className="form-group">
                         <h5>Телефон *:</h5>
                         <input type='tel' className='form-control' name='phone' placeholder='Ваше телефон'/>
+                        <h5 className='error hide'>Обязательное поле для заполнения</h5>
                     </div>
                     <div className="form-group">
                         <h5>Сообщение:</h5>
