@@ -164,7 +164,7 @@ function App() {
                 </div>
 
                 <div className="row justify-content-md-center mt-5">
-                    <div className="col col-6 m-auto">
+                    <div className="col col-6 m-auto future">
                         <h2 className='quest'>Кем ты сможешь работать после обучения:</h2>
                     </div>
                 </div>

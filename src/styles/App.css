@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5 {
     font-size: 1.6rem;
     background: none;
     box-shadow: none;
-    font-family: Monaco;
+    font-family: 'Gawaa';
     color: #ffffff;
     line-height: 2rem;
     font-style: italic;
@@ -1521,6 +1521,51 @@ svg {
 
     .block1 .professions .descriptions {
         font-size: 0.7rem;
+    }
+}
+
+
+@media (max-width: 330px) {
+
+    .video-background h4 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .block1.container .short-text p {
+        font-size: 0.65rem;
+    }
+
+    .block2 .text p {
+        font-size: 0.6rem;
+    }
+
+    .block5 .border-around p {
+        font-size: 0.7rem;
+    }
+
+    .block1.container .future {
+        flex: 0 0 80% !important;
+        max-width: 80% !important;
+    }
+
+    .block1 .professions .image-block {
+        max-height: 45px;
+    }
+
+    .block1 .professions h2.title {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+
+    .block1 .professions .descriptions {
+        font-size: 0.5rem;
+    }
+
+    .block1.container .short-text div,
+    .block1.container .short-text div:last-child{
+        padding: 0;
     }
 }
 
