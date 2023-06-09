@@ -952,7 +952,7 @@ h1, h2, h3, h4, h5 {
         margin: 0;
     }
 
-    .video-background h2 p, .video-background h2, .video-background h4,
+    .video-background h2 p, .video-background h2,
     .video-background h2 b {
         font-size: 1.5rem;
         width: 100%;
@@ -960,6 +960,12 @@ h1, h2, h3, h4, h5 {
         text-align: center;
         box-shadow: none;
         border-radius: 0;
+        line-height: 1.5rem;
+        color: #ffffff;
+    }
+
+    .video-background h4 {
+        font-size: 1.5rem;
         line-height: 1.5rem;
         color: #ffffff;
     }
@@ -975,8 +981,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .block1, .block2 {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: 10px 0;
     }
 
     .block1 .pay-ex {
@@ -1219,7 +1224,7 @@ h1, h2, h3, h4, h5 {
         display: none;
     }
 
-    .video-background h2 p, .video-background h2, .video-background h4,
+    .video-background h2 p, .video-background h2,
     .video-background h2 b {
         font-size: 2.2rem;
         width: 100%;
@@ -1446,7 +1451,7 @@ h1, h2, h3, h4, h5 {
     }
 
     .App .modal p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         text-align: justify;
     }
 
@@ -1474,9 +1479,23 @@ svg {
     /*    padding-left: 0%;*/
     /*}*/
 
+    .return-form h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .return-form .form-data h5{
+        font-size: 1rem;
+    }
+
+    .return-form h4 {
+        font-size: 0.8rem;
+    }
+
 
     .App .modal {
         transform: translate(-50%, -50%);
+        font-size: 0.7rem;
     }
 
     .return-form {
@@ -1574,6 +1593,15 @@ svg {
     .block1.container .short-text div,
     .block1.container .short-text div:last-child{
         padding: 0;
+    }
+
+    .return-form .form-data,
+    .return-form .form-header {
+        width: 250px;
+    }
+
+    .return-form .form-control {
+        padding: 0.5rem;
     }
 }
 
