@@ -1,6 +1,7 @@
 {
   "name": "Land",
   "version": "0.1.0",
+  "homepage": "https://moskalenkod.github.io/landing",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
