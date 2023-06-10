@@ -5,66 +5,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Gawaa-Italic';
-    src: url('../fonts/Gawaa/Gawaa-Italic.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Mplus';
-    src: url('../fonts/MPLUS1p/MPLUS1p-Black.ttf'),
-    url('../fonts/MPLUS1p/MPLUS1p-Black.ttf') format('truetype');
-    /*url('open_sans.woff') format('woff');*/
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graduate';
-    src: url('../fonts/Graduate/Graduate-Regular.ttf'),
-    url('../fonts/Graduate/Graduate-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Decor';
-    src: url('../fonts/Decor/DECORR.TTF'),
-    url('../fonts/Decor/DECORR.TTF') format('truetype');
-    /*url('open_sans.woff') format('woff');*/
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'DECORI2';
-    src: url('../fonts/Decor/DECORI2.ttf'),
-    url('../fonts/Decor/DECORI2.ttf') format('truetype');
-    /*url('open_sans.woff') format('woff');*/
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Alegro';
-    src: url('../fonts/Allegretto-Script-One.ttf'),
-    url('../fonts/Allegretto-Script-One.ttf') format('truetype');
-    /*url('open_sans.woff') format('woff');*/
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'MonacoL';
-    src: url('../fonts/Monaco.ttf'),
-    url('../fonts/Monaco.ttf') format('truetype');
-    /*url('open_sans.woff') format('woff');*/
-    font-weight: normal;
-    font-style: normal;
-}
-
 .App {
     width: 100%;
     display: block;
@@ -122,7 +62,7 @@ h1, h2, h3, h4, h5 {
 
 .video-background h2 p {
     font-size: 4rem;
-    font-family: Gawaa-Italic;
+    font-family: Gawaa;
     margin: 0 !important;
     color: #bfbfbf;
 }
@@ -339,8 +279,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .block5 .pay {
-    border: 1px #17a2b8 solid;
-    background-color: #19a2b8;
+    /*border: 1px #17a2b8 solid;*/
+    /*background-color: #19a2b8;*/
 }
 
 .block1 .pay p,
@@ -671,6 +611,11 @@ h1, h2, h3, h4, h5 {
     height: 3rem;
     line-height: 3rem;
     font-weight: 600;
+}
+
+.block5 .example .work-students {
+    border: 1px #17a2b8 solid;
+    background-color: #19a2b8;
 }
 
 .block5 .example .work-students a:first-child {
@@ -1024,7 +969,7 @@ h1, h2, h3, h4, h5 {
 
     .block4 .module {
         font-size: 1.5rem;
-        font-weight: 200;
+        font-weight: 400;
     }
 
     .first-last img {
@@ -1039,7 +984,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 780px) {
 
     .video-background {
-        padding-top: 45%;
+        padding-top: 20%;
         background: url('../../public/source/background.jpg') no-repeat 100% 0;
         background-size: cover;
     }
@@ -1155,6 +1100,7 @@ h1, h2, h3, h4, h5 {
     .block4 .module-item .module-text p,
     .block4 .module-item .module-num h2 {
         font-size: 1rem;
+        font-weight: 400;
     }
 
     .block5 .row {
@@ -1397,6 +1343,7 @@ h1, h2, h3, h4, h5 {
     .block4 .module-item .module-text p,
     .block4 .module-item .module-num h2 {
         font-size: 0.7rem;
+        font-weight: 400;
     }
 
     .block5 .example .work-students, .block5 .example h2 {
