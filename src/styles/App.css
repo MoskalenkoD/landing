@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5 {
     font-family: 'Gawaa';
     color: #ffffff;
     line-height: 2rem;
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 100;
 }
 
@@ -927,7 +927,7 @@ h1, h2, h3, h4, h5 {
 
 @media (min-width: 1100px) {
     .video-background h4 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .block1.container .short-text div:last-child {
@@ -965,8 +965,8 @@ h1, h2, h3, h4, h5 {
     }
 
     .video-background h4 {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
         color: #ffffff;
     }
 
@@ -1064,8 +1064,8 @@ h1, h2, h3, h4, h5 {
     }
 
     .video-background h4 {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
     }
 
     .block1 .professions {
@@ -1235,8 +1235,8 @@ h1, h2, h3, h4, h5 {
     }
 
     .video-background h4 {
-        font-size: 2rem;
-        line-height: 2rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
     }
 
     .video-background h1 {
@@ -1520,8 +1520,8 @@ svg {
 @media (max-width: 450px) {
 
     .video-background h4 {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
     }
 
     .block1.container .short-text p {
@@ -1555,8 +1555,8 @@ svg {
 @media (max-width: 330px) {
 
     .video-background h4 {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 1rem;
     }
 
     .block1.container .short-text p {
