@@ -95,8 +95,6 @@ function App() {
 
     function sendEmail(e) {
         e.preventDefault();
-        console.log(e.target);
-
         let sendFlag = true;
 
         for (const input of listInput) {
@@ -384,7 +382,6 @@ function App() {
                                 <h2>Модуль <b>1</b></h2>
                             </div>
                             <div className="border_vertical">
-                                <p></p>
                             </div>
                             <div className="module-text">
                                 <p>Будешь уметь делать предметы и помещения и...</p>
@@ -395,11 +392,6 @@ function App() {
                                     мельчайших особенностей.
                                     Также научишься работать с базовой анимацией.
                                     И познакомишься с рендерингом (получением финального изображения)</p>
-                            </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -417,11 +409,6 @@ function App() {
                                     Познакомишься с Photoshop и скульптингом в 3D.
                                     И научишься базово прокрашивать модель.
                                     А также рендерить ее уже в другой программе по-другому пайплайну.</p>
-                            </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -443,11 +430,6 @@ function App() {
                                     В общем создавать очень реалистичную и качественную картинку.
                                     И научишься все это рендерить.</p>
                             </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
-                            </div>
                         </div>
                     </div>
                     <div className="row mt-3" onClick={showAllText}>
@@ -464,11 +446,6 @@ function App() {
                                     А также подготовишь ее к текстурированию.
                                     Будешь очень плотно работать с сеткой, заниматься тестированием модели.
                                     Будет проходить полный QA.</p>
-                            </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -491,11 +468,6 @@ function App() {
                                     А также делать свои собственные текстуры для реалистичных моделей.
                                     Сделаешь рендеры модели в Painter.</p>
                             </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -514,11 +486,6 @@ function App() {
                                     реализм, так и стилизация).
                                     Познакомишься с пайплайнами, которые сейчас используются в играх и фильмах.
                                     И сделаешь оптимизированную модель растительности.</p>
-                            </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -539,11 +506,6 @@ function App() {
                                     нашего окружения.
                                     И немного программирования чтобы ты был круче других на рынке!</p>
                             </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
@@ -562,11 +524,6 @@ function App() {
                                     И все что нужно про свет!
                                     Ты научишься создавать и выставлять свет внутри виртуальной сцены и редактировать
                                     его.</p>
-                            </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -599,11 +556,6 @@ function App() {
                                     Получишь необходимую информацию про финансовую грамотность, чтобы не переживать что
                                     останешься без работы и денег.
                                     Сходишь на собеседование под курированием карьерного консультанта.</p>
-                            </div>
-                            <div className="hide">
-                                <div className="image-block">
-                                    <img alt='' src='./source/module/module1.jpg' title='Модуль 1'/>
-                                </div>
                             </div>
                         </div>
                     </div>
