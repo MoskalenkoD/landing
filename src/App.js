@@ -9,10 +9,8 @@ import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 
-// import required modules
 import {EffectCoverflow, Pagination} from "swiper";
 
-// "homepage": "https://moskalenkod.github.io/landing",
 function App() {
 
     let listInput = [
@@ -39,8 +37,6 @@ function App() {
         close = close.trim();
 
         button.innerHTML = close;
-
-        // clone.append(button);
 
         let shadow = document.createElement('div');
         shadow.classList.add('shadow');
@@ -121,7 +117,6 @@ function App() {
                 document.querySelector('.form-shadow').classList.add('hide');
             }).catch(err => {
                 console.log(err);
-                alert(err)
             });
         }
     }
